@@ -6,4 +6,4 @@ This repository contains the Houston user manual converted to markdown. For now,
 will only contain the raw files. A static page generator will be added ASAP.
 
 ## Contribute
-When you have suggestions open up an issue or send in a pull request 💖
+When you have suggestions open up an issue or open up a pull request 💖
