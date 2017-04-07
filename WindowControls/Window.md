@@ -4,7 +4,7 @@ Window
 ### Prefix: wnd
 
 Table of Content
----------------- 
+----------------
 
 <!-- toc -->
 
@@ -1182,8 +1182,23 @@ Returns the caller's parent, or does a lua\_pushnil if null.
 
 `Method`
 
-GetPixieInfo()
+GetPixieInfo(iLayer)
 --------------
+
+### Description
+
+Returns the caller's children pixie data, or does a lua\_pushnil if null. Keep in mind it does not return all values of a pixie.
+
+### Params
+
+-   **iLayer** **(Integer)**
+
+### Return Values
+
+-   **cr** **[ApolloColor](../Class/ApolloColor.html)** - The sprite color modifier
+-   **fRotation** **Float** - Degree of rotation
+-   **loc** **Table** - Relative position to parent
+-   **strSprite** **String** - Name of the sprite
 
 ------------------------------------------------------------------------
 
