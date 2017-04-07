@@ -1191,7 +1191,7 @@ Returns the caller's children pixie data, or does a lua\_pushnil if null. Keep i
 
 ### Params
 
--   **iLayer** **(Integer)**
+-   **iLayer** **(Integer)** - The layer number of the pixie, `Pixie 1` from the form would be `iLayer = 1`
 
 ### Return Values
 
