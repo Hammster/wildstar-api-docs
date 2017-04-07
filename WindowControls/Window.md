@@ -1195,7 +1195,7 @@ Returns the caller's children pixie data, or does a lua\_pushnil if null. Keep i
 
 ### Return Values
 
--   **cr** **[ApolloColor](../Class/ApolloColor.html)** - The sprite color modifier
+-   **cr** **[ApolloColor](../Classes/ApolloColor.html)** - The sprite color modifier
 -   **fRotation** **Float** - Degree of rotation
 -   **loc** **Table** - Relative position to parent
 -   **strSprite** **String** - Name of the sprite
