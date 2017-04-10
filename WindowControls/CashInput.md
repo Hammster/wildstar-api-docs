@@ -1,12 +1,7 @@
 CashInput
 ==========
 
-### Parent: [Window](../WindowControls/Window.html)
-
-Table of Content
----------------- 
-
-<!-- toc -->
+### Parent: [Window](../WindowControls/Window.md)
 
 ------------------------------------------------------------------------
 
@@ -17,12 +12,12 @@ AmountChanged
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
--   **moneyNewAmount** **([Money](../Classes/Money.html))** 
--   **moneyOldAmount** **([Money](../Classes/Money.html))** 
+-   **moneyNewAmount** **([Money](../Classes/Money.md))**
+-   **moneyOldAmount** **([Money](../Classes/Money.md))**
 
 ------------------------------------------------------------------------
 
@@ -37,7 +32,7 @@ Sets the current amount for the control taking in either an integer value or a m
 
 ### Params
 
--   **oAmount** **(Integer)** or **([Money](../Classes/Money.html))**
+-   **oAmount** **(Integer)** or **([Money](../Classes/Money.md))**
 
 ------------------------------------------------------------------------
 
@@ -48,10 +43,10 @@ GetAmount()
 
 ### Description
 
-Gets the current input amount as a **([Money](../Classes/Money.html))** object.
+Gets the current input amount as a **([Money](../Classes/Money.md))** object.
 
 ### Return Value
-**([Money](../Classes/Money.html))**
+**([Money](../Classes/Money.md))**
 
 ------------------------------------------------------------------------
 
@@ -66,7 +61,7 @@ Sets the current amount maximum for the control taking in either an integer valu
 
 ### Params
 
--   **oAmount** **(Integer)** or **([Money](../Classes/Money.html))**
+-   **oAmount** **(Integer)** or **([Money](../Classes/Money.md))**
 
 ------------------------------------------------------------------------
 
@@ -77,10 +72,10 @@ GetAmountLimit()
 
 ### Description
 
-Gets the current input amount maximum as a **([Money](../Classes/Money.html))** object.
+Gets the current input amount maximum as a **([Money](../Classes/Money.md))** object.
 
 ### Return Value
-**([Money](../Classes/Money.html))**
+**([Money](../Classes/Money.md))**
 
 ------------------------------------------------------------------------
 
@@ -97,5 +92,5 @@ Sets the money system the control will use. The most left valid parameter will b
 
 -   **eCurrencyType** **(ECurrencyType)**
 -   **eAltType** **(ENonCurrencyType)**
--   **itemExchange** **([Item](../Classes/Item.html))**
+-   **itemExchange** **([Item](../Classes/Item.md))**
 -   **eAccountCurrencyType** **(EAccountCurrencyType)**
