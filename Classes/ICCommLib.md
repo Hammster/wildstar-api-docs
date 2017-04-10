@@ -12,29 +12,29 @@ ICCommLib
 CodeEnumICCommChannelType
 -------------------------
 
--   **Global**
--   **Group**
--   **Guild**
+-   **Global** (**Integer**)
+-   **Group** (**Integer**)
+-   **Guild** (**Integer**)
 
 CodeEnumICCommJoinResult
 ------------------------
 
--   **TooManyChannels**
--   **NoGuild**
--   **NoGroup**
--   **BadName**
--   **Join**
--   **Left**
--   **MissingEntitlement**
+-   **TooManyChannels** (**Integer**)
+-   **NoGuild** (**Integer**)
+-   **NoGroup** (**Integer**)
+-   **BadName** (**Integer**)
+-   **Join** (**Integer**)
+-   **Left** (**Integer**)
+-   **MissingEntitlement** (**Integer**)
 
 CodeEnumICCommMessageResult
 ---------------------------
 
--   **Sent**
--   **Throttled**
--   **NotInChannel**
--   **InvalidText**
--   **MissingEntitlement**
+-   **Sent** (**Integer**)
+-   **Throttled** (**Integer**)
+-   **NotInChannel** (**Integer**)
+-   **InvalidText** (**Integer**)
+-   **MissingEntitlement** (**Integer**)
 
 ------------------------------------------------------------------------
 
