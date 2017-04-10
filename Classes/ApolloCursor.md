@@ -8,11 +8,6 @@ ApolloCursor
 ApolloCursors are the sprites that are used on the cursor in different
 situations.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`
@@ -110,11 +105,6 @@ Recall\
 RecallInactive\
 Vendor\
 VendorInactive
-
-Table of Content
----------------- 
-
-<!-- toc -->
 
 ------------------------------------------------------------------------
 

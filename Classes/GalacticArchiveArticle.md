@@ -3,11 +3,6 @@ GalacticArchiveArticle
 
 ### Prefix: art
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

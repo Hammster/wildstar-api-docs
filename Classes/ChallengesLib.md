@@ -5,11 +5,6 @@ ChallengesLib
 
 A library that allows the UI to interact with the challenge system.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`
@@ -284,11 +279,6 @@ server.
 ```lua
     If the challenge has a reward that the player did not collect (Challenge:ShouldCollectReward() == true), the server will respond with the ChallengeRewardListReady event.
 ```
-
-Table of Content
----------------- 
-
-<!-- toc -->
 
 ------------------------------------------------------------------------
 

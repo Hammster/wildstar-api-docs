@@ -7,11 +7,6 @@ CREDDExchangeOrder
 
 Individual orders on the CREDD Exchange.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

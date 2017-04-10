@@ -7,11 +7,6 @@ ChatChannel (Deprecated)
 
 One of the channels that chat messages can be sent to.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

@@ -7,11 +7,6 @@ CommodityOrder
 
 A buy or sell order on the commodities exchange.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

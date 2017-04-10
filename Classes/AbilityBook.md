@@ -6,11 +6,6 @@ AbilityBook
 A library that contains a large number of functions that are centered
 around the Limited Action Set.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`

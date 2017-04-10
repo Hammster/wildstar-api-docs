@@ -3,11 +3,6 @@ GalacticArchiveEntry
 
 ### Prefix: ent
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

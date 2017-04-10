@@ -11,11 +11,6 @@ section of Houston's color chooser. Addon developers can also create
 their own ApolloColors using a string with the color's ARGB values in
 hex format.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

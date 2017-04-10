@@ -8,11 +8,6 @@ DialogResponse
 DialogResponses are the various options that the player can select when
 conversing with NPCs and turning in quests.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

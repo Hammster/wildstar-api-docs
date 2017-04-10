@@ -3,11 +3,6 @@ SoldierImprovement
 
 ### Prefix: sol
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

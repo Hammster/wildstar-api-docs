@@ -7,11 +7,6 @@ This library is one of the primary ways that the player interacts with
 the CREDD Exchange. This does not include creating and fulfilling
 orders, which is handled by the ActionConfirmButton.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`

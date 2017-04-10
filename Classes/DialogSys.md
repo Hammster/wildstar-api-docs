@@ -8,11 +8,6 @@ can be used for accepting and turning in quests and other conversations
 with NPCs. This library allows the player to get information on the
 currently displayed dialog.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

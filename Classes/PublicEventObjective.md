@@ -3,11 +3,6 @@ PublicEventObjective
 
 ### Prefix: peo
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

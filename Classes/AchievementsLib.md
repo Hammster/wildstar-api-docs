@@ -7,11 +7,6 @@ Contains a list of functions that are helpful for building and
 orgainzing the Achievements UI or anything that requires achievement
 information.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

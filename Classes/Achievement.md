@@ -10,11 +10,6 @@ These include the standard Achievements that you find in the
 AchievementLog,\
 as well as the elements of the Tradeskill Tech Tree.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`
@@ -276,11 +271,6 @@ Returns the achievement's ID number.
             end
         end
 ```
-
-Table of Content
----------------- 
-
-<!-- toc -->
 
 ------------------------------------------------------------------------
 

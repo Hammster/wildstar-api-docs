@@ -8,11 +8,6 @@ CustomerSurveyTypeLib
 Surveys that are sent out to players during betas and on the PTR. These
 are disabled in the live game.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Method`

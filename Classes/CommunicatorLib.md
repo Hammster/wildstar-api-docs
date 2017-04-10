@@ -6,11 +6,6 @@ CommunicatorLib
 A library that provides addons a way to manipulate communicator messages
 sent by NPCs.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Event`

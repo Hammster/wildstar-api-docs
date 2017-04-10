@@ -6,11 +6,6 @@ FriendshipLib
 A library that contains functions for interacting with the game's Friend
 and Account Friend systems.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

@@ -6,11 +6,6 @@ CSIsLib
 Allows the UI to interact with Client Side Interaction minigames, such
 as patern matching and timed clicking.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

@@ -3,11 +3,6 @@ SettlerImprovement
 
 ### Prefix: set
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`
@@ -47,11 +42,6 @@ GetAvenueType()
 
 Returns an integer representing the avenue that the improvement
 contributes to. 0 = Economy 1 = Security 2 = Quality of Life
-
-Table of Content
----------------- 
-
-<!-- toc -->
 
 ------------------------------------------------------------------------
 

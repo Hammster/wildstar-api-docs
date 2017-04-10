@@ -7,11 +7,6 @@ A library that primarily contains system-level functionality, such as
 registering events, controling addons, detecting key presses, and
 manipulating console variables.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`

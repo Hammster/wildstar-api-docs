@@ -3,11 +3,6 @@ ScientistScanBotProfile
 
 ### Prefix: sbp
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

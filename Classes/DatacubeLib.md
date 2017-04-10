@@ -6,11 +6,6 @@ DatacubeLib
 A library that allows the player to interact with and get information on
 Datacubes, Journals, and Tales from Beyond the Fringe entries
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

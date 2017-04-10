@@ -10,11 +10,6 @@ ARGB format, with all values being between 0.0 and 1.0.\
 While this functionality is not yet depricated, it may be in the future.
 We highly recommend that developers use ApolloColors instead.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

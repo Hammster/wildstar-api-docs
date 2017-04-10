@@ -3,11 +3,6 @@ IconButton
 
 ### Parent: [Button](../WindowControls/Button.md)
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Method`

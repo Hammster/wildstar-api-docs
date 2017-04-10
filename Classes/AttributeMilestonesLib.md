@@ -7,11 +7,6 @@ This library contains functions for viewing a character's Attribute
 Milestones. These milestones are reached when the player's attribute
 reaches a specific threshold.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`

@@ -9,11 +9,6 @@ Challenges are timed goals that the player will unlock as they kill NPCs
 and explore Nexus. Most challenges are repeatable and offer rewards,
 such as crafting materials, decor, and equipment.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

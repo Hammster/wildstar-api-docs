@@ -6,11 +6,6 @@ GuildLib
 This library contains functions and enumerations having to do with
 guilds and arena teams
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`

@@ -8,11 +8,6 @@ tradeskills and schematics. This includes tradeskills that the player
 has chosen, as well as ones that they are automatically granted such as
 cooking and runecrafting.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`

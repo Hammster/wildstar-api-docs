@@ -1,11 +1,6 @@
 HousingLib
 ==========
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`
@@ -519,11 +514,6 @@ GetPlotContributions(idPlot) (Deprecated)
         money contributes to the upgrade. Only used with
         HousingContributionType\_Money or
         HousingContributionType\_WarCoins
-
-Table of Content
----------------- 
-
-<!-- toc -->
 
 ------------------------------------------------------------------------
 

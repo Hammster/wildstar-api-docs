@@ -7,11 +7,6 @@ Episode
 
 Episodes are a set of quests that are linked by a storyline or area.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

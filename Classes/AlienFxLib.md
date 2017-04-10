@@ -6,11 +6,6 @@ AlienFxLib
 Integration with Alienware's Alien FX library allowing lua to control
 hardware lights.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`

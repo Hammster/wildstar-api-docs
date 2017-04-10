@@ -3,11 +3,6 @@ WindowLocation
 
 ### Parent: [Window](../WindowControls/Window.md)
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`

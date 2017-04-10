@@ -6,11 +6,6 @@ CustomerSurveyLib
 A library that allows the player to interact with queued customer
 surveys.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`

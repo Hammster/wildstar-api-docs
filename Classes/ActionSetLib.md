@@ -6,11 +6,6 @@ ActionSetLib
 This library contains functions for validating and saving the player's
 Limited Action Set.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`
@@ -180,11 +175,6 @@ Checks to make sure that a spell is compatible with an action set.
         Print("Stagger can not be added to the current action set.  Error: " .. eCanAddToSpec)
     end
 ```
-
-Table of Content
----------------- 
-
-<!-- toc -->
 
 ------------------------------------------------------------------------
 

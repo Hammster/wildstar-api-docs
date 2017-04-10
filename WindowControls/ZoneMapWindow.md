@@ -3,11 +3,6 @@ ZoneMapWindow
 
 ### Parent: [Window](../WindowControls/Window.md)
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Enum`

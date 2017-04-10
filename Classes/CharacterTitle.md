@@ -8,11 +8,6 @@ CharacterTitle
 These are the titles that the character can set for themselves. These do
 not include guild tags.
 
-Table of Content
----------------- 
-
-<!-- toc -->
-
 ------------------------------------------------------------------------
 
 `Function`
