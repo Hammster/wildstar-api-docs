@@ -46,7 +46,7 @@ Determines if two Episodes are the same.
 
 ### Params
 
--   **epiCompare** **([Episode](../Classes/Episode.html))** - The episode
+-   **epiCompare** **([Episode](../Classes/Episode.md))** - The episode
     being compared to this Episode.
 
 ### Return Value
@@ -90,7 +90,7 @@ category id and that have been unlocked by the player.
 
 ### Return Value
 
--   **Array of [Quest](../Classes/Quest.html)** - An array of quests that
+-   **Array of [Quest](../Classes/Quest.md)** - An array of quests that
     have the same category as the one that was passed in and have been
     unlocked by the player.
 
@@ -108,7 +108,7 @@ Episode.
 
 ### Return Value
 
--   **Array of [QuestCategory](../Classes/QuestCategory.html)** - An
+-   **Array of [QuestCategory](../Classes/QuestCategory.md)** - An
     array of QuestCategories that are used by quests in the Episode.
 
 ------------------------------------------------------------------------
@@ -211,7 +211,7 @@ Gets the Quest with the specified id if it is in this Episode.
 
 ### Return Value
 
--   **[Quest](../Classes/Quest.html)** - The Quest whose id matches the
+-   **[Quest](../Classes/Quest.md)** - The Quest whose id matches the
     one passed in.
 
 ------------------------------------------------------------------------
@@ -284,7 +284,7 @@ are part of the Episode.
 
 ### Return Value
 
--   **Array of [Quest](../Classes/Quest.html)** - An array of Quests that
+-   **Array of [Quest](../Classes/Quest.md)** - An array of Quests that
     are part of the Episode and have a QuestCategory whose id matches
     the one passed in.
 
@@ -314,7 +314,7 @@ that are flagged with the variables that are passed in
 
 ### Return Value
 
--   **Array of [Quest](../Classes/Quest.html)** - An array of Quests that
+-   **Array of [Quest](../Classes/Quest.md)** - An array of Quests that
     has been filtered and possibly sorted by the variables that were
     passed into the function.
 

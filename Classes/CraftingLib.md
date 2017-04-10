@@ -168,7 +168,7 @@ Attempts to add an additive to the current crafting attempt.
 
 ### Params
 
--   **itemAdditive** **([Item](../Classes/Item.html))** - The additive
+-   **itemAdditive** **([Item](../Classes/Item.md))** - The additive
     that should be used for the current crafting session.
 
 ### Usage/Example
@@ -228,7 +228,7 @@ a non-equipment based crafting schematic, no parameters are needed.
     -   **nApSpSplitDelta** **(Integer)** - The number of Ap/Sp
         increments to use when calculating the split. A positive number
         will make the item more support based.
-    -   **itemPowerCore** **([Item](../Classes/Item.html))** - The item
+    -   **itemPowerCore** **([Item](../Classes/Item.md))** - The item
         to use as the power core. This must be a valid power core for
         the item.
     -   **arStats** **(Array of Table)** - An array representing the
@@ -335,7 +335,7 @@ schematic.
 
 ### Return Value
 
--   **Array of [Item](../Classes/Item.html)** - An array of the different
+-   **Array of [Item](../Classes/Item.md)** - An array of the different
     additives that can be used with the schematic.
 
 ------------------------------------------------------------------------
@@ -364,7 +364,7 @@ be used with the specified schematic.
     has in their inventory.
     -   **nCount** **(Integer)** - The number of this catalyst that is
         in the player's inventory.
-    -   **itemCatalyst** **([Item](../Classes/Item.html))** - The
+    -   **itemCatalyst** **([Item](../Classes/Item.md))** - The
         catalyst that is in the player's inventory.
 
 ------------------------------------------------------------------------
@@ -396,7 +396,7 @@ schematic.
 
 ### Return Value
 
--   **Array of [Item](../Classes/Item.html)** - A table that contains a
+-   **Array of [Item](../Classes/Item.md)** - A table that contains a
     list of microchips that are available for the schematic.
 
 ------------------------------------------------------------------------
@@ -418,7 +418,7 @@ schematic.
 
 ### Return Value
 
--   **Array of [Item](../Classes/Item.html)** - A table that contains the
+-   **Array of [Item](../Classes/Item.md)** - A table that contains the
     item information for power cores that can be used for the specified
     schematic.
 
@@ -480,7 +480,7 @@ return information on that craft.
         the player has used on the schematic so far. This variable is
         only used if the schematic that is referenced uses Coordinate
         Crafting.
-    -   **itemGlobalCatalyst** **([Item](../Classes/Item.html))** - The
+    -   **itemGlobalCatalyst** **([Item](../Classes/Item.md))** - The
         global catalyst that the player used on the schematic. This
         variable is only used if the schematic that is referenced uses
         Coordinate Crafting.
@@ -527,7 +527,7 @@ return information on that craft.
             the parameters.
         -   **nBudget** **(Float)** - The normally expected budget for
             this item.
-        -   **monCraftingCost** **([Money](../Classes/Money.html))** - If
+        -   **monCraftingCost** **([Money](../Classes/Money.md))** - If
             there is a cost to craft then this will be the currenct cost
             to complete the crafting process.
 
@@ -585,7 +585,7 @@ Slots in an item.
 
 ### Params
 
--   **itemSource** **([Item](../Classes/Item.html))** - The item that the
+-   **itemSource** **([Item](../Classes/Item.md))** - The item that the
     function will query for information on its Rune Slots.
 
 ### Return Value
@@ -599,7 +599,7 @@ Slots in an item.
             allowed usage.
             -   **nOwnedCount** **(Integer)** - Quantity owned by the
                 character.
-            -   **itemReagent** **([Item](../Classes/Item.html))** - The
+            -   **itemReagent** **([Item](../Classes/Item.md))** - The
                 object representing the reagent used for adding a rune
                 slot.
             -   **nSuccessChance** **(Float)** - Provided if the success
@@ -614,7 +614,7 @@ Slots in an item.
             rune slot.
             -   **bAllowed** **(Boolean)** - If true then this rune slot
                 can be cleared.
-            -   **monCost** **([Money](../Classes/Money.html))** - The
+            -   **monCost** **([Money](../Classes/Money.md))** - The
                 cost to clear this rune slot.
     -   **tRerollInfo** **(Table)** - Information on rerolling a Rune
         Slot on the item.
@@ -622,7 +622,7 @@ Slots in an item.
             and costs.
             -   **nOwnedCount** **(Integer)** - The quantity of reagents
                 owned by the character.
-            -   **itemReagent** **([Item](../Classes/Item.html))** - The
+            -   **itemReagent** **([Item](../Classes/Item.md))** - The
                 item represents the reagent used for reroll.
             -   **nCost** **(Integer)** - The number of reagents needed
                 to do a reroll.
@@ -651,7 +651,7 @@ Gets a list of each item with rune slots that the player owns.
 
 ### Return Value
 
--   **Array of [Item](../Classes/Item.html)** - An array of items that
+-   **Array of [Item](../Classes/Item.md)** - An array of items that
     have rune slots and are in the specified locations.
 
 ### Remarks
@@ -698,7 +698,7 @@ Gets information on the item's schematic and microchip sockets.
 
 ### Params
 
--   **itemCrafting** **([Item](../Classes/Item.html))** - The item that
+-   **itemCrafting** **([Item](../Classes/Item.md))** - The item that
     the player is trying to craft.
 
 ### Return Value
@@ -717,15 +717,15 @@ Gets information on the item's schematic and microchip sockets.
             must be set before this one.
         -   **fRatio** **(Float)** - The modifier applied to the value
             of the microchip in this slot.
-        -   **itemDefaultChip** **([Item](../Classes/Item.html))** - The
+        -   **itemDefaultChip** **([Item](../Classes/Item.md))** - The
             microchip that was set in this slot by the game.
-        -   **itemCurrentChip** **([Item](../Classes/Item.html))** - The
+        -   **itemCurrentChip** **([Item](../Classes/Item.md))** - The
             microchip currently in this slot.
         -   **bIsChangeable** **(Boolean)** - Whether the microchip set
             in this slot is locked or not.
         -   **nThreshold** **(Integer)** - The threshold value for this
             microchip slot.
-    -   **itemOutput** **([Item](../Classes/Item.html))** - The item that
+    -   **itemOutput** **([Item](../Classes/Item.md))** - The item that
         will be created by this schematic.
 
 ------------------------------------------------------------------------
@@ -749,7 +749,7 @@ the specified schematic.
     -   **nApSpSplitDelta** **(Integer)** - The number of Ap/Sp
         increments to use when calculating the split. A positive number
         will make the item more support based.
-    -   **itemPowerCore** **([Item](../Classes/Item.html))** - The item
+    -   **itemPowerCore** **([Item](../Classes/Item.md))** - The item
         to use as the power core. This must be a valid power core for
         the item.
     -   **arStats** **(Array of Table)** - An array representing the
@@ -762,7 +762,7 @@ the specified schematic.
 
 ### Return Value
 
--   **[Item](../Classes/Item.html)** - The expected resulting item based
+-   **[Item](../Classes/Item.md)** - The expected resulting item based
     on the provided parameters. If nSchematicId is also the current
     crafting schematic then the this result be more complete.
 
@@ -809,7 +809,7 @@ their tradeskills with another.
 
 ### Return Value
 
--   **[Money](../Classes/Money.html)** - The price to swap tradeskills.
+-   **[Money](../Classes/Money.md)** - The price to swap tradeskills.
 
 ------------------------------------------------------------------------
 
@@ -921,12 +921,12 @@ Gets information on a specific schematic.
     -   **nParentSchematicId** **(Integer)** - The id number for this
         schematic's parent schematic. This is only useful for
         sub-schematics.
-    -   **itemOutput** **([Item](../Classes/Item.html))** - The item that
+    -   **itemOutput** **([Item](../Classes/Item.md))** - The item that
         is made if this schematic is successfully crafted.
-    -   **achSource** **([Achievement](../Classes/Achievement.html))** -
+    -   **achSource** **([Achievement](../Classes/Achievement.md))** -
         The achievement (read Tech Tree node) that unlocks this
         schematic.
-    -   **achTier** **([Achievement](../Classes/Achievement.html))** - If
+    -   **achTier** **([Achievement](../Classes/Achievement.md))** - If
         the schematic is automatically learned, this variable contains
         the achievement for the tradeskill tier that the schematic
         belongs to.
@@ -952,7 +952,7 @@ Gets information on a specific schematic.
         materials needed to craft this schematic.
         -   **nAmount** **(Integer)** - The number of this particular
             item needed to craft this schematic.
-        -   **itemMaterial** **([Item](../Classes/Item.html))** - An item
+        -   **itemMaterial** **([Item](../Classes/Item.md))** - An item
             needed to craft this schematic.
     -   **nCreateCount** **(Integer)** - The number of items created
         when the player crafts the schematic.
@@ -983,7 +983,7 @@ Gets information on a specific schematic.
             the coordinate crafting grid.
         -   **fRadius** **(Float)** - The radius of the sub schematic on
             the coordinate crafting grid.
-        -   **itemOutput** **([Item](../Classes/Item.html))** - The item
+        -   **itemOutput** **([Item](../Classes/Item.md))** - The item
             created by the sub-schematic.
         -   **nCount** **(Integer)** - The number of items created by
             this sub schematic.
@@ -999,7 +999,7 @@ Gets information on a specific schematic.
             CraftingLib.CodeEnumItemCraftingGroupFlag)** - The list of
             groups that this schematic supports. Provided for
             UnlockedGroup type stats.
-    -   **monMaxCraftingCost** **([Money](../Classes/Money.html))** - If
+    -   **monMaxCraftingCost** **([Money](../Classes/Money.md))** - If
         the schematic has a crafting cost then this will be the maximum
         crafting cost.
 
@@ -1126,7 +1126,7 @@ Returns a table with info about the chosen tradeskill
         needs to reach their next tradeskill tier.
     -   **nTalentPoints** **(Integer)** - The number of talent points
         the player has unlocked.
-    -   **monRelearnCost** **([Money](../Classes/Money.html))** - The
+    -   **monRelearnCost** **([Money](../Classes/Money.md))** - The
         amount and type of currency needed to relearn this tradeskill
     -   **nRelearnCooldownDays** **(Integer)** - The number of days
         until the player can relearn this tradeskill.
@@ -1160,7 +1160,7 @@ talents.
 
 ### Return Value
 
--   **[Money](../Classes/Money.html)** - The type and amount of currency
+-   **[Money](../Classes/Money.md)** - The type and amount of currency
     needed to reset the tradeskill's talents.
 
 ------------------------------------------------------------------------
@@ -1251,14 +1251,14 @@ list filters based on slot type and removes duplicate runes.
 
 ### Params
 
--   **itemSelected** **([Item](../Classes/Item.html))** - The function
+-   **itemSelected** **([Item](../Classes/Item.md))** - The function
     will return the valid runes for this item.
 -   **nSlot** **(Integer)** - The function will return all of the valid
     runes for the rune slot at this index.
 
 ### Return Value
 
--   **Array of [Item](../Classes/Item.html)** - An array of runes that
+-   **Array of [Item](../Classes/Item.md)** - An array of runes that
     can be set to the specified rune slot.
 
 ------------------------------------------------------------------------
@@ -1285,7 +1285,7 @@ schematic.
 
 -   **Table** - A table that contains an array with every microchip in
     it.
-    -   **arSkill** **(Array of [Item](../Classes/Item.html))** - An
+    -   **arSkill** **(Array of [Item](../Classes/Item.md))** - An
         array that contains all the microchips available.
 
 ------------------------------------------------------------------------
@@ -1301,7 +1301,7 @@ Attempts to update the runes that should be installed on an item.
 
 ### Params
 
--   **itemSource** **([Item](../Classes/Item.html))** - The item that the
+-   **itemSource** **([Item](../Classes/Item.md))** - The item that the
     rune will be installed in.
 -   **tInstalledRunes** **(Array of Integer)** - An array of item ids
     for runes that should be installed on the item after the operation
@@ -1418,7 +1418,7 @@ Attempts to change a rune slot to a different type.
 
 ### Params
 
--   **itemSource** **([Item](../Classes/Item.html))** - The item that
+-   **itemSource** **([Item](../Classes/Item.md))** - The item that
     contains the rune slot that the function will attempt to reroll.
 -   **nSlotIdx** **(Integer)** - The index of the rune slot that the
     function will attempt to reroll.
@@ -1483,7 +1483,7 @@ Attempts to unlock a rune slot on an item.
 
 ### Params
 
--   **itemSource** **([Item](../Classes/Item.html))** - The function will
+-   **itemSource** **([Item](../Classes/Item.md))** - The function will
     attempt to unlock a rune slot that belongs to this item.
 -   **nSlotIdx** **(Integer)** - The index of the rune slot that the
     function will attempt to unlock.

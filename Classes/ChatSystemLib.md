@@ -40,7 +40,7 @@ Gets a list of channels that the player is in.
 
 ### Return Value
 
--   **Array of [ChatChannel](../Classes/ChatChannel.html)** - An array of
+-   **Array of [ChatChannel](../Classes/ChatChannel.md)** - An array of
     ChatChannels that the player is currently in.
 
 ------------------------------------------------------------------------
@@ -131,7 +131,7 @@ Posts a text message to a specific chat channel.
     channel.
 -   **strSenderName** **(String)** - The name of the player or NPC that
     the channel will say that the message came from.
--   **unitSource** **([Unit](../Classes/Unit.html))** - The unit that the
+-   **unitSource** **([Unit](../Classes/Unit.md))** - The unit that the
     message came from.
 -   **bBubble** **(Boolean)** - Whether the unit should show a speech
     bubble or not.
@@ -177,7 +177,7 @@ its arguments.
 
 -   **Table**
     -   **chatCommand**
-        **([ChatChannel](../Classes/ChatChannel.html))** - The channel
+        **([ChatChannel](../Classes/ChatChannel.md))** - The channel
         that the command was sent over.
     -   **bValidCommand** **(Boolean)** - Whether the command is
         recognized by the game or not.

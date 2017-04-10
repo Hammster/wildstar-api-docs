@@ -297,7 +297,7 @@ Group\_QuestList
 
 ### Params
 
--   **unitId** **([Unit](../Classes/Unit.html))**
+-   **unitId** **([Unit](../Classes/Unit.md))**
 -   **nTableRef** **(Lua Table)**
 
 ------------------------------------------------------------------------

@@ -62,9 +62,9 @@ AnimEnded
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strAnimDataId** **(String)**
 
@@ -77,9 +77,9 @@ AnimStarted
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strAnimDataId** **(String)**
 
@@ -92,9 +92,9 @@ AnimStopped
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strAnimDataId** **(String)**
 
@@ -107,13 +107,13 @@ DragDrop
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **x** **(Integer)**
 -   **y** **(Integer)**
--   **wndSource** **([Window](../WindowControls/Window.html))**
+-   **wndSource** **([Window](../WindowControls/Window.md))**
 -   **strType** **(String)**
 -   **iData** **(Integer)**
 -   **bDragDropHasBeenReset** **(Boolean)**
@@ -127,9 +127,9 @@ DragDropCancel
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strType** **(String)**
 -   **iData** **(Integer)**
@@ -145,9 +145,9 @@ DragDropClear
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -159,9 +159,9 @@ DragDropEnd
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strType** **(String)**
 -   **iData** **(Integer)**
@@ -176,9 +176,9 @@ DragDropNothingCursor
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strType** **(String)**
 -   **iData** **(Integer)**
@@ -192,9 +192,9 @@ DragDropTargetNotify
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **bMe** **(Boolean)**
 
@@ -207,9 +207,9 @@ GenerateTooltip
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **eToolTipType** **(EToolTipType)**
 -   **x** **(Integer)**
@@ -224,9 +224,9 @@ MouseButtonDown
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **eMouseButton** **(EMouseButton)**
 -   **nLastRelativeMouseX** **(Integer)**
@@ -243,9 +243,9 @@ MouseButtonUp
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **eMouseButton** **(EMouseButton)**
 -   **nLastRelativeMouseX** **(Integer)**
@@ -260,9 +260,9 @@ MouseEnter
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **x** **(Integer)**
 -   **y** **(Integer)**
@@ -276,9 +276,9 @@ MouseExit
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **x** **(Integer)**
 -   **y** **(Integer)**
@@ -292,9 +292,9 @@ MouseMove
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **nLastRelativeMouseX** **(Integer)**
 -   **nLastRelativeMouseY** **(Integer)**
@@ -308,9 +308,9 @@ MouseWheel
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **nLastRelativeMouseX** **(Integer)**
 -   **nLastRelativeMouseY** **(Integer)**
@@ -326,9 +326,9 @@ QueryBeginClickStick (Deprecated)
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **x** **(Integer)**
 -   **y** **(Integer)**
@@ -343,9 +343,9 @@ QueryBeginDragDrop (Deprecated)
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **x** **(Integer)**
 -   **y** **(Integer)**
@@ -360,9 +360,9 @@ QueryCursor
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -374,13 +374,13 @@ QueryDragDrop
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **x** **(Integer)**
 -   **y** **(Integer)**
--   **wndSource** **([Window](../WindowControls/Window.html))**
+-   **wndSource** **([Window](../WindowControls/Window.md))**
 -   **strType** **(String)**
 -   **iData** **(Integer)**
 -   **eResult** **(EDragDropQueryResult)**
@@ -394,9 +394,9 @@ TopLevelWindowMove
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -408,9 +408,9 @@ UDE
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -422,9 +422,9 @@ WindowClosed
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -440,9 +440,9 @@ Fires when a window gains focus
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -454,9 +454,9 @@ WindowHide
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -468,9 +468,9 @@ WindowKeyDown
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strKeyName** **(String)**
 -   **nScanCode** **(Integer)**
@@ -485,9 +485,9 @@ WindowKeyEscape
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -499,9 +499,9 @@ WindowKeyReturn
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -513,9 +513,9 @@ WindowKeyTab
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -527,9 +527,9 @@ WindowLoad
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -545,9 +545,9 @@ Fires when a window lost focus
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -563,9 +563,9 @@ When a window is moved
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **nOldLeft** **(Integer)** - The left x position before the move
 -   **nOldTop** **(Integer)** - The top y position before the move
@@ -582,9 +582,9 @@ WindowShow
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -596,9 +596,9 @@ WindowSizeChanged
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -610,9 +610,9 @@ WindowToFront
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **bOkToBringToFront** **(Boolean)**
 
@@ -625,9 +625,9 @@ WindowTransitionComplete
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -686,9 +686,9 @@ AddPixie(iLayer, bLine, bRestart, strText, strFont, flagsText, fWidth, strSprite
         the pixie. Values are ordered as Left, Top, Right, Bottom.
     -   **nOffsets** **(Array of Integer)** - The offsets for the pixie.
         These are ordered as Left, Top, Right, Bottom.
--   **cr** **([CColor](../Classes/CColor.html))** - The color of the
+-   **cr** **([CColor](../Classes/CColor.md))** - The color of the
     pixie
--   **crText** **([CColor](../Classes/CColor.html))** - The color of the
+-   **crText** **([CColor](../Classes/CColor.md))** - The color of the
     text in the pixie
 
 ### Return Value
@@ -770,7 +770,7 @@ BringChildToTop(wndChild)
 
 ### Params
 
--   **wndChild** **([Window](../WindowControls/Window.html))**
+-   **wndChild** **([Window](../WindowControls/Window.md))**
 
 ------------------------------------------------------------------------
 
@@ -913,7 +913,7 @@ EnsureChildVisible(wndChild)
 
 ### Params
 
--   **wndChild** **([Window](../WindowControls/Window.html))**
+-   **wndChild** **([Window](../WindowControls/Window.md))**
 
 ------------------------------------------------------------------------
 
@@ -932,7 +932,7 @@ Returns the child of this window that has the specified name.
 
 ### Return Value
 
--   **[Window](../WindowControls/Window.html)** - The child window with
+-   **[Window](../WindowControls/Window.md)** - The child window with
     strName if found. Otherwise, this returns nil.
 
 ### Usage/Example
@@ -1195,7 +1195,7 @@ Returns the caller's children pixie data, or does a lua\_pushnil if null. Keep i
 
 ### Return Values
 
--   **cr** **[ApolloColor](../Classes/ApolloColor.html)** - The sprite color modifier
+-   **cr** **[ApolloColor](../Classes/ApolloColor.md)** - The sprite color modifier
 -   **fRotation** **Float** - Degree of rotation
 -   **loc** **Table** - Relative position to parent
 -   **strSprite** **String** - Name of the sprite
@@ -1550,7 +1550,7 @@ MoveToLocation(wndLoc)
 ### Params
 
 -   **wndLoc**
-    **([WindowLocation](../WindowControls/WindowLocation.html))**
+    **([WindowLocation](../WindowControls/WindowLocation.md))**
 
 ------------------------------------------------------------------------
 
@@ -1701,7 +1701,7 @@ SetBGColor(clr)
 
 ### Params
 
--   **clr** **([CColor](../Classes/CColor.html))**
+-   **clr** **([CColor](../Classes/CColor.md))**
 
 ------------------------------------------------------------------------
 
@@ -1730,7 +1730,7 @@ Sets the caller's ClientSprite to wndB's ClientSprite.
 
 ### Params
 
--   **wndB** **([Window](../WindowControls/Window.html))**
+-   **wndB** **([Window](../WindowControls/Window.md))**
 
 ------------------------------------------------------------------------
 
@@ -1896,7 +1896,7 @@ SetRadioSelButton(strRadio, bButton)
 ### Params
 
 -   **strRadio** **(String)**
--   **bButton** **([Button](../WindowControls/Button.html))**
+-   **bButton** **([Button](../WindowControls/Button.md))**
 
 ------------------------------------------------------------------------
 
@@ -2066,7 +2066,7 @@ SetTextColor(clr)
 
 ### Params
 
--   **clr** **([CColor](../Classes/CColor.html))**
+-   **clr** **([CColor](../Classes/CColor.md))**
 
 ------------------------------------------------------------------------
 
@@ -2153,7 +2153,7 @@ values.
 
 ### Params
 
--   **wndB** **([Window](../WindowControls/Window.html))**
+-   **wndB** **([Window](../WindowControls/Window.md))**
 
 ------------------------------------------------------------------------
 

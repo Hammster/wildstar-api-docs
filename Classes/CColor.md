@@ -28,12 +28,12 @@ Returns a CColor that complements the color that is passed in.
 
 ### Params
 
--   **ccBaseColor** **([CColor](../Classes/CColor.html))** - The color
+-   **ccBaseColor** **([CColor](../Classes/CColor.md))** - The color
     that the complement is made from.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)** - A color that complements the
+-   **[CColor](../Classes/CColor.md)** - A color that complements the
     one that was passed in.
 
 ### Remarks
@@ -81,7 +81,7 @@ Creates a new CColor using the specified values.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)** - A CColor with the rgba values
+-   **[CColor](../Classes/CColor.md)** - A CColor with the rgba values
     that were passed in.
 
 ------------------------------------------------------------------------
@@ -97,12 +97,12 @@ Adds another CColor's values to the CColor that called this function.
 
 ### Params
 
--   **ccModifier** **([CColor](../Classes/CColor.html))** - The CColor
+-   **ccModifier** **([CColor](../Classes/CColor.md))** - The CColor
     that the current CColor will be modified by.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)** - The sum of the two CColors.
+-   **[CColor](../Classes/CColor.md)** - The sum of the two CColors.
 
 ------------------------------------------------------------------------
 
@@ -122,7 +122,7 @@ Scales each value in the CColor by the given amount.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)** - The modified CColor.
+-   **[CColor](../Classes/CColor.md)** - The modified CColor.
 
 ------------------------------------------------------------------------
 
@@ -137,7 +137,7 @@ Checks if a CColor matches this CColor.
 
 ### Params
 
--   **ccCompare** **([CColor](../Classes/CColor.html))** - The CColor
+-   **ccCompare** **([CColor](../Classes/CColor.md))** - The CColor
     that is being compared to the one that called the function.
 
 ### Return Value
@@ -179,14 +179,14 @@ Scales the values in the CColor by the value passed in.
 
 -   **fScale** **(Float)** - The amount that each value in the CColor
     will be scaled by. Only a float or CColor needs to be passed in.
--   **ccMultiplier** **([CColor](../Classes/CColor.html))** - The CColor
+-   **ccMultiplier** **([CColor](../Classes/CColor.md))** - The CColor
     that the source color is multiplied by. Each value is multiplied by
     the corresponding value, so red x red, blue x blue, etc. Only a
     float or CColor should be passed in to the function, not both.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)** - The result of multiplying the
+-   **[CColor](../Classes/CColor.md)** - The result of multiplying the
     original CColor with the value that was passed in.
 
 ------------------------------------------------------------------------
@@ -228,13 +228,13 @@ Subtracts a CColor's values from the CColor that called the function.
 
 ### Params
 
--   **ccSubtractor** **([CColor](../Classes/CColor.html))** - The color
+-   **ccSubtractor** **([CColor](../Classes/CColor.md))** - The color
     values of the CColor that called the function are subtracted by this
     CColor's color values.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)** - The CColor made up of the
+-   **[CColor](../Classes/CColor.md)** - The CColor made up of the
     difference of the two CColors.
 
 ------------------------------------------------------------------------
@@ -266,7 +266,7 @@ Multiplies each of the CColor's color values by -1.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)** - The new CColor created by the
+-   **[CColor](../Classes/CColor.md)** - The new CColor created by the
     function.
 
 ------------------------------------------------------------------------
@@ -283,7 +283,7 @@ function.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)** - A color that complements the
+-   **[CColor](../Classes/CColor.md)** - A color that complements the
     one that called the function.
 
 ### Remarks
@@ -303,5 +303,5 @@ Locks the values in the color to values between 0.0 and 1.0.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)** - A new color that has been
+-   **[CColor](../Classes/CColor.md)** - A new color that has been
     bound to values between 0.0 and 1.0.

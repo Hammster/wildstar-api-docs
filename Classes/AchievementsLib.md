@@ -82,7 +82,7 @@ Gets a list of all achievements or guild achievements.
 
 ### Return Value
 
--   **Array of [Achievement](../Classes/Achievement.html)** - An array
+-   **Array of [Achievement](../Classes/Achievement.md)** - An array
     with every achievement of the specified type.
 
 ------------------------------------------------------------------------
@@ -107,7 +107,7 @@ Gets a list of all the achievements for the given category.
 
 ### Return Value
 
--   **Array of [Achievement](../Classes/Achievement.html)** - An array
+-   **Array of [Achievement](../Classes/Achievement.md)** - An array
     that contains all of the achievements for the given category (and
     subcategories if bRecurse was set to true)
 
@@ -190,7 +190,7 @@ Gets the latest achievements that the player has earned.
 
 ### Return Value
 
--   **Array of [Achievement](../Classes/Achievement.html)** - An array of
+-   **Array of [Achievement](../Classes/Achievement.md)** - An array of
     the most recent achievements the player has earned, in order of most
     recent to least.
 
@@ -247,7 +247,7 @@ Gets a list of all of the achievements for a specific tradeskill rank.
 
 ### Return Value
 
--   **Array of [Achievement](../Classes/Achievement.html)** - An array of
+-   **Array of [Achievement](../Classes/Achievement.md)** - An array of
     the achievements for the specified tradeskill rank.
 
 ### Remarks
@@ -273,5 +273,5 @@ Gets all of the achievements for a specific tradeskill.
 
 ### Return Value
 
--   **Array of [Achievement](../Classes/Achievement.html)** - An array
+-   **Array of [Achievement](../Classes/Achievement.md)** - An array
     that contains all of the achievements for the specified tradeskill

@@ -43,14 +43,14 @@ Creates a new AaRect
 
 ### Params
 
--   **Array of [Vector2](../Classes/Vector2.html)** - An array containing
+-   **Array of [Vector2](../Classes/Vector2.md)** - An array containing
     two Vector2s.\
     The first is the point in the upper left corner of the rect.\
     The second is the lower right corner of the rect
 
 ### Return Value
 
--   **[AaRect](../Classes/AaRect.html)**
+-   **[AaRect](../Classes/AaRect.md)**
 
 ------------------------------------------------------------------------
 

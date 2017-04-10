@@ -354,13 +354,13 @@ GetRewardList(idChallenge) (Deprecated)
     -   **idReward** **(Integer)** - The reward's id number.
     -   **nAmount** **(Integer)** - The number of the item that the
         player gets if the reward is chosen.
-    -   **itemReward** **([Item](../Classes/Item.html))** - The item that
+    -   **itemReward** **([Item](../Classes/Item.md))** - The item that
         the player receives if this reward is selected.
-    -   **monReward** **([Money](../Classes/Money.html))** - The money
+    -   **monReward** **([Money](../Classes/Money.md))** - The money
         that the player receives if this reward is selected.
-    -   **splReward** **([Spell](../Classes/Spell.html))** - The spell
+    -   **splReward** **([Spell](../Classes/Spell.md))** - The spell
         that is cast on the player if this reward is selected.
-    -   **splAdvSpell** **([Spell](../Classes/Spell.html))** - The spell
+    -   **splAdvSpell** **([Spell](../Classes/Spell.md))** - The spell
         that is granted if this reward is selected. This type of spell
         is only granted during adventures.
     -   **nXP** **(Integer)** - The amount of XP that the player earns

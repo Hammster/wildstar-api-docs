@@ -156,7 +156,7 @@ Returns the previous step of a multi-stage achievement.
 
 ### Return Value
 
--   **[Achievement](../Classes/Achievement.html)**
+-   **[Achievement](../Classes/Achievement.md)**
 
 ### Remarks
 
@@ -359,7 +359,7 @@ Returns the parent achievement of a multi-tier achievement.
 
 ### Return Value
 
--   **[Achievement](../Classes/Achievement.html)**
+-   **[Achievement](../Classes/Achievement.md)**
 
 ------------------------------------------------------------------------
 
@@ -420,7 +420,7 @@ Returns any title that is granted when the achievement is completed.
 
 ### Return Value
 
--   **[CharacterTitle](../Classes/CharacterTitle.html)**
+-   **[CharacterTitle](../Classes/CharacterTitle.md)**
 
 ------------------------------------------------------------------------
 
@@ -497,7 +497,7 @@ grants
         schematics that are unlocked by this Achievement
         -   **idSchematic** **(Integer)** - The id number for the
             schematic that the Achievement grants
-        -   **itemCrafted** **([Item](../Classes/Item.html))** - The item
+        -   **itemCrafted** **([Item](../Classes/Item.md))** - The item
             created by the schematic that is granted by the Achievement
     -   **arBonuses** **(Array of Table)** - A list of Tradeskill
         bonuses granted by this Achievement

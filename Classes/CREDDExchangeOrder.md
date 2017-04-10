@@ -46,7 +46,7 @@ Creates a new CREDDExchangeOrder that is a buy order.
 
 ### Return Value
 
--   **[CREDDExchangeOrder](../Classes/CREDDExchangeOrder.html)** - A new
+-   **[CREDDExchangeOrder](../Classes/CREDDExchangeOrder.md)** - A new
     CREDD Exchange buy order.
 
 ### Usage/Example
@@ -68,7 +68,7 @@ Creates a new CREDDExchangeOrder that is a sell order.
 
 ### Return Value
 
--   **[CREDDExchangeOrder](../Classes/CREDDExchangeOrder.html)** - A new
+-   **[CREDDExchangeOrder](../Classes/CREDDExchangeOrder.md)** - A new
     sell order for the CREDD Exchange.
 
 ### Usage/Example
@@ -91,7 +91,7 @@ Determines if another CREDDExchangeOrder is the same as this one.
 ### Params
 
 -   **crdCompare**
-    **([CREDDExchangeOrder](../Classes/CREDDExchangeOrder.html))** - The
+    **([CREDDExchangeOrder](../Classes/CREDDExchangeOrder.md))** - The
     CREDDExchangeOrder that is being compared to the one calling this
     function.
 
@@ -154,7 +154,7 @@ Exchange.
 
 ### Return Value
 
--   **[Time](../Classes/Time.html)** - A Time object that states when the
+-   **[Time](../Classes/Time.md)** - A Time object that states when the
     order will expire.
 
 ### Usage/Example
@@ -186,7 +186,7 @@ Gets the time that the order was posted.
 
 ### Return Value
 
--   **[Time](../Classes/Time.html)** - A time object for when the order
+-   **[Time](../Classes/Time.md)** - A time object for when the order
     was posted.
 
 ### Usage/Example
@@ -218,7 +218,7 @@ Gets the price that the order was set for.
 
 ### Return Value
 
--   **[Money](../Classes/Money.html)** - The amount and type of money
+-   **[Money](../Classes/Money.md)** - The amount and type of money
     that the order is requesting or offering for a CREDD.
 
 ------------------------------------------------------------------------
@@ -277,7 +277,7 @@ Exchange.
 
 ### Params
 
--   **monPrice** **([Money](../Classes/Money.html))** - The amount of
+-   **monPrice** **([Money](../Classes/Money.md))** - The amount of
     money that the order will pay for / accept for CREDD.
 
 ### Return Value

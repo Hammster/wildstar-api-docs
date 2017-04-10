@@ -1,7 +1,7 @@
 TickerWnd
 =========
 
-### Parent: [Window](../WindowControls/Window.html)
+### Parent: [Window](../WindowControls/Window.md)
 
 Table of Content
 ---------------- 

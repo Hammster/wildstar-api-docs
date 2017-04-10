@@ -19,11 +19,11 @@ Fired whent he player selects a color from the ColorPicker window
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
--   **crNewColor** **([CColor](../Classes/CColor.html))** - The color
+-   **crNewColor** **([CColor](../Classes/CColor.md))** - The color
     that was selected when this event was fired.
 
 ------------------------------------------------------------------------

@@ -1,4 +1,4 @@
 TradeCommitButton
 =================
 
-### Parent: [Window](../WindowControls/Window.html)
+### Parent: [Window](../WindowControls/Window.md)

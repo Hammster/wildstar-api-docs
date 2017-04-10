@@ -52,7 +52,7 @@ Gets the unit associated with the dialog.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The unit associated with the
+-   **[Unit](../Classes/Unit.md)** - The unit associated with the
     dialog.
 
 ------------------------------------------------------------------------
@@ -148,7 +148,7 @@ is using.
 
 ### Return Value
 
--   **[Quest](../Classes/Quest.html)** - The quest with the specified id.
+-   **[Quest](../Classes/Quest.md)** - The quest with the specified id.
     If the dialog was not showing a quest or was showing a quest with a
     different id, this will be nil.
 

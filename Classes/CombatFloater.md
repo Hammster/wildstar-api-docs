@@ -151,9 +151,9 @@ area of interest.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     used the ability that caused the damage or healing.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that
     received the damage or healing.
 -   **eDamageType** **(GameLib.CodeEnumDamageType)** - The type of
     damage that was done to the target.
@@ -269,7 +269,7 @@ Displays a particle effect.
 
 ### Params
 
--   **unitSource** **([Unit](../Classes/Unit.html))** - The unit that the
+-   **unitSource** **([Unit](../Classes/Unit.md))** - The unit that the
     floater is attached to.
 -   **tSettings** **(Table)** - A table that contains the various
     options that should be set for the particle effect.
@@ -295,7 +295,7 @@ Displays a text floater coming from the specified unit.
 
 ### Params
 
--   **unitSource** **([Unit](../Classes/Unit.html))** - The unit that the
+-   **unitSource** **([Unit](../Classes/Unit.md))** - The unit that the
     floater will be tied to.
 -   **nValue** **(Integer)** - The value that should be shown on the
     floater. - The value that should be shown on the floater.

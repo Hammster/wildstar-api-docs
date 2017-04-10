@@ -529,9 +529,9 @@ An event that is fired when a unit dodges an attack from another unit
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     performed the attack
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that was
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that was
     the target of the attack
 -   **eMissType** **(Integer)** - An enum that describes why the attack
     missed. Uses the\
@@ -550,9 +550,9 @@ An event that gets fired whenever a unit takes damage or gets healed.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit who used
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit who used
     the spell that caused the damage/healing
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that
     received the damage/healing
 -   **eDamageType** **(Integer)** - The type of damage done to the unit.
     This enum corresponds with\
@@ -565,7 +565,7 @@ An event that gets fired whenever a unit takes damage or gets healed.
     the target's absorption
 -   **bIsCritical** **(Boolean)** - Whether or not the attack was a
     critical hit
--   **splUsed** **([Spell](../Classes/Spell.html))** - The spell that did
+-   **splUsed** **([Spell](../Classes/Spell.md))** - The spell that did
     the damage / healing to the target
 
 ------------------------------------------------------------------------
@@ -582,7 +582,7 @@ An event fired when a unit gains experience
 ### Params
 
 -   **eReason** **(Integer)**
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that
     gained the experience
 -   **strText** **(String)** - A localized string containing the amount
     of XP gained and any relevant notes\
@@ -610,7 +610,7 @@ vendors, quest givers, and quest objective NPCs/props.
 
 ### Params
 
--   **unitNewTarget** **([Unit](../Classes/Unit.html))** - The
+-   **unitNewTarget** **([Unit](../Classes/Unit.md))** - The
     interactive unit that the player is now targeting
 -   **strContext** **(String)** - A brief description of how the player
     can interact with the unit
@@ -629,7 +629,7 @@ NPC
 
 ### Params
 
--   **itemLoot** **([Item](../Classes/Item.html))** - The item that was
+-   **itemLoot** **([Item](../Classes/Item.md))** - The item that was
     looted
 -   **nCount** **(Integer)** - The number of items in the stack that was
     looted
@@ -648,7 +648,7 @@ an NPC
 
 ### Params
 
--   **monLoot** **([Money](../Classes/Money.html))** - The currency that
+-   **monLoot** **([Money](../Classes/Money.md))** - The currency that
     the player looted
 
 ------------------------------------------------------------------------
@@ -689,9 +689,9 @@ An event that fires whenever a spell is canceled by any means
     failed. This value uses the\
     ESpell4CastResult enum, which is not available to players at the
     moment.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The target of the
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The target of the
     failed spell
--   **unitSource** **([Unit](../Classes/Unit.html))** - The caster of the
+-   **unitSource** **([Unit](../Classes/Unit.md))** - The caster of the
     failed spell
 -   **strMessage** **(String)** - A string describing why the spell
     failed
@@ -710,7 +710,7 @@ An event that is fired whenever the player changes their target
 
 ### Params
 
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit's new
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit's new
     target
 
 ------------------------------------------------------------------------
@@ -727,7 +727,7 @@ interact with the object changes.
 
 ### Params
 
--   **unitChanged** **([Unit](../Classes/Unit.html))** - The unit who has
+-   **unitChanged** **([Unit](../Classes/Unit.md))** - The unit who has
     a new activation type
 
 ### Usage/Example
@@ -753,7 +753,7 @@ world
 
 ### Params
 
--   **unitSpawned** **([Unit](../Classes/Unit.html))** - The newly
+-   **unitSpawned** **([Unit](../Classes/Unit.md))** - The newly
     created unit
 
 ------------------------------------------------------------------------
@@ -770,7 +770,7 @@ the game world
 
 ### Params
 
--   **unitDestroyed** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitDestroyed** **([Unit](../Classes/Unit.md))** - The unit that
     has left this world
 
 ------------------------------------------------------------------------
@@ -786,7 +786,7 @@ An event that gets fired whenever a unit enters or leaves combat
 
 ### Params
 
--   **unitInCombat** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitInCombat** **([Unit](../Classes/Unit.md))** - The unit that
     just entered combat
 -   **bInCombat** **(Boolean)** - A boolean stating whether or not the
     unit has entered or left combat
@@ -805,7 +805,7 @@ map/minimap moves
 
 ### Params
 
--   **unitMoving** **([Unit](../Classes/Unit.html))** - The unit who has
+-   **unitMoving** **([Unit](../Classes/Unit.md))** - The unit who has
     changed position
 
 ------------------------------------------------------------------------
@@ -821,7 +821,7 @@ An event that gets fired whenever the unit's name gets changed
 
 ### Params
 
--   **unitChanged** **([Unit](../Classes/Unit.html))** - The unit whose
+-   **unitChanged** **([Unit](../Classes/Unit.md))** - The unit whose
     name was changed
 -   **strNewName** **(String)** - The unit's new name
 
@@ -888,7 +888,7 @@ false if the unit is not a harvestable unit.
 
 ### Params
 
--   **unitPlayer** **([Unit](../Classes/Unit.html))** - The function
+-   **unitPlayer** **([Unit](../Classes/Unit.md))** - The function
     checks against this unit's tradeskills to see if the calling unit
     is\
     harvestable
@@ -974,7 +974,7 @@ Spawns a floating display for the items the character loots
 
 ### Params
 
--   **itemLooted** **([Item](../Classes/Item.html))** - The item that was
+-   **itemLooted** **([Item](../Classes/Item.md))** - The item that was
     looted
 -   **nCount** **(Integer)** - The number of items in the stack that was
     looted
@@ -1091,7 +1091,7 @@ Gets the unit's current focus target
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The unit currently set as the
+-   **[Unit](../Classes/Unit.md)** - The unit currently set as the
     player's focus target
 
 ------------------------------------------------------------------------
@@ -1370,7 +1370,7 @@ unit
             -   **idBuff** **(Integer)** - The id number for the buff
                 itself. This is not to be confused with the id number of
                 the spell containing the buff's effect
-            -   **splEffect** **([Spell](../Classes/Spell.html))** - The
+            -   **splEffect** **([Spell](../Classes/Spell.md))** - The
                 spell containing the buff's effect.
             -   **fTimeRemaining** **(Float)** - The amount of time (in
                 milliseconds) left before the buff ends
@@ -1382,7 +1382,7 @@ unit
             -   **idBuff** **(Integer)** - The id number for the buff.
                 This is not to be confused with the id number for the
                 spell containing the buff's effect
-            -   **splEffect** **([Spell](../Classes/Spell.html))** - The
+            -   **splEffect** **([Spell](../Classes/Spell.md))** - The
                 spell containing the buff's effect
             -   **fTimeRemaining** **(Float)** - The time remaining
                 before the buff ends in milliseconds
@@ -1427,13 +1427,13 @@ a vendor
             currency used to purchase the item
         -   **eAltType2** **(Integer)** - The alternat form of currency
             that can be used for the secondary cost of the item
-    -   **itemData** **([Item](../Classes/Item.html))** - The item that
+    -   **itemData** **([Item](../Classes/Item.md))** - The item that
         the player can buy back
     -   **arGlyphIds** **(Array of Integer)** - An array of ID numbers
         for the glyphs on the item (if there are any)
     -   **itemGlyphData** **(item)** - The glyph slots on the item, if
         any
-    -   **itemModData** **([Item](../Classes/Item.html))** -
+    -   **itemModData** **([Item](../Classes/Item.md))** -
         Modifications to the item (if any)
     -   **strIcon** **(String)** - The string containing the icon name
     -   **strMaker** **(String)** - The name of the player that made the
@@ -1616,7 +1616,7 @@ Returns information on the cluster that the unit belongs to
     -   **nCount** **(Integer)** - The number of units in the cluster
     -   **nIconCount** **(Integer)** - The number of enemies in the
         cluster
-    -   **tUnits** **(Array of [Unit](../Classes/Unit.html))** - The
+    -   **tUnits** **(Array of [Unit](../Classes/Unit.md))** - The
         units in the cluster
 
 ------------------------------------------------------------------------
@@ -1632,7 +1632,7 @@ Returns a list of units in the unit's cluster
 
 ### Return Value
 
--   **Array of [Unit](../Classes/Unit.html)** - An array of the units in
+-   **Array of [Unit](../Classes/Unit.md)** - An array of the units in
     the cluster
 
 ------------------------------------------------------------------------
@@ -1649,7 +1649,7 @@ NPCs
 
 ### Return Value
 
--   **[Item](../Classes/Item.html)** - An array of commodity items in the
+-   **[Item](../Classes/Item.md)** - An array of commodity items in the
     player's inventory
 
 ------------------------------------------------------------------------
@@ -1666,7 +1666,7 @@ to the player's.
 
 ### Return Value
 
--   **[CColor](../Classes/CColor.html)** - The color value representing
+-   **[CColor](../Classes/CColor.md)** - The color value representing
     the level difference between the player and the unit.
 
 ------------------------------------------------------------------------
@@ -1975,7 +1975,7 @@ Returns a unit's disposition to another unit
 
 ### Params
 
--   **[Unit](../Classes/Unit.html)** - The unit that the calling unit is
+-   **[Unit](../Classes/Unit.md)** - The unit that the calling unit is
     being compared to
 
 ### Return Value
@@ -2020,7 +2020,7 @@ Returns an array containing all of the unit's equipped items.
 
 ### Return Value
 
--   **Array of [Item](../Classes/Item.html)** - An array of all of the
+-   **Array of [Item](../Classes/Item.md)** - An array of all of the
     items the unit has equipped
 
 ------------------------------------------------------------------------
@@ -2509,7 +2509,7 @@ but the current player returns an empty table.
     corresponding bag slot that they are found in
     -   **nBagSlot** **(Integer)** - The bag slot where the item is
         found
-    -   **itemInBag** **([Item](../Classes/Item.html))** - The item in
+    -   **itemInBag** **([Item](../Classes/Item.md))** - The item in
         the player's inventory
 
 ------------------------------------------------------------------------
@@ -2615,19 +2615,19 @@ Returns a list of dropped loot that belongs to the player
         can be looted
         -   **nCount** **(Integer)** - The amount of items looted in
             this indivudal drop
-        -   **itemLoot** **([Item](../Classes/Item.html))** - The item
+        -   **itemLoot** **([Item](../Classes/Item.md))** - The item
             that was dropped
-        -   **itemModData** **([Item](../Classes/Item.html))** - The mod
+        -   **itemModData** **([Item](../Classes/Item.md))** - The mod
             data for the item that was dropped. Note that not every
             item\
             will have this variable
-        -   **itemSigilData** **([Item](../Classes/Item.html))** - The
+        -   **itemSigilData** **([Item](../Classes/Item.md))** - The
             sigil data for the item that was dropped. Note that not
             every item will\
             have sigil data.
     -   **Table** - This table contains all the variables for money loot
         drops
-        -   **monCurrency** **([Money](../Classes/Money.html))** -
+        -   **monCurrency** **([Money](../Classes/Money.md))** -
             Currency that was dropped.
     -   **Table** - This table contains all the variables for virtual
         items that are looted
@@ -2980,7 +2980,7 @@ Returns an ApolloColor for the unit's nameplate
 
 ### Return Value
 
--   **[ApolloColor](../Classes/ApolloColor.html)** - The current color of
+-   **[ApolloColor](../Classes/ApolloColor.md)** - The current color of
     the unit's nameplate
 
 ------------------------------------------------------------------------
@@ -3296,7 +3296,7 @@ be repaired
         -   **eAltType2** **(Integer)** - The secondary alternate form
             of currency used to repair the item. This\
             value corresponds with the Money.CodeEnumCurrencyType enum
-    -   **itemData** **([Item](../Classes/Item.html))** - The item
+    -   **itemData** **([Item](../Classes/Item.md))** - The item
         needing repairs
     -   **strIcon** **(String)** - The name of the item's icon
     -   **strName** **(String)** - The item's name
@@ -3322,7 +3322,7 @@ as reputation for the given unit's faction
         reputation with
     -   **nRepAmount** **(Integer)** - The amount of reputation the item
         is worth
-    -   **itemRequired** **([Item](../Classes/Item.html))** - The item
+    -   **itemRequired** **([Item](../Classes/Item.md))** - The item
         that can be turned in for reputation
 
 ------------------------------------------------------------------------
@@ -3376,7 +3376,7 @@ nil.
     available through the NPC
     -   **idConversion** **(Integer)** - The ID number for this
         conversion type
-    -   **itemSource** **([Item](../Classes/Item.html))** - The item the
+    -   **itemSource** **([Item](../Classes/Item.md))** - The item the
         player needs to trade in this conversion. This value does\
         not exist for conversions that do not require items
     -   **idSource** **(Integer)** - The ID number for the object that
@@ -3389,7 +3389,7 @@ nil.
     -   **eType** **(Integer)** - The type of conversion. This value
         corresponds with the\
         Unit.CodeEnumResourceConversionType enum
-    -   **itemTarget** **([Item](../Classes/Item.html))** - The item that
+    -   **itemTarget** **([Item](../Classes/Item.md))** - The item that
         is given to the player by the conversion. This variable only
         exists if the conversion gives items
     -   **idTarget** **(Integer)** - The ID number of the faction who
@@ -3495,9 +3495,9 @@ missions, challenges, and public events that this unit is the target of
         -   **nNeeded** **(Integer)** - The number of the unit that the
             player needs to interact with for the quest. If nCompleted
             is a percent, then this value is 100.
-        -   **splAbility** **([Spell](../Classes/Spell.html))** - A spell
+        -   **splAbility** **([Spell](../Classes/Spell.md))** - A spell
             granted for use in the quest
-        -   **splObjective** **([Spell](../Classes/Spell.html))** - A
+        -   **splObjective** **([Spell](../Classes/Spell.md))** - A
             spell that needs to be used as one of the objectives of the
             quest
         -   **bShowCount** **(Boolean)** - Whether or not the number
@@ -3526,9 +3526,9 @@ missions, challenges, and public events that this unit is the target of
             is the target of. This may be either "Scientist", "Soldier",
             or "Explorer" in this case
         -   **pmMission**
-            **([PathMission](../Classes/PathMission.html))** - The
+            **([PathMission](../Classes/PathMission.md))** - The
             PathMission that the unit is the target of
-        -   **splReward** **([Spell](../Classes/Spell.html))** - Any
+        -   **splReward** **([Spell](../Classes/Spell.md))** - Any
             spell tied to interacting with the unit, such as drops from
             scanning the unit with a Scientist or items tied to the
             mission that the player needs to use on the unit
@@ -3771,7 +3771,7 @@ someone other than the player
 -   **Array of Table**
     -   **idLocation** **(Integer)** - The item's location in the Supply
         Satchel
-    -   **itemMaterial** **([Item](../Classes/Item.html))** - The item
+    -   **itemMaterial** **([Item](../Classes/Item.md))** - The item
         itself
     -   **nCount** **(Integer)** - The amount of the item that the
         player owns
@@ -3811,7 +3811,7 @@ Returns the unit's current target
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The unit's current target
+-   **[Unit](../Classes/Unit.md)** - The unit's current target
 
 ------------------------------------------------------------------------
 
@@ -3841,7 +3841,7 @@ Returns the target of the unit being targeted by the calling unit
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The target of the unit being
+-   **[Unit](../Classes/Unit.md)** - The target of the unit being
     targeted by the calling unit
 
 ------------------------------------------------------------------------
@@ -4008,7 +4008,7 @@ Returns the unit's mount
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The unit's current mount
+-   **[Unit](../Classes/Unit.md)** - The unit's current mount
 
 ------------------------------------------------------------------------
 
@@ -4023,7 +4023,7 @@ Returns the owner of a pet.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The unit who owns the pet
+-   **[Unit](../Classes/Unit.md)** - The unit who owns the pet
 
 ------------------------------------------------------------------------
 
@@ -4104,7 +4104,7 @@ Returns the vehicle the unit is currently riding
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The vehicle that the unit is
+-   **[Unit](../Classes/Unit.md)** - The vehicle that the unit is
     riding
 
 ------------------------------------------------------------------------
@@ -4171,9 +4171,9 @@ Returns an array containing information on each item the vendor sells
             used to purchase the item
         -   **eAltType2** **(Integer)** - The secondary alternate type
             of currency used to purchase the item
-    -   **itemData** **([Item](../Classes/Item.html))** - The item being
+    -   **itemData** **([Item](../Classes/Item.md))** - The item being
         purchased
-    -   **splData** **([Spell](../Classes/Spell.html))** - A spell effect
+    -   **splData** **([Spell](../Classes/Spell.md))** - A spell effect
         being purchased.
     -   **strName** **(String)** - The name of the item
 
@@ -4824,7 +4824,7 @@ target by passing in nil.
 
 ### Params
 
--   **unitNewFocus** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitNewFocus** **([Unit](../Classes/Unit.md))** - The unit that
     is set as the new focus target.
 
 ------------------------------------------------------------------------

@@ -616,7 +616,7 @@ CodeEnumInputAction
 -   **ExplicitMouseLook**
 -   **ToggleWeapons**
 -   **LeftMouseHold**
--   **Ri.htmlouseHold**
+-   **Ri.mdouseHold**
 -   **CenterMouseHold**
 -   **CastInnateAbility**
 -   **MarkingMenuLeftClick**
@@ -1554,7 +1554,7 @@ MapZone
 -   **BlighthavenChamberFire**
 -   **HalonRingBCChamberofMadocDom**
 -   **BlighthavenNurseryObservationRoom**
--   **HalonRingBCBli.htmluckAbscess**
+-   **HalonRingBCBli.mduckAbscess**
 -   **BlighthavenNurseryChecpoint**
 -   **BlighthavenMindoftheGlobellum**
 -   **HalonRingBCChamberofEshiaExile**
@@ -1985,7 +1985,7 @@ null.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)**
+-   **[Unit](../Classes/Unit.md)**
 
 ------------------------------------------------------------------------
 
@@ -2528,7 +2528,7 @@ null.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)**
+-   **[Unit](../Classes/Unit.md)**
 
 ------------------------------------------------------------------------
 
@@ -2564,7 +2564,7 @@ Returna the taxi that the player is currently on.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The taxi that the player is riding
+-   **[Unit](../Classes/Unit.md)** - The taxi that the player is riding
 
 ------------------------------------------------------------------------
 
@@ -2579,7 +2579,7 @@ Returns a new unit that is a copy of the character unit, or nil if null.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)**
+-   **[Unit](../Classes/Unit.md)**
 
 ------------------------------------------------------------------------
 
@@ -2602,7 +2602,7 @@ null.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)**
+-   **[Unit](../Classes/Unit.md)**
 
 ------------------------------------------------------------------------
 
@@ -2726,7 +2726,7 @@ Returns a new unit that is a copy of the target unit, else 0 if null.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)**
+-   **[Unit](../Classes/Unit.md)**
 
 ------------------------------------------------------------------------
 

@@ -46,7 +46,7 @@ Gets a pending customer survey that the player has not filled out.
 
 ### Return Value
 
--   **[CustomerSurveyTypeLib](../Classes/CustomerSurveyTypeLib.html)** -
+-   **[CustomerSurveyTypeLib](../Classes/CustomerSurveyTypeLib.md)** -
     The pending survey.
 
 ------------------------------------------------------------------------

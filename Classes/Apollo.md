@@ -77,7 +77,7 @@ button down while the cursor is over a BagWindow or ActionBarButton.
 
 ### Params
 
--   **wndSource** **([Window](../WindowControls/Window.html))** - The
+-   **wndSource** **([Window](../WindowControls/Window.md))** - The
     window that the object originated from.
 -   **strType** **(String)** - The type of object that will be affected
     by the drag-drop operation. This should either be "DDBagItem" for
@@ -288,7 +288,7 @@ end of the operation.
 
 ### Params
 
--   **wndSource** **([Window](../WindowControls/Window.html))** - The
+-   **wndSource** **([Window](../WindowControls/Window.md))** - The
     window where the click-stick operation began.
 -   **strType** **(String)** - The type of item that the click stick is
     affecting. This value can be either "DDBagItem" or
@@ -311,7 +311,7 @@ Starts a drag-drop operation on the item that the player clicked on.
 
 ### Params
 
--   **wndSource** **([Window](../WindowControls/Window.html))** - The
+-   **wndSource** **([Window](../WindowControls/Window.md))** - The
     window where the operation began.
 -   **strType** **(String)** - The type of object that is being dragged
     in the operation. This can be either "DDBagItem" or
@@ -454,7 +454,7 @@ window with the specified name.
 
 ### Return Value
 
--   **[Window](../WindowControls/Window.html)** - The window that was
+-   **[Window](../WindowControls/Window.md)** - The window that was
     found by the search.
 
 ------------------------------------------------------------------------
@@ -769,7 +769,7 @@ Gets the window that the mouse is currently hovering over.
 
 ### Return Value
 
--   **[Window](../WindowControls/Window.html)** - The top-most window
+-   **[Window](../WindowControls/Window.md)** - The top-most window
     that the mouse is hovering over.
 
 ------------------------------------------------------------------------
@@ -948,7 +948,7 @@ Gets all of the windows in a specific stratum.
 
 ### Return Value
 
--   **Array of [Window](../WindowControls/Window.html)** - An array of
+-   **Array of [Window](../WindowControls/Window.md)** - An array of
     windows found in the given stratum.
 
 ------------------------------------------------------------------------
@@ -1160,7 +1160,7 @@ Loads a window from the specified form
     that contains the window, or the pre-loaded XML form.
 -   **strFormName** **(String)** - The name of the window form that the
     function will try to load.
--   **wndParent** **([Window](../WindowControls/Window.html))** - The
+-   **wndParent** **([Window](../WindowControls/Window.md))** - The
     newly loaded window will be a child of this window. - The newly
     loaded window will be a child of this window.
 -   **tLuaEventHandler** **(Table)** - The Lua object that owns the
@@ -1170,7 +1170,7 @@ Loads a window from the specified form
 
 ### Return Value
 
--   **[Window](../WindowControls/Window.html)** - The window object that
+-   **[Window](../WindowControls/Window.md)** - The window object that
     was loaded.
 
 ### Usage/Example
@@ -1482,7 +1482,7 @@ Changes the cursor to another ApolloCursor.
 
 ### Params
 
--   **acCursor** **([ApolloCursor](../Classes/ApolloCursor.html))** - The
+-   **acCursor** **([ApolloCursor](../Classes/ApolloCursor.md))** - The
     cursor that will be shown after the function is called.
 
 ------------------------------------------------------------------------

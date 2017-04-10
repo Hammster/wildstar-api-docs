@@ -1,7 +1,7 @@
 EditBox
 =======
 
-### Parent: [Window](../WindowControls/Window.html)
+### Parent: [Window](../WindowControls/Window.md)
 
 Table of Content
 ---------------- 
@@ -17,9 +17,9 @@ EditBoxChanged
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strText** **(String)** - The new text
 
@@ -32,9 +32,9 @@ EditBoxChanging
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strNewText** **(String)**
 -   **strOldText** **(String)**
@@ -49,9 +49,9 @@ EditBoxEscape
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -63,9 +63,9 @@ EditBoxReturn
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strText** **(String)**
 
@@ -78,9 +78,9 @@ EditBoxTab
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **strText** **(String)**
 
@@ -93,9 +93,9 @@ EditBoxTextTooLarge
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------

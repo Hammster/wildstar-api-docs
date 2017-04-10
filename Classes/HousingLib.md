@@ -509,7 +509,7 @@ GetPlotContributions(idPlot) (Deprecated)
         an upgrade
     -   **Array of Table** - Contains item contribution info. Only
         created if type == HousingContributionType\_Item
-        -   **source** **([Item](../Classes/Item.html))** - The item used
+        -   **source** **([Item](../Classes/Item.md))** - The item used
             to contribute to the upgrade
         -   **availableCount** **(Integer)** - The number of the item
             that the owner holds

@@ -94,7 +94,7 @@ Removes a CREDD Exchange Order from the Exchange.
 ### Params
 
 -   **crdOrder**
-    **([CREDDExchangeOrder](../Classes/CREDDExchangeOrder.html))** - The
+    **([CREDDExchangeOrder](../Classes/CREDDExchangeOrder.md))** - The
     order that the player wishes to cancel.
 
 ### Usage/Example

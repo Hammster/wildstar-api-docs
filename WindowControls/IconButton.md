@@ -1,7 +1,7 @@
 IconButton
 ==========
 
-### Parent: [Button](../WindowControls/Button.html)
+### Parent: [Button](../WindowControls/Button.md)
 
 Table of Content
 ---------------- 

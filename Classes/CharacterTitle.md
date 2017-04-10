@@ -41,7 +41,7 @@ Gets a list of all of the titles that the player has unlocked.
 
 ### Return Value
 
--   **Array of [CharacterTitle](../Classes/CharacterTitle.html)** - An
+-   **Array of [CharacterTitle](../Classes/CharacterTitle.md)** - An
     array of all of the titles that the player has unlocked.
 
 ------------------------------------------------------------------------
@@ -79,7 +79,7 @@ active title.
 ### Params
 
 -   **titleChecked**
-    **([CharacterTitle](../Classes/CharacterTitle.html))** - The function
+    **([CharacterTitle](../Classes/CharacterTitle.md))** - The function
     will check if this title is currently active.
 
 ### Return Value
@@ -100,7 +100,7 @@ Sends a request to the server to make a CharacterTitle the active title.
 ### Params
 
 -   **titleActivated**
-    **([CharacterTitle](../Classes/CharacterTitle.html))** - The title
+    **([CharacterTitle](../Classes/CharacterTitle.md))** - The title
     that the function will make active.
 
 ### Usage/Example
@@ -124,7 +124,7 @@ sure that they are equal.
 ### Params
 
 -   **titleComparison**
-    **([CharacterTitle](../Classes/CharacterTitle.html))** - The function
+    **([CharacterTitle](../Classes/CharacterTitle.md))** - The function
     will compare this CharacterTitle to the one that the function was
     called from.
 
@@ -192,7 +192,7 @@ Checks what a unit's name would look like with the CharacterTitle.
 
 ### Params
 
--   **unitChecked** **([Unit](../Classes/Unit.html))** - The function
+-   **unitChecked** **([Unit](../Classes/Unit.md))** - The function
     will add the CharacterTitle to this unit's name.
 
 ### Return Value
@@ -242,7 +242,7 @@ Gets the spell that is granted to the player while the title is active.
 
 ### Return Value
 
--   **[Spell](../Classes/Spell.html)** - The spell that is granted to the
+-   **[Spell](../Classes/Spell.md)** - The spell that is granted to the
     player while the title is active.
 
 ### Usage/Example

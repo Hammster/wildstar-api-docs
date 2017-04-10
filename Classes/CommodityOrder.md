@@ -45,12 +45,12 @@ Creates a new Buy order for the given item.
 
 ### Params
 
--   **itemTarget** **([Item](../Classes/Item.html))** - The item that the
+-   **itemTarget** **([Item](../Classes/Item.md))** - The item that the
     buy order will try to purchase.
 
 ### Return Value
 
--   **[CommodityOrder](../Classes/CommodityOrder.html)** - The new buy
+-   **[CommodityOrder](../Classes/CommodityOrder.md)** - The new buy
     order that was created.
 
 ### Remarks
@@ -71,12 +71,12 @@ Creates a new Sell order for the given item.
 
 ### Params
 
--   **itemSelling** **([Item](../Classes/Item.html))** - The item that
+-   **itemSelling** **([Item](../Classes/Item.md))** - The item that
     the sell order will attempt to sell.
 
 ### Return Value
 
--   **[CommodityOrder](../Classes/CommodityOrder.html)** - A new Sell
+-   **[CommodityOrder](../Classes/CommodityOrder.md)** - A new Sell
     order for the given item.
 
 ### Remarks
@@ -99,7 +99,7 @@ this function.
 ### Params
 
 -   **orderCompare**
-    **([CommodityOrder](../Classes/CommodityOrder.html))** - The
+    **([CommodityOrder](../Classes/CommodityOrder.md))** - The
     CommodityOrder that will be compared to the one that called this
     function.
 
@@ -202,7 +202,7 @@ Gets the item that the CommodityOrder is trying to buy or sell.
 
 ### Return Value
 
--   **[Item](../Classes/Item.html)** - The item that the CommodityOrder
+-   **[Item](../Classes/Item.md)** - The item that the CommodityOrder
     is looking for or selling.
 
 ------------------------------------------------------------------------
@@ -219,7 +219,7 @@ Order was posted, in seconds.
 
 ### Return Value
 
--   **[Time](../Classes/Time.html)** - The number of seconds between Jan
+-   **[Time](../Classes/Time.md)** - The number of seconds between Jan
     1st, 1970 and when the Commodity Order was posted
 
 ------------------------------------------------------------------------
@@ -236,7 +236,7 @@ its associated item for.
 
 ### Return Value
 
--   **[Money](../Classes/Money.html)** - How much the Commodity Order is
+-   **[Money](../Classes/Money.md)** - How much the Commodity Order is
     trying to buy or sell its item for.
 
 ------------------------------------------------------------------------
@@ -260,7 +260,7 @@ order.
 
 ### Return Value
 
--   **[Money](../Classes/Money.html)** - The amount of money that is
+-   **[Money](../Classes/Money.md)** - The amount of money that is
     required to post the sell order.
 
 ------------------------------------------------------------------------
@@ -385,7 +385,7 @@ for.
 
 ### Params
 
--   **monPrice** **([Money](../Classes/Money.html))** - The amount that
+-   **monPrice** **([Money](../Classes/Money.md))** - The amount that
     the commodity order will attempt to buy or sell its items for per
     unit.
 

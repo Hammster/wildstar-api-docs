@@ -29,7 +29,7 @@ P2PTradeInvite
 
 ### Params
 
--   **idInvitor** **([Unit](../Classes/Unit.html))**
+-   **idInvitor** **([Unit](../Classes/Unit.md))**
 
 ------------------------------------------------------------------------
 

@@ -249,10 +249,10 @@ hexes that the challenge uses.
 ### Return Value
 
 -   **Table** - A list that contains map info on the challenge.
-    -   **tHexes** **(Array of [Vector2](../Classes/Vector2.html))** - A
+    -   **tHexes** **(Array of [Vector2](../Classes/Vector2.md))** - A
         list of x/y coordinates for the hexes where the Challenge takes
         place
-    -   **tIndicator** **([Vector3](../Classes/Vector3.html))** - The
+    -   **tIndicator** **([Vector3](../Classes/Vector3.md))** - The
         x/y/z coordinates where the Challenge can be started
 
 ------------------------------------------------------------------------
@@ -286,7 +286,7 @@ Returns the coordinates for the hexes where the Challenge takes place
 
 ### Return Value
 
--   **Array of [Vector2](../Classes/Vector2.html)** - An array of hex
+-   **Array of [Vector2](../Classes/Vector2.md)** - An array of hex
     coordinates where the objectives for the challenge can be found.
 
 ------------------------------------------------------------------------

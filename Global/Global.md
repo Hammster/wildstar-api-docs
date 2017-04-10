@@ -173,7 +173,7 @@ Fires when an achievement is completed.
 
 ### Params
 
--   **achComplete** **([Achievement](../Classes/Achievement.html))** -
+-   **achComplete** **([Achievement](../Classes/Achievement.md))** -
     The achievement that was completed.
 
 ------------------------------------------------------------------------
@@ -189,7 +189,7 @@ Fires when an progress is made towards an achievement's objective.
 
 ### Params
 
--   **achUpdated** **([Achievement](../Classes/Achievement.html))** - The
+-   **achUpdated** **([Achievement](../Classes/Achievement.md))** - The
     achievement that has been updated.
 
 ### Usage/Example
@@ -226,7 +226,7 @@ Displays information for a spell on the actionbar.
 
 ### Params
 
--   **splDisplayed** **([Spell](../Classes/Spell.html))** - The spell
+-   **splDisplayed** **([Spell](../Classes/Spell.md))** - The spell
     currently being displayed.
 -   **tEffects** **(Table)** - A table containing information about the
     spell.
@@ -248,9 +248,9 @@ Displays information for a spell on the actionbar.
     -   **shake** **(Boolean)**
     -   **shatterSprite** **(Boolean)**
     -   **itemUnavailable** **(Boolean)**
-    -   **textColor** **([CColor](../Classes/CColor.html))** - The color
+    -   **textColor** **([CColor](../Classes/CColor.md))** - The color
         of the description text
-    -   **diffuse** **([CColor](../Classes/CColor.html))** - The spell's
+    -   **diffuse** **([CColor](../Classes/CColor.md))** - The spell's
         diffuse color
     -   **saturation** **(Float)**
     -   **lightOverlay** **(Boolean)**
@@ -375,7 +375,7 @@ challenge, public event, or path mission.
 
 ### Params
 
--   **splDisplayed** **([Spell](../Classes/Spell.html))** - The spell
+-   **splDisplayed** **([Spell](../Classes/Spell.md))** - The spell
     that is granted to the player.
 -   **eReason** **(Integer)** - The reason the spell was granted to the
     player.
@@ -411,9 +411,9 @@ Fires when the player gets new mail.
         mail is received.
     -   **fExpirationTime** **(Float)** - The number of seconds until
         the mail expires.
-    -   **monCOD** **([Money](../Classes/Money.html))** - The amount of
+    -   **monCOD** **([Money](../Classes/Money.md))** - The amount of
         money that must be paid before any items can be retreived.
-    -   **monGift** **([Money](../Classes/Money.html))** - The amount of
+    -   **monGift** **([Money](../Classes/Money.md))** - The amount of
         money sent to the recipient.
     -   **bIsRead** **(Boolean)** - Determines whether or not the piece
         of mail has been read.
@@ -427,7 +427,7 @@ Fires when the player gets new mail.
         set of constants.
     -   **arAttachments** **(Array of Table)** - A table containing
         information on the items that are attached to the mail.
-        -   **itemAttached** **([Item](../Classes/Item.html))** - The
+        -   **itemAttached** **([Item](../Classes/Item.md))** - The
             item object that is attached to the piece of mail
         -   **nStackCount** **(Integer)** - The number of items in the
             stack
@@ -446,7 +446,7 @@ Fires when the player's focus target changes.
 
 ### Params
 
--   **unitFocus** **([Unit](../Classes/Unit.html))** - The player's new
+-   **unitFocus** **([Unit](../Classes/Unit.md))** - The player's new
     focus target.
 
 ### Usage/Example
@@ -491,7 +491,7 @@ Fires when a CC state is applied to a unit.
 
 -   **eState** **(Unit.CodeEnumCCState)** - A number representing the CC
     applied to the player.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that is
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that is
     affected by the CC state.
 
 ------------------------------------------------------------------------
@@ -1128,7 +1128,7 @@ player.
 ### Params
 
 -   **channelWhisper**
-    **([ChatChannelLib](../Classes/ChatChannelLib.html))** - The chat
+    **([ChatChannelLib](../Classes/ChatChannelLib.md))** - The chat
     channel that the player tried to whisper from. This should always be
     the "Account Whisper" channel.
 -   **strName** **(String)** - The name of the player who was intended
@@ -1152,7 +1152,7 @@ adding/removing a password to the channel.
 ### Params
 
 -   **channelSource**
-    **([ChatChannelLib](../Classes/ChatChannelLib.html))** - The channel
+    **([ChatChannelLib](../Classes/ChatChannelLib.md))** - The channel
     that the action was applied to.
 -   **eAction** **(Integer)** - The action that fired the event. This
     value lines up with the ChatSystemLib.ChatChannelAction set of
@@ -1181,7 +1181,7 @@ Fires when the player joins a chat channel.
 ### Params
 
 -   **chanJoined**
-    **([ChatChannelLib](../Classes/ChatChannelLib.html))** - The chat
+    **([ChatChannelLib](../Classes/ChatChannelLib.md))** - The chat
     channel that the character just joined.
 
 ------------------------------------------------------------------------
@@ -1197,7 +1197,7 @@ Fires whenever the player fails to join a channel.
 
 ### Params
 
--   **chanJoin** **([ChatChannelLib](../Classes/ChatChannelLib.html))** -
+-   **chanJoin** **([ChatChannelLib](../Classes/ChatChannelLib.md))** -
     The channel that the player attempted to join.
 -   **eResult** **(Integer)** - The reason why the player failed to join
     the channel. This value lines up with the
@@ -1216,7 +1216,7 @@ Fires when the player leaves or is kicked from a chat channel.
 
 ### Params
 
--   **chanLeft** **([ChatChannelLib](../Classes/ChatChannelLib.html))** -
+-   **chanLeft** **([ChatChannelLib](../Classes/ChatChannelLib.md))** -
     The channel that the player left.
 -   **bKicked** **(Boolean)** - Whether or not the player was kicked
     from the channel
@@ -1237,7 +1237,7 @@ the channel that was polled for its members.
 
 ### Params
 
--   **channelSource** **([ChatChannel](../Classes/ChatChannel.html))** -
+-   **channelSource** **([ChatChannel](../Classes/ChatChannel.md))** -
     The channel that is being polled for its members.
 
 ------------------------------------------------------------------------
@@ -1253,7 +1253,7 @@ Fires when a message is sent on a chat channel
 
 ### Params
 
--   **channelSource** **([ChatChannel](../Classes/ChatChannel.html))** -
+-   **channelSource** **([ChatChannel](../Classes/ChatChannel.md))** -
     The channel where the message should be displayed.
 -   **tMessageInfo** **(Table)** -
     -   **bAutoResponse** **(Boolean)** - Whether or not the message is
@@ -1280,7 +1280,7 @@ Fires when a message is sent on a chat channel
         -   **bRoleplay** **(Boolean)** - Whether or not the text is
             flagged as Role Play text.
         -   **strText** **(String)** - The text that is displayed.
-    -   **unitSource** **([Unit](../Classes/Unit.html))** - The unit that
+    -   **unitSource** **([Unit](../Classes/Unit.md))** - The unit that
         sent the message. This variable does not exist for messages not
         sent by a unit, such as system messages.
     -   **bShowChatBubble** **(Boolean)** - Whether or not a chat bubble
@@ -1315,7 +1315,7 @@ to send.
 
 ### Params
 
--   **channelSource** **([ChatChannel](../Classes/ChatChannel.html))** -
+-   **channelSource** **([ChatChannel](../Classes/ChatChannel.md))** -
     The channel where the original message was sent.
 -   **eResult** **(Integer)** - The error with the message that was
     sent. This value lines up with the ChatSystemLib.ChatChannelResult
@@ -1345,7 +1345,7 @@ Fires whenever the player makes an unsuccessful tell
 
 ### Params
 
--   **channelSource** **([ChatChannel](../Classes/ChatChannel.html))** -
+-   **channelSource** **([ChatChannel](../Classes/ChatChannel.md))** -
     The channel that the player attempted to use for the failed tell.
     This is likely the Whisper channel.
 -   **strName** **(String)** - The name of the player you attempted to
@@ -1531,7 +1531,7 @@ Fired whent he player selects a color from the ColorPicker window
 
 ### Params
 
--   **crNewColor** **([CColor](../Classes/CColor.html))** - The color
+-   **crNewColor** **([CColor](../Classes/CColor.md))** - The color
     that was selected when this event was fired.
 
 ------------------------------------------------------------------------
@@ -1559,20 +1559,20 @@ Fires whenever a unit is granted an absorb shield.
 ### Params
 
 -   **tCombatLogInfo** **(Table)**
-    -   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit who
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit who
         used the ability.
-    -   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The unit
+    -   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The unit
         who controls the caster. This variable only exists if the caster
         is a pet.
-    -   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit
+    -   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit
         affected by the ability.
-    -   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The unit
+    -   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The unit
         who controls the target. This only exists if the target is a
         pet.
     -   **eCombatResult** **(GameLib.CodeEnumCombatResult)** - The
         effect of the abiility on the target. This will most likely be
         Hit in this case.
-    -   **splCallingSpell** **([Spell](../Classes/Spell.html))** - The
+    -   **splCallingSpell** **([Spell](../Classes/Spell.md))** - The
         spell that was used.
     -   **nAmount** **(Integer)** - The amount of damage that the absorb
         shield will mitigate.
@@ -1591,7 +1591,7 @@ Fires when the player switches to a different action set.
 ### Params
 
 -   **tLogInfo** **(Table)**
-    -   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit who
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit who
         changed their build. Since this event shold only be fired for
         the current player, this should always be them.
     -   **nNewSpecIndex** **(Integer)** - The index of player's new
@@ -1611,20 +1611,20 @@ Fires whenever a player enters a crowd control state.
 ### Params
 
 -   **tLogInfo** **(Table)**
-    -   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
         cast the ability that applied the CC state.
-    -   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The unit
+    -   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The unit
         that owns the unitCaster. This variable will only exist if the
         unit that applied the state is a pet.
-    -   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that
+    -   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that
         the CC state was applied to.
-    -   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The unit
+    -   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The unit
         that owns the target of the ability. This variable only exists
         if the target was a pet.
     -   **eCombatResult** **(GameLib.CodeEnumCombatResult)** - A number
         that represents the effect of the ability on the player. This
         will most likely be either Hit or Avoid.
-    -   **splCallingSpell** **([Spell](../Classes/Spell.html))** - The
+    -   **splCallingSpell** **([Spell](../Classes/Spell.md))** - The
         spell that was used to apply the CC state on the player.
     -   **eState** **(Unit.CodeEnumCCState)** - The type of CC that the
         spell should cause.
@@ -1675,10 +1675,10 @@ Fires when the player breaks out of a CC state.
 ### Params
 
 -   **tLogInfo** **(Table)**
-    -   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
         broke out of their CC state. This should always be the current
         player.
-    -   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The unit
+    -   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The unit
         that controls the unit that broke their CC state. This should
         only be returned if a pet broke out of its crowd control state.
     -   **eState** **(Unit.CodeEnumCCState)** - The type of CC that the
@@ -1701,9 +1701,9 @@ schematic.
 ### Params
 
 -   **tLogInfo** **(Table)**
-    -   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit who
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit who
         crafted the item. This should always be the current player.
-    -   **itemCrafted** **([Item](../Classes/Item.html))** - The item
+    -   **itemCrafted** **([Item](../Classes/Item.md))** - The item
         that the player crafted.
 
 ------------------------------------------------------------------------
@@ -1720,19 +1720,19 @@ Fires when a unit takes damage.
 ### Params
 
 -   **tLogInfo** **(Table)**
-    -   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit who
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit who
         used the spell that caused the damage.
-    -   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The
+    -   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The
         player that owns the unit who dealt the damage. This only
         applies if the unitCaster is a pet.
-    -   **unitTarget** **([Unit](../Classes/Unit.html))** - The target of
+    -   **unitTarget** **([Unit](../Classes/Unit.md))** - The target of
         the ability.
-    -   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The unit
+    -   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The unit
         that owns the unitTarget. This only exists if unitTarget is a
         pet.
     -   **eCombatResult** **(GameLib.CodeEnumCombatResult)** - The
         effect of the ability on its target.
-    -   **splCallingSpell** **([Spell](../Classes/Spell.html))** - The
+    -   **splCallingSpell** **([Spell](../Classes/Spell.md))** - The
         spell that caused the damage.
     -   **nDamageAmount** **(Integer)** - The amount of damage done by
         the spell.
@@ -1778,7 +1778,7 @@ in the world.
 ### Params
 
 -   **tLogInfo** **(Table)**
-    -   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
         activated the datacube. This will always be the current player.
     -   **eDatacubeType** **(Integer)** - The type of datacube. This can
         be either DatacubeLib.DatacubeType\_Datacube,
@@ -1802,7 +1802,7 @@ Fires when the player dies.
 ### Params
 
 -   **tLogInfo** **(Table)**
-    -   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
         died. This will always be the current player.
 
 ------------------------------------------------------------------------
@@ -1819,19 +1819,19 @@ Fires when a unit deflects an attack.
 ### Params
 
 -   **tLogInfo** **(Table)**
-    -   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
         used the spell.
-    -   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The unit
+    -   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The unit
         that owns unitCaster. This variable only exists if unitCaster is
         a pet.
-    -   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that
+    -   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that
         deflected the spell.
-    -   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The unit
+    -   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The unit
         that owns unitTarget. This only exists if unitTarget is a pet.
     -   **eCombatResult** **(GameLib.CodeEnumCombatResult)** - The
         result of the attack. This should always be
         GameLib.CodeEnumCombatResult.Avoid
-    -   **splCallingSpell** **([Spell](../Classes/Spell.html))** - The
+    -   **splCallingSpell** **([Spell](../Classes/Spell.md))** - The
         ability that was used in the attack.
 
 ------------------------------------------------------------------------
@@ -1858,19 +1858,19 @@ Fires when a buff or debuff is dispelled.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     used the spell that triggered the event.
--   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The unit who
+-   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The unit who
     owns unitCaster. This only applies if unitCaster is a pet.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that the
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that the
     buff/debuff was dispelled from.
--   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The unit
+-   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The unit
     that owns unitTarget. This only applies if unitTarget is a pet.
 -   **bRemoveSingleInstance** **(Boolean)** - Whether or not a single
     stack of the buff is removed.
 -   **nInstancesRemoved** **(Integer)** - The number of stacks of the
     buff that are removed from the unit.
--   **splRemovedSpell** **([Spell](../Classes/Spell.html))** - The spell
+-   **splRemovedSpell** **([Spell](../Classes/Spell.md))** - The spell
     that was removed from the unit.
 
 ------------------------------------------------------------------------
@@ -1886,7 +1886,7 @@ Fires when a player's equipment loses a point of durability.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit wearing
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit wearing
     the equipment that lost durability. This will always be the current
     player.
 -   **nAmount** **(Integer)** - The amount of durability that was lost.
@@ -1904,7 +1904,7 @@ Fires when the player reaches the daily cap of elder points.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     reached their Elder Point Cap. This should always be the current
     player.
 
@@ -1921,9 +1921,9 @@ Fires whenever the player gains non-credit currencies.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     gained the currency. This is always the current player.
--   **monLoot** **([Money](../Classes/Money.html))** - The currency that
+-   **monLoot** **([Money](../Classes/Money.md))** - The currency that
     was gained.
 
 ------------------------------------------------------------------------
@@ -1939,7 +1939,7 @@ Fires whenever the player gaines experience or elder points.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     gained the experience or elder points. This will always be the
     current player.
 -   **nXP** **(Integer)** - The base amount of experience gained.
@@ -1970,7 +1970,7 @@ Fires whenever the player takes fall damage
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     took the falling damage. This should always be the current player.
 -   **nAmount** **(Integer)** - The amount of damage the player took.
 
@@ -1987,13 +1987,13 @@ Fires whenever a unit gets healed.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit who used
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit who used
     the spell that caused the heal.
--   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The owner of
+-   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The owner of
     unitCaster. This only applies if unitCaster is a pet.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that
     received the heal.
--   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The unit
+-   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The unit
     that owns unitTarget. This only applies if unitTarget is a pet.
 -   **nHealAmount** **(Integer)** - The amount missing health that was
     healed for the target. This value does not include overheals.
@@ -2002,7 +2002,7 @@ Fires whenever a unit gets healed.
 -   **eCombatResult** **(GameLib.CodeEnumCombatResult)** - A number
     representing any special things that went on with the spell, such as
     a critical hit.
--   **splCallingSpell** **([Spell](../Classes/Spell.html))** - The spell
+-   **splCallingSpell** **([Spell](../Classes/Spell.md))** - The spell
     that was used for the heal.
 -   **eEffectType** **(Spell.CodeEnumSpellEffectType)** - The effect the
     spell has on the target.
@@ -2028,19 +2028,19 @@ interrupted their own spell cast.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     cast the spell that caused the interrupt.
--   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The owner of
+-   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The owner of
     unitCaster. This only applies if unitCaster is a pet.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that was
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that was
     interrupted.
--   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The owner of
+-   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The owner of
     unitTarget. This only applies if unitTarget is a pet.
 -   **eCombatResult** **(Integer)** - The result the spell that was
     used.
--   **splCallingSpell** **([Spell](../Classes/Spell.html))** - The spell
+-   **splCallingSpell** **([Spell](../Classes/Spell.md))** - The spell
     that was interrupted.
--   **splInterruptingSpell** **([Spell](../Classes/Spell.html))** - The
+-   **splInterruptingSpell** **([Spell](../Classes/Spell.md))** - The
     spell that caused the interrupt.
 -   **eCastResult** **(Spell.CodeEnumCastResult)** - Explains why the
     spell was interrupted.
@@ -2060,9 +2060,9 @@ Fires when the player destroys an item.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     destroyed the item.
--   **itemDestroyed** **([Item](../Classes/Item.html))** - The item that
+-   **itemDestroyed** **([Item](../Classes/Item.md))** - The item that
     was destroyed.
 
 ### Remarks
@@ -2083,17 +2083,17 @@ Fires when a player assists in a PvP kill.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     assisted in the kill.
--   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The unit
+-   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The unit
     that owns unitCaster. This only applies if unitCaster is a pet.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that was
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that was
     killed in PvP.
--   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The unit
+-   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The unit
     that owns unitTarget. This only applies if unitTarget was a pet.
 -   **eCombatResult** **(GameLib.CodeEnumCombatResult)** - The result of
     using the ability.
--   **splCallingSpell** **([Spell](../Classes/Spell.html))** - The spell
+-   **splCallingSpell** **([Spell](../Classes/Spell.md))** - The spell
     that killed the player.
 
 ### Remarks
@@ -2114,10 +2114,10 @@ Fires when the player gets multiple kills in quick succession.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that got
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that got
     the kill streak. This should either be the current player or one of
     their pets.
--   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The unit
+-   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The unit
     that owns unitCaster. This only applies if unitCaster is a pet.
 -   **eStatType** **(CombatFloater.CodeEnumCombatMomentum)** - The type
     of streak the player is on.
@@ -2136,7 +2136,7 @@ Fires when a player changes their Limited Action Set.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     changed their Limited Action Set. This should always be the current
     player.
 
@@ -2162,12 +2162,12 @@ player via the group's looting system.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     received the money or item.
--   **monLoot** **([Money](../Classes/Money.html))** - The money object
+-   **monLoot** **([Money](../Classes/Money.md))** - The money object
     for the money that was looted. If there was no money looted, this
     will be nil.
--   **itemLoot** **([Item](../Classes/Item.html))** - The item that was
+-   **itemLoot** **([Item](../Classes/Item.md))** - The item that was
     looted. If no item was looted in this event, this will be nil.
 -   **nItemAmount** **(Integer)** - The stack size of itemLooted for
     this event. If money was looted in this event and not an item, this
@@ -2182,11 +2182,11 @@ CombatLogModifying
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     fired this event.
--   **itemHost** **([Item](../Classes/Item.html))**
--   **itemRemoved** **([Item](../Classes/Item.html))**
--   **itemAdded** **([Item](../Classes/Item.html))**
+-   **itemHost** **([Item](../Classes/Item.md))**
+-   **itemRemoved** **([Item](../Classes/Item.md))**
+-   **itemAdded** **([Item](../Classes/Item.md))**
 
 ------------------------------------------------------------------------
 
@@ -2201,13 +2201,13 @@ Fires whenever a player gains or loses interrupt armor.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit who
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit who
     caused a player's interrupt armor to change
--   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The owner of
+-   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The owner of
     unitCaster. This is nil if unitCaster is not a pet.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit whose
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit whose
     interrupt armor was changed.
--   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The player
+-   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The player
     who owns unitTarget. This is nil if unitTarget is not a pet.
 -   **nAmount** **(Integer)** - The change in the unit's interrupt
     armor.
@@ -2225,7 +2225,7 @@ Fires if the player mounts or dismounts.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The player that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The player that
     mounted.
 -   **bDismounted** **(Boolean)** - Whether or not the player
     dismounted.
@@ -2264,11 +2264,11 @@ Fires whenever a player summons or despawns a pet, or a pet dies.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit who used
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit who used
     the ability to summon, kill, or despawn the pet.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The pet that was
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The pet that was
     spawned.
--   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The unit
+-   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The unit
     that owns the pet. This is the current player.
 -   **bDismissed** **(Boolean)** - Whether or not the pet was despawned.
 -   **bKilled** **(Boolean)** - Whether or not the pet was killed.
@@ -2296,7 +2296,7 @@ resurrection.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that was
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that was
     resurrected.
 
 ------------------------------------------------------------------------
@@ -2312,7 +2312,7 @@ Fires whenever the player enters or leaves stealth.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit whose
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit whose
     stealth state has changed.
 -   **bExiting** **(Boolean)** - Whether or not the player left stealth.
 
@@ -2346,17 +2346,17 @@ Fires whenever a spell does damage and heals the user at the same time.
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit who used
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit who used
     the spell that triggered the event.
--   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The player
+-   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The player
     that owns unitCaster. This only applies if unitCaster was a pet.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that was
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that was
     affected by the spell that triggered this event.
--   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The unit who
+-   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The unit who
     owns unitTarget. This only applies if unitTarget is a pet.
 -   **eCombatResult** **(GameLib.CodeEnumCombatResult)** - The effect of
     the spell that triggered the event.
--   **splCallingSpell** **([Spell](../Classes/Spell.html))** - The spell
+-   **splCallingSpell** **([Spell](../Classes/Spell.md))** - The spell
     that triggered the event.
 -   **nDamageAmount** **(Integer)** - The amount of damage done to
     unitTarget.
@@ -2394,17 +2394,17 @@ CombatLogVitalModifier (Deprecated)
 
 ### Params
 
--   **unitCaster** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitCaster** **([Unit](../Classes/Unit.md))** - The unit that
     used the spell that caused the event to fire.
--   **unitCasterOwner** **([Unit](../Classes/Unit.html))** - The unit
+-   **unitCasterOwner** **([Unit](../Classes/Unit.md))** - The unit
     that owns unitCaster. This only applies if unitCaster is a pet.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that was
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that was
     the target of the spell.
--   **unitTargetOwner** **([Unit](../Classes/Unit.html))** - The unit
+-   **unitTargetOwner** **([Unit](../Classes/Unit.md))** - The unit
     that owns unitTarget. This only applies if unitTarget is a pet.
 -   **eCombatResult** **(GameLib.CodeEnumCombatResult)** - The spell's
     effect on the target.
--   **splCallingSpell** **([Spell](../Classes/Spell.html))** - The spell
+-   **splCallingSpell** **([Spell](../Classes/Spell.md))** - The spell
     that caused the event to fire.
 -   **nAmount** **(Integer)** - How much the specified vital is modified
     by.
@@ -2448,7 +2448,7 @@ partially filled by another player.
 -   **nFilledCount** **(Integer)** - How many items in the order were
     actually bought or sold.
 -   **orderFilled**
-    **([CommodityOrder](../Classes/CommodityOrder.html))** - The order
+    **([CommodityOrder](../Classes/CommodityOrder.md))** - The order
     that was partially filled.
 
 ------------------------------------------------------------------------
@@ -2469,7 +2469,7 @@ Exchange.
     auction was removed from the Commodities Exchange. This will either
     be Fill, Expire, or Cancel.
 -   **orderRemoved**
-    **([CommodityOrder](../Classes/CommodityOrder.html))** - The order
+    **([CommodityOrder](../Classes/CommodityOrder.md))** - The order
     that was removed from the Commodities Exchange.
 
 ------------------------------------------------------------------------
@@ -2516,17 +2516,17 @@ item.
     -   **nSellOrderCount** **(Integer)** - The number of sell orders
         out for the item.
     -   **arBuyOrderPrices** **(Array of Table)**
-        -   **monPrice** **([Money](../Classes/Money.html))** - The
+        -   **monPrice** **([Money](../Classes/Money.md))** - The
             amount that the buy order is paying per item.
         -   **nCount** **(Integer)** - The number of items that the buy
             order will purchase before it is fulfilled.
     -   **arSellOrderPrices** **(Array of Table)**
-        -   **monPrice** **([Money](../Classes/Money.html))** - The sell
+        -   **monPrice** **([Money](../Classes/Money.md))** - The sell
             order's price per item.
         -   **nCount** **(Integer)** - The number of items in the sell
             order.
 -   **arOrders** **(Array of
-    [CommodityOrder](../Classes/CommodityOrder.html))** - A listing of
+    [CommodityOrder](../Classes/CommodityOrder.md))** - A listing of
     all of the buy and sell orders open for the item.
 
 ------------------------------------------------------------------------
@@ -2673,7 +2673,7 @@ when the mouse button is raised.
 
 ### Params
 
--   **itemMod** **([Item](../Classes/Item.html))** - The item that the
+-   **itemMod** **([Item](../Classes/Item.md))** - The item that the
     player is attempting to moddify.
 
 ------------------------------------------------------------------------
@@ -2780,17 +2780,17 @@ the server.
     -   **nSellOrderCount** **(Integer)** - The number of CREDD sell
         orders that are open.
     -   **arBuyOrderPrices** **(Array of Table)**
-        -   **monPrice** **([Money](../Classes/Money.html))** - The
+        -   **monPrice** **([Money](../Classes/Money.md))** - The
             amount that the buy order is paying for CREDD.
         -   **nCount** **(Integer)** - The number of CREDD that the buy
             order tries to buy before it is fulfilled.
     -   **arSellOrderPrices** **(Array of Table)**
-        -   **monPrice** **([Money](../Classes/Money.html))** - The
+        -   **monPrice** **([Money](../Classes/Money.md))** - The
             amount of money the sell order is asking for each CREDD.
         -   **nCount** **(Integer)** - The number of CREDD available in
             the sell order.
 -   **arOrders** **(Array of
-    [CREDDExchangeOrder](../Classes/CREDDExchangeOrder.html))** - A table
+    [CREDDExchangeOrder](../Classes/CREDDExchangeOrder.md))** - A table
     with all the CREDD buy and sell orders.
 
 ------------------------------------------------------------------------
@@ -2831,7 +2831,7 @@ Returns the results of the CREDDExchangeLib.GetCREDDHistory() call.
         The type of operation performed in entry.
     -   **bInitiator** **(Boolean)** - Whether or not the player set up
         the buy or sell order for this entry.
-    -   **monAmount** **([Money](../Classes/Money.html))** - The amount
+    -   **monAmount** **([Money](../Classes/Money.md))** - The amount
         of money exchanged in this entry.
     -   **nLogAge** **(Float)** - How long ago the listed operation took
         place, in days.
@@ -3003,9 +3003,9 @@ does not have yet.
 
 ### Params
 
--   **queShared** **([Quest](../Classes/Quest.html))** - The quest that
+-   **queShared** **([Quest](../Classes/Quest.md))** - The quest that
     the player is attempting to share.
--   **unitSharingPlayer** **([Unit](../Classes/Unit.html))** - The unit
+-   **unitSharingPlayer** **([Unit](../Classes/Unit.md))** - The unit
     that shared the quest.
 
 ------------------------------------------------------------------------
@@ -3041,7 +3041,7 @@ provided Ids.
 -   **nStateId** **(Integer)** - The id of the state, such as
     DialogState\_TopicChoice or DialogState\_QuestAccept or
     DialogState\_QuestComplete or more.
--   **queDialog** **([Quest](../Classes/Quest.html))** - The quest
+-   **queDialog** **([Quest](../Classes/Quest.md))** - The quest
     associated with the dialog tree.
 
 ------------------------------------------------------------------------
@@ -3122,7 +3122,7 @@ Fires whenever the player's duel state changes.
 
 ### Params
 
--   **unitDueling** **([Unit](../Classes/Unit.html))** - The player's
+-   **unitDueling** **([Unit](../Classes/Unit.md))** - The player's
     duel opponent.
 -   **eDuelState** **(GameLib.CodeEnumDuelState)** - The duel state that
     the player has entered.
@@ -3246,7 +3246,7 @@ should be shown.
 
 ### Params
 
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit who
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit who
     gained the reputation. This should always be the current player.
 -   **strMessage** **(String)** - The string that should be displayed in
     the floating text.
@@ -3695,7 +3695,7 @@ Galactic Archive Article.
 ### Params
 
 -   **artNewArticle**
-    **([GalacticArchiveArticle](../Classes/GalacticArchiveArticle.html))** -
+    **([GalacticArchiveArticle](../Classes/GalacticArchiveArticle.md))** -
     The article that was just unlocked.
 
 ------------------------------------------------------------------------
@@ -3713,10 +3713,10 @@ Archive Article.
 ### Params
 
 -   **artParent**
-    **([GalacticArchiveArticle](../Classes/GalacticArchiveArticle.html))** -
+    **([GalacticArchiveArticle](../Classes/GalacticArchiveArticle.md))** -
     The article that this entry belongs to.
 -   **entUnlocked**
-    **([GalacticArchiveEntry](../Classes/GalacticArchiveEntry.html))** -
+    **([GalacticArchiveEntry](../Classes/GalacticArchiveEntry.md))** -
     The newly unlocked entry.
 
 ------------------------------------------------------------------------
@@ -3733,7 +3733,7 @@ Fired whenever a player clicks a link in a Galactic Archive article.
 ### Params
 
 -   **artLinkTarget**
-    **([GalacticArchiveArticle](../Classes/GalacticArchiveArticle.html))** -
+    **([GalacticArchiveArticle](../Classes/GalacticArchiveArticle.md))** -
     The target of the link that was clicked.
 
 ------------------------------------------------------------------------
@@ -3789,7 +3789,7 @@ Fires whenever the player left clicks on a unit in game.
 
 ### Params
 
--   **unitSelected** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitSelected** **([Unit](../Classes/Unit.md))** - The unit that
     was clicked on.
 
 ------------------------------------------------------------------------
@@ -3805,7 +3805,7 @@ Fires whenever the player left clicks a location in the world.
 
 ### Params
 
--   **vec3Location** **([Vector3](../Classes/Vector3.html))** - The
+-   **vec3Location** **([Vector3](../Classes/Vector3.md))** - The
     location where the player clicked in the world.
 
 ------------------------------------------------------------------------
@@ -3871,7 +3871,7 @@ GenericMap.
 ### Params
 
 -   **mapDisabled**
-    **([GenericMapNode](../Classes/GenericMapNode.html))** - The
+    **([GenericMapNode](../Classes/GenericMapNode.md))** - The
     GenericMapNode that was disabled.
 
 ------------------------------------------------------------------------
@@ -3889,7 +3889,7 @@ GenericMap.
 ### Params
 
 -   **mapEnabled**
-    **([GenericMapNode](../Classes/GenericMapNode.html))** - The
+    **([GenericMapNode](../Classes/GenericMapNode.md))** - The
     GenericMapNode that was enabled.
 
 ------------------------------------------------------------------------
@@ -3910,7 +3910,7 @@ Fires when the generic map should be shown to the player.
     -   **bEnabled** **(Boolean)** - Whether or not the map node is
         enabled when the map is shown.
     -   **oNode**
-        **([GenericMapNode](../Classes/GenericMapNode.html))** - A
+        **([GenericMapNode](../Classes/GenericMapNode.md))** - A
         GenericMapNode that should be placed on the map.
 
 ------------------------------------------------------------------------
@@ -4085,7 +4085,7 @@ character and whenever they stop mentoring someone.
 ### Params
 
 -   **arMentorTargets** **(Table)**
-    -   **unitMentee** **([Unit](../Classes/Unit.html))** - The unit that
+    -   **unitMentee** **([Unit](../Classes/Unit.md))** - The unit that
         can be mentored.
     -   **tMemberInfo** **(Table)**
         -   **nMemberIdx** **(Integer)** - The member's index in the
@@ -4200,9 +4200,9 @@ passed to every member in the group.
 
 ### Params
 
--   **unitMentor** **([Unit](../Classes/Unit.html))** - The unit that is
+-   **unitMentor** **([Unit](../Classes/Unit.md))** - The unit that is
     mentoring the other member.
--   **unitMentee** **([Unit](../Classes/Unit.html))** - The unit being
+-   **unitMentee** **([Unit](../Classes/Unit.md))** - The unit being
     mentored.
 
 ------------------------------------------------------------------------
@@ -4321,7 +4321,7 @@ Fires whenever a group member sets a target marker on a unit.
 
 -   **idMarker** **(Integer)** - The id number of the target marker that
     was placed on the unit.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit the
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit the
     marker was placed on.
 
 ------------------------------------------------------------------------
@@ -4450,7 +4450,7 @@ Fires whenever the player interacts with a guild bank.
 
 ### Params
 
--   **unitBank** **([Unit](../Classes/Unit.html))** - The unit that the
+-   **unitBank** **([Unit](../Classes/Unit.md))** - The unit that the
     player interacted with to open the guild bank.
 
 ------------------------------------------------------------------------
@@ -4467,7 +4467,7 @@ to a different slot within the bank.
 
 ### Params
 
--   **guildOwner** **([Guild](../Classes/Guild.html))** - The guild that
+-   **guildOwner** **([Guild](../Classes/Guild.md))** - The guild that
     owns the bank.
 -   **eGuildType** **(Integer)** - The type of guild that owns the bank.
     This should always be GuildLib.GuildType\_Guild.
@@ -4490,7 +4490,7 @@ Guild:RequestMoneyLogs(), and Guild:RequestRepairLogs().
 
 ### Params
 
--   **guildOwner** **([Guild](../Classes/Guild.html))** - The guild that
+-   **guildOwner** **([Guild](../Classes/Guild.md))** - The guild that
     owns the bank that the logs belong to.
 -   **arLogs** **(Array of Table)** - Each log entry contains the name
     of the player who performed the action and the time since the action
@@ -4514,19 +4514,19 @@ Guild:RequestMoneyLogs(), and Guild:RequestRepairLogs().
         the action in the log.
     -   **fOccuredAgoDays** **(Float)** - The amount of time since the
         action was created (in days).
-    -   **uMoneyDeposit** **([Money](../Classes/Money.html))** - The
+    -   **uMoneyDeposit** **([Money](../Classes/Money.md))** - The
         money that was deposited in the bank.
-    -   **uMoneyWithdraw** **([Money](../Classes/Money.html))** - The
+    -   **uMoneyWithdraw** **([Money](../Classes/Money.md))** - The
         money that was withdrawn from the bank.
-    -   **uRepairWithdraw** **([Money](../Classes/Money.html))** - The
+    -   **uRepairWithdraw** **([Money](../Classes/Money.md))** - The
         money that was spent on a guild repair.
     -   **nTab** **(Integer)** - The tab that an item was added or
         removed from.
     -   **nStack** **(Integer)** - The number of items in the stack that
         was added or removed from the guild bank.
-    -   **uItemDeposit** **([Item](../Classes/Item.html))** - The item
+    -   **uItemDeposit** **([Item](../Classes/Item.md))** - The item
         that was deposited in the guild bank.
-    -   **uItemWithdraw** **([Item](../Classes/Item.html))** - The item
+    -   **uItemWithdraw** **([Item](../Classes/Item.md))** - The item
         that was withdrawn from the guild bank.
 
 ------------------------------------------------------------------------
@@ -4543,7 +4543,7 @@ successfully opened.
 
 ### Params
 
--   **guildOwner** **([Guild](../Classes/Guild.html))** - The guild who
+-   **guildOwner** **([Guild](../Classes/Guild.md))** - The guild who
     owns the bank that the player is interacting with.
 -   **nTab** **(Integer)** - The index of the tab that was opened.
 
@@ -4560,7 +4560,7 @@ Fires whenever a Bank Tab perk is purchased for the guild.
 
 ### Params
 
--   **guildOwner** **([Guild](../Classes/Guild.html))** - The guild who
+-   **guildOwner** **([Guild](../Classes/Guild.md))** - The guild who
     owns the bank that the tab was added to.
 
 ------------------------------------------------------------------------
@@ -4578,7 +4578,7 @@ called for each tab.
 
 ### Params
 
--   **guildOwner** **([Guild](../Classes/Guild.html))** - The guild who
+-   **guildOwner** **([Guild](../Classes/Guild.md))** - The guild who
     owns the bank that contains the renamed tab.
 
 ------------------------------------------------------------------------
@@ -4596,7 +4596,7 @@ action.
 
 ### Params
 
--   **guildOwner** **([Guild](../Classes/Guild.html))** - The guild who
+-   **guildOwner** **([Guild](../Classes/Guild.md))** - The guild who
     owns the bank that the player withdrew from.
 
 ------------------------------------------------------------------------
@@ -4640,7 +4640,7 @@ Guild:RequestEventLogList()
 
 ### Params
 
--   **guildSource** **([Guild](../Classes/Guild.html))** - The guild
+-   **guildSource** **([Guild](../Classes/Guild.md))** - The guild
     whose logs have changed.
 
 ------------------------------------------------------------------------
@@ -4656,7 +4656,7 @@ Fires whenever the guild turns taxes or recruitment on or off.
 
 ### Params
 
--   **guildUpdated** **([Guild](../Classes/Guild.html))** - The guild
+-   **guildUpdated** **([Guild](../Classes/Guild.md))** - The guild
     whose flags have been updated.
 
 ------------------------------------------------------------------------
@@ -4673,11 +4673,11 @@ spent.
 
 ### Params
 
--   **guildUpdated** **([Guild](../Classes/Guild.html))** - The guild
+-   **guildUpdated** **([Guild](../Classes/Guild.md))** - The guild
     whose influence or credits were updated.
 -   **nInfluence** **(Integer)** - The amount of influence the guild has
     after the update.
--   **monUpdated** **([Money](../Classes/Money.html))** - The amount of
+-   **monUpdated** **([Money](../Classes/Money.md))** - The amount of
     money the guild has after the update.
 -   **nBonusInfluenceRemaining** **(Integer)** - The amount of bonus
     influence remaining after the update.
@@ -4695,7 +4695,7 @@ Fires whenever a guild's Info Message is updated.
 
 ### Params
 
--   **guildOwner** **([Guild](../Classes/Guild.html))** - The guild whose
+-   **guildOwner** **([Guild](../Classes/Guild.md))** - The guild whose
     Info Message has changed.
 
 ------------------------------------------------------------------------
@@ -4739,7 +4739,7 @@ note.
 
 ### Params
 
--   **guildUpdated** **([Guild](../Classes/Guild.html))** - The guild
+-   **guildUpdated** **([Guild](../Classes/Guild.md))** - The guild
     whose member's info changed.
 
 ------------------------------------------------------------------------
@@ -4756,7 +4756,7 @@ the player logs in on a character.
 
 ### Params
 
--   **guildOwner** **([Guild](../Classes/Guild.html))** - The guild that
+-   **guildOwner** **([Guild](../Classes/Guild.md))** - The guild that
     the Message of the Day belongs to.
 
 ### Remarks
@@ -4779,7 +4779,7 @@ player or GM sets up a new guild name after a forced name change.
 
 ### Params
 
--   **guildUpdated** **([Guild](../Classes/Guild.html))** - The guild
+-   **guildUpdated** **([Guild](../Classes/Guild.md))** - The guild
     whose name was updated.
 
 ------------------------------------------------------------------------
@@ -4796,7 +4796,7 @@ event only fires for the character that changed the nameplate.
 
 ### Params
 
--   **guildShown** **([Guild](../Classes/Guild.html))** - The guild that
+-   **guildShown** **([Guild](../Classes/Guild.md))** - The guild that
     the player selected to show on their nameplate.
 
 ------------------------------------------------------------------------
@@ -4812,7 +4812,7 @@ Fires whenever a limited duration guild perk has been activated.
 
 ### Params
 
--   **guildActivated** **([Guild](../Classes/Guild.html))** - The guild
+-   **guildActivated** **([Guild](../Classes/Guild.md))** - The guild
     that the perk was activated for.
 -   **idGuildPerk** **(Integer)** - The id number of the guild perk that
     was activated.
@@ -4830,7 +4830,7 @@ Fires whenever a guild perk is turned off or runs out of time.
 
 ### Params
 
--   **guildUpdated** **([Guild](../Classes/Guild.html))** - The guild
+-   **guildUpdated** **([Guild](../Classes/Guild.md))** - The guild
     whose perk was turned off.
 
 ------------------------------------------------------------------------
@@ -4854,7 +4854,7 @@ has updated.
 
 ### Params
 
--   **guildUpdated** **([Guild](../Classes/Guild.html))**
+-   **guildUpdated** **([Guild](../Classes/Guild.md))**
 
 ------------------------------------------------------------------------
 
@@ -4870,7 +4870,7 @@ queue, enters a match, or leaves a match.
 
 ### Params
 
--   **guildUpdated** **([Guild](../Classes/Guild.html))** - The guild
+-   **guildUpdated** **([Guild](../Classes/Guild.md))** - The guild
     who's queue state has updated.
 -   **eOldState** **(Integer)** - The guild's previous queue state. This
     lines up with the GuildLib.GuildQueueState set of constants.
@@ -4899,7 +4899,7 @@ renames a rank, or changes a rank's permissions.
 
 ### Params
 
--   **guildUpdated** **([Guild](../Classes/Guild.html))** - The guild
+-   **guildUpdated** **([Guild](../Classes/Guild.md))** - The guild
     whose rank was updated.
 
 ------------------------------------------------------------------------
@@ -4939,7 +4939,7 @@ messages, operation types, or success messages
 
 ### Params
 
--   **guildSource** **([Guild](../Classes/Guild.html))** - The guild that
+-   **guildSource** **([Guild](../Classes/Guild.md))** - The guild that
     the operation was performed on.
 -   **strTarget** **(String)** - The name of the target of the
     operation. This can be a character name or rank name.
@@ -4984,7 +4984,7 @@ guild's members.
         was involved in with the guild. This only applies for Arena
         Teams and Warparties.
     -   **strNote** **(String)** - The note set by the player.
--   **guildSource** **([Guild](../Classes/Guild.html))** - The guild that
+-   **guildSource** **([Guild](../Classes/Guild.md))** - The guild that
     is returning its member roster.
 
 ------------------------------------------------------------------------
@@ -5000,7 +5000,7 @@ Fires whenever the guild's holomark is updated.
 
 ### Params
 
--   **guildOwner** **([Guild](../Classes/Guild.html))** - The guild that
+-   **guildOwner** **([Guild](../Classes/Guild.md))** - The guild that
     owns the holomark.
 
 ------------------------------------------------------------------------
@@ -5016,7 +5016,7 @@ Fires whenever the Warparty gains or spends warcoins.
 
 ### Params
 
--   **guildUpdated** **([Guild](../Classes/Guild.html))** - The Warparty
+-   **guildUpdated** **([Guild](../Classes/Guild.md))** - The Warparty
     whose warcoins were updated.
 -   **nWarcoinsDelta** **(Integer)** - The change in the number of
     warcoins that the guild has.
@@ -5037,7 +5037,7 @@ owner.
 ### Params
 
 -   **arItemsSent** **(Table)**
-    -   **item** **([Item](../Classes/Item.html))** - The item that is
+    -   **item** **([Item](../Classes/Item.md))** - The item that is
         sent to the plug's owner.
     -   **nCount** **(Integer)** - The stack count of the item that is
         sent to the plug's owner.
@@ -5093,7 +5093,7 @@ removed.
 
 -   **idHazard** **(Integer)** - The id number for the hazard that
     should be removed.
--   **unitRemoved** **([Unit](../Classes/Unit.html))** - The unit used to
+-   **unitRemoved** **([Unit](../Classes/Unit.md))** - The unit used to
     represent the hazard on the minimap.
 
 ------------------------------------------------------------------------
@@ -5110,7 +5110,7 @@ Fires whenever a hazard should be displayed on the minimap.
 ### Params
 
 -   **idHazard** **(Integer)** - The hazard's id number.
--   **unitMarker** **([Unit](../Classes/Unit.html))** - The unit used to
+-   **unitMarker** **([Unit](../Classes/Unit.md))** - The unit used to
     mark the hazard on the minimap.
 -   **bBeneficial** **(Boolean)** - Whether or not the hazard is helpful
     to the player.
@@ -5494,9 +5494,9 @@ function.
 
 ### Params
 
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that the
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that the
     inspect function was called on.
--   **arItems** **(Array of [Item](../Classes/Item.html))** - The items
+-   **arItems** **(Array of [Item](../Classes/Item.md))** - The items
     that unitTarget currently has equipped.
 
 ------------------------------------------------------------------------
@@ -5579,7 +5579,7 @@ Scientist Experimentation minigame.
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     mission that the experimentation minigame belongs to.
 
 ------------------------------------------------------------------------
@@ -5595,10 +5595,10 @@ Fires whenever a settler interacts with a settler depot.
 
 ### Params
 
--   **unitHub** **([Unit](../Classes/Unit.html))** - The settler hub that
+-   **unitHub** **([Unit](../Classes/Unit.md))** - The settler hub that
     the player is interacting with.
 -   **arImprovements** **(Array of
-    [SettlerImprovement](../Classes/SettlerImprovement.html))** - An
+    [SettlerImprovement](../Classes/SettlerImprovement.md))** - An
     array of settler improvements that can be built at this hub.
 
 ------------------------------------------------------------------------
@@ -5628,7 +5628,7 @@ Fires whenever the player interacts with a taxi vendor.
 
 ### Params
 
--   **unitTaxi** **([Unit](../Classes/Unit.html))** - The taxi station
+-   **unitTaxi** **([Unit](../Classes/Unit.md))** - The taxi station
     that the player interacted with.
 -   **bIsSettlerTaxi** **(Boolean)** - Whether or not this taxi station
     was created as a settler improvement.
@@ -5646,7 +5646,7 @@ Fires whenever the player interacts with a tradeskill trainer.
 
 ### Params
 
--   **unitTrainer** **([Unit](../Classes/Unit.html))** - The tradeskill
+-   **unitTrainer** **([Unit](../Classes/Unit.md))** - The tradeskill
     trainer NPC that the player interacted with.
 
 ------------------------------------------------------------------------
@@ -5662,7 +5662,7 @@ Fires whenever the player interacts with a vendor NPC.
 
 ### Params
 
--   **unitVendor** **([Unit](../Classes/Unit.html))** - The vendor that
+-   **unitVendor** **([Unit](../Classes/Unit.md))** - The vendor that
     the player interacted with.
 
 ------------------------------------------------------------------------
@@ -5679,14 +5679,14 @@ other than looting.
 
 ### Params
 
--   **itemBase** **([Item](../Classes/Item.html))** - The base version of
+-   **itemBase** **([Item](../Classes/Item.md))** - The base version of
     the item that was added, before random stats, glyphs, or microchips
     are factored in.
 -   **nCount** **(Integer)** - How many stacks of the item were added to
     the player's inventory.
 -   **eUpdateReason** **(Item.CodeEnumItemUpdateReason)** - A value that
     represents the method that was used to obtain the item.
--   **itemInstance** **([Item](../Classes/Item.html))** - The specific
+-   **itemInstance** **([Item](../Classes/Item.md))** - The specific
     instance of the item. This is the version of the item that the
     player sees in their inventory.
 
@@ -5711,7 +5711,7 @@ person who bought the item selected the "Buy Now" option
 
 ### Params
 
--   **auctBidOn** **([ItemAuction](../Classes/ItemAuction.html))** - The
+-   **auctBidOn** **([ItemAuction](../Classes/ItemAuction.md))** - The
     auction that was bid on.
 
 ------------------------------------------------------------------------
@@ -5731,7 +5731,7 @@ for an item on the auction house.
 -   **eResult** **(GameLib.CodeEnumGenericError)** - The result of the
     player's attempt to place a bid on the auction. A result of Ok means
     the bid was successful.
--   **auctBidOn** **([ItemAuction](../Classes/ItemAuction.html))** - The
+-   **auctBidOn** **([ItemAuction](../Classes/ItemAuction.md))** - The
     auction that the player bid on or bought.
 
 ------------------------------------------------------------------------
@@ -5747,7 +5747,7 @@ Fires whenever an auction's listing expires.
 
 ### Params
 
--   **auctExpired** **([ItemAuction](../Classes/ItemAuction.html))** -
+-   **auctExpired** **([ItemAuction](../Classes/ItemAuction.md))** -
     The auction that expired.
 
 ------------------------------------------------------------------------
@@ -5764,7 +5764,7 @@ the player had bid on.
 
 ### Params
 
--   **auctBidOn** **([ItemAuction](../Classes/ItemAuction.html))** - The
+-   **auctBidOn** **([ItemAuction](../Classes/ItemAuction.md))** - The
     item that the player was outbid on.
 
 ------------------------------------------------------------------------
@@ -5802,7 +5802,7 @@ function.
 -   **nTotalResults** **(Integer)** - The total number of search results
     that the player has received.
 -   **arAuctions** **(Array of
-    [ItemAuction](../Classes/ItemAuction.html))** - An array containing
+    [ItemAuction](../Classes/ItemAuction.md))** - An array containing
     all of the auctions returned in the search results.
 
 ------------------------------------------------------------------------
@@ -5818,7 +5818,7 @@ Fires whenever the player wins an auction.
 
 ### Params
 
--   **auctWon** **([ItemAuction](../Classes/ItemAuction.html))** - The
+-   **auctWon** **([ItemAuction](../Classes/ItemAuction.md))** - The
     auction that the player won.
 
 ------------------------------------------------------------------------
@@ -5837,7 +5837,7 @@ Fires whenever the player tries to cancel one of their auctions.
 -   **eResult** **(GameLib.CodeEnumGenericError)** - The result of the
     player's attempt to cancel the auction. If it was successful, this
     value will be Ok.
--   **auctCanceled** **([ItemAuction](../Classes/ItemAuction.html))** -
+-   **auctCanceled** **([ItemAuction](../Classes/ItemAuction.md))** -
     The auction that the player attempted to cancel.
 
 ------------------------------------------------------------------------
@@ -5868,7 +5868,7 @@ repaired.
 
 ### Params
 
--   **itemUpdated** **([Item](../Classes/Item.html))** - The item whose
+-   **itemUpdated** **([Item](../Classes/Item.md))** - The item whose
     durability changed.
 -   **nPreviousDurability** **(Integer)** - The item's durability before
     the update.
@@ -5887,7 +5887,7 @@ window.
 
 ### Params
 
--   **itemLinked** **([Item](../Classes/Item.html))** - The item that was
+-   **itemLinked** **([Item](../Classes/Item.md))** - The item that was
     linked in chat.
 
 ------------------------------------------------------------------------
@@ -5905,7 +5905,7 @@ slots.
 
 ### Params
 
--   **itemModified** **([Item](../Classes/Item.html))** - The item that
+-   **itemModified** **([Item](../Classes/Item.md))** - The item that
     the player modified.
 
 ------------------------------------------------------------------------
@@ -5923,7 +5923,7 @@ the item, salvaging the item, or selling the item at a vendor.
 
 ### Params
 
--   **itemRemoved** **([Item](../Classes/Item.html))** - The item that
+-   **itemRemoved** **([Item](../Classes/Item.md))** - The item that
     was removed from the player's inventory.
 -   **nCount** **(Integer)** - The stack size of the item that was
     deleted.
@@ -5944,7 +5944,7 @@ crate.
 
 ### Params
 
--   **itemMoved** **([Item](../Classes/Item.html))** - The decor item
+-   **itemMoved** **([Item](../Classes/Item.md))** - The decor item
     that the player placed in their crate.
 -   **nCount** **(Integer)** - The stack size of the item that was sent
     to the crate.
@@ -6011,7 +6011,7 @@ This event is seen by everyone in the party or raid.
 
 ### Params
 
--   **itemAssigned** **([Item](../Classes/Item.html))** - The item that
+-   **itemAssigned** **([Item](../Classes/Item.md))** - The item that
     was assigned to the player.
 -   **strWinnerName** **(String)** - The name of the player that the
     item was assigned to.
@@ -6034,7 +6034,7 @@ Pickup while in a group.
     the Bind on Pickup items that the player is trying to loot.
     -   **nLootId** **(Integer)** - A unique identifier for the item
         that was dropped.
-    -   **itemDrop** **([Item](../Classes/Item.html))** - The item that
+    -   **itemDrop** **([Item](../Classes/Item.md))** - The item that
         was dropped.
 
 ------------------------------------------------------------------------
@@ -6052,7 +6052,7 @@ pass on the item and is sent to every member in the group.
 
 ### Params
 
--   **itemLoot** **([Item](../Classes/Item.html))** - The item that the
+-   **itemLoot** **([Item](../Classes/Item.md))** - The item that the
     players are rolling for.
 -   **strPlayerName** **(String)** - The player that rolled for the
     item.
@@ -6073,7 +6073,7 @@ Greed system.
 
 ### Params
 
--   **itemPassed** **([Item](../Classes/Item.html))** - The item that all
+-   **itemPassed** **([Item](../Classes/Item.md))** - The item that all
     of the players passed on.
 
 ------------------------------------------------------------------------
@@ -6090,7 +6090,7 @@ within the time limit under the Need vs. Greed system.
 
 ### Params
 
--   **itemPassed** **([Item](../Classes/Item.html))** - The item that the
+-   **itemPassed** **([Item](../Classes/Item.md))** - The item that the
     player passed on.
 -   **strPlayerName** **(String)** - The name of the player that passed
     on the item.
@@ -6110,7 +6110,7 @@ loot system.\
 
 ### Params
 
--   **itemRolling** **([Item](../Classes/Item.html))** - The item that
+-   **itemRolling** **([Item](../Classes/Item.md))** - The item that
     the player chose to roll for.
 -   **strPlayerName** **(String)** - The name of the player that chose
     to roll.
@@ -6143,7 +6143,7 @@ system.
 
 ### Params
 
--   **itemWon** **([Item](../Classes/Item.html))** - The item that the
+-   **itemWon** **([Item](../Classes/Item.md))** - The item that the
     player won.
 -   **strWinnerName** **(String)** - The name of the player who won the
     roll.
@@ -6546,7 +6546,7 @@ MatchingGame:InitiateVoteToKick() function.
 
 ### Params
 
--   **unitMember** **([Unit](../Classes/Unit.html))** - The member that
+-   **unitMember** **([Unit](../Classes/Unit.md))** - The member that
     will be kicked if the vote is successful.
 
 ------------------------------------------------------------------------
@@ -6733,7 +6733,7 @@ Fires in response to MarketplaceLib.RequestOwnedCommodityOrders().
 ### Params
 
 -   **arOrders** **(Array of
-    [CommodityOrder](../Classes/CommodityOrder.html))** - An array that
+    [CommodityOrder](../Classes/CommodityOrder.md))** - An array that
     contains the player's open buy and sell orders on the commodity
     exchange.
 
@@ -6751,7 +6751,7 @@ function.
 
 ### Params
 
--   **arAuctions** **([ItemAuction](../Classes/ItemAuction.html))** - An
+-   **arAuctions** **([ItemAuction](../Classes/ItemAuction.md))** - An
     array of the player's open bids and listed items on the auction
     house.
 
@@ -6923,7 +6923,7 @@ the attempt is not successful.
     -   **idPet** **(Integer)** - The id number of the pet.
     -   **nFlairSlotIndex** **(Integer)** - The flair slot that the
         player tried to modify.
-    -   **pcFlair** **([PetFlair](../Classes/PetFlair.html))** - The
+    -   **pcFlair** **([PetFlair](../Classes/PetFlair.md))** - The
         piece of flair that the player tried to set to nFlairSlotIndex.
 -   **eResult** **(PetCustomizationLib.PetCustomizeResult)** - The
     reason why the customization attempt failed.
@@ -6943,7 +6943,7 @@ customization options.
 ### Params
 
 -   **pcCustomization**
-    **([PetCustomization](../Classes/PetCustomization.html))** - The
+    **([PetCustomization](../Classes/PetCustomization.md))** - The
     pet's new customization info.
 
 ------------------------------------------------------------------------
@@ -7044,10 +7044,10 @@ Fires whenever the player equips or removes a piece of equipment.
 
 -   **eSlot** **(GameLib.CodeEnumEquippedItems)** - The equipment slot
     that was updated.
--   **itemNew** **([Item](../Classes/Item.html))** - The item that was
+-   **itemNew** **([Item](../Classes/Item.md))** - The item that was
     placed in the slot after the update. If no item was added, then this
     value will be nil.
--   **itemOld** **([Item](../Classes/Item.html))** - The item that was in
+-   **itemOld** **([Item](../Classes/Item.md))** - The item that was in
     the slot before the update. If the slot was empty, this value will
     be nil.
 
@@ -7100,7 +7100,7 @@ started
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     Tracking mission that can be started at this location.
 
 ------------------------------------------------------------------------
@@ -7117,7 +7117,7 @@ can be started.
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     mission that could have been started from the location that the
     player left.
 
@@ -7134,7 +7134,7 @@ Fires whenever the player fails a Tracking mission.
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     mission that the player failed.
 
 ------------------------------------------------------------------------
@@ -7150,9 +7150,9 @@ Fires whenever the player successfully starts a Tracking mission.
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     Tracking mission that the player started.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that the
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that the
     player is supposed to follow for the mission.
 
 ------------------------------------------------------------------------
@@ -7169,7 +7169,7 @@ its destination before the player.
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     Tracking mission that the player is on.
 -   **nVictoryDelay** **(Integer)** - The amount of time the player has
     to reach the destination before the mission fails.
@@ -7188,7 +7188,7 @@ Hunt mission.
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     Scavenger Hunt mission that was started.
 
 ------------------------------------------------------------------------
@@ -7204,7 +7204,7 @@ Fires whenever progress is made on a multi-step path mission.
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     mission that was advanced.
 
 ------------------------------------------------------------------------
@@ -7220,7 +7220,7 @@ Fires whenever the player completes a path mission.
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     mission that the player just completed.
 
 ------------------------------------------------------------------------
@@ -7244,7 +7244,7 @@ missions are unlocked at once, an event will be fired for each of them.
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     mission that was unlocked.
 
 ------------------------------------------------------------------------
@@ -7272,7 +7272,7 @@ failed.
 
 ### Params
 
--   **pmMission** **([PathMission](../Classes/PathMission.html))** - The
+-   **pmMission** **([PathMission](../Classes/PathMission.md))** - The
     path mission that was updated.
 
 ------------------------------------------------------------------------
@@ -7301,7 +7301,7 @@ episode.
 
 ### Params
 
--   **peCompleted** **([PathEpisode](../Classes/PathEpisode.html))** -
+-   **peCompleted** **([PathEpisode](../Classes/PathEpisode.md))** -
     The path episode that the player completed.
 
 ------------------------------------------------------------------------
@@ -7413,10 +7413,10 @@ placed or an error was thrown.
     operation. This will return the error that is received, or OK if the
     operation was successful.
 -   **orderPosted**
-    **([CommodityOrder](../Classes/CommodityOrder.html))** - The
+    **([CommodityOrder](../Classes/CommodityOrder.md))** - The
     commodity order that the player attempted to post on the Commodities
     Exchange.
--   **monCost** **([Money](../Classes/Money.html))** - The cost to post
+-   **monCost** **([Money](../Classes/Money.md))** - The cost to post
     the order.
 
 ------------------------------------------------------------------------
@@ -7435,7 +7435,7 @@ Fires when the player attempts to post an auction on the Auction House.
 -   **eResult** **(GameLib.CodeEnumGenericError)** - If there was a
     problem posting the auction, this will contain the error explaining
     why it failed. Otherwise, this value will be Ok.
--   **auctPosted** **([ItemAuction](../Classes/ItemAuction.html))** - The
+-   **auctPosted** **([ItemAuction](../Classes/ItemAuction.md))** - The
     auction that the player tried to post.
 
 ------------------------------------------------------------------------
@@ -7466,7 +7466,7 @@ Tradeskill tech tree.
 
 ### Params
 
--   **achUpdated** **([Achievement](../Classes/Achievement.html))** - The
+-   **achUpdated** **([Achievement](../Classes/Achievement.md))** - The
     achievement that go updated.
 
 ------------------------------------------------------------------------
@@ -7583,7 +7583,7 @@ events.
 
 ### Params
 
--   **peEnding** **([PublicEvent](../Classes/PublicEvent.html))** - The
+-   **peEnding** **([PublicEvent](../Classes/PublicEvent.md))** - The
     PublicEvent that was cleared from the active list.
 
 ------------------------------------------------------------------------
@@ -7599,7 +7599,7 @@ Fires when a public event ends.
 
 ### Params
 
--   **peEvent** **([PublicEvent](../Classes/PublicEvent.html))** - The
+-   **peEvent** **([PublicEvent](../Classes/PublicEvent.md))** - The
     public event that ended.
 -   **eReason** **(Integer)** - The reason the event ended. This lines
     up with the PublicEvent.PublicEventParticipantRemoveReason set of
@@ -7705,7 +7705,7 @@ Fires when a public event ends.
             This lines up with the
             PublicEventObjective.PublicEventStatus set of int constants.
         -   **peoObjective**
-            **([PublicEventObjective](../Classes/PublicEventObjective.html))** -
+            **([PublicEventObjective](../Classes/PublicEventObjective.md))** -
             One of the objectives for this event.
 
 ------------------------------------------------------------------------
@@ -7733,7 +7733,7 @@ Fires whenever the player leaves a public event area or zone.
 
 ### Params
 
--   **peEvent** **([PublicEvent](../Classes/PublicEvent.html))** - The
+-   **peEvent** **([PublicEvent](../Classes/PublicEvent.md))** - The
     public event that the player left.
 -   **eReason** **(Integer)** - The reason the event was fired. This
     lines up with the PublicEvent.PublicEventParticipantRemoveReason set
@@ -7753,7 +7753,7 @@ matches.
 
 ### Params
 
--   **peUpdated** **([PublicEvent](../Classes/PublicEvent.html))** - The
+-   **peUpdated** **([PublicEvent](../Classes/PublicEvent.md))** - The
     public event whose stats were updated.
 
 ------------------------------------------------------------------------
@@ -7769,7 +7769,7 @@ Fires whenever a new location is added to a public event.
 
 ### Params
 
--   **peUpdated** **([PublicEvent](../Classes/PublicEvent.html))** - The
+-   **peUpdated** **([PublicEvent](../Classes/PublicEvent.md))** - The
     public event that the location was added to.
 
 ------------------------------------------------------------------------
@@ -7785,7 +7785,7 @@ Fires whenever a location is removed from the public event.
 
 ### Params
 
--   **peUpdated** **([PublicEvent](../Classes/PublicEvent.html))** - The
+-   **peUpdated** **([PublicEvent](../Classes/PublicEvent.md))** - The
     public event that the location was removed from.
 
 ------------------------------------------------------------------------
@@ -7802,7 +7802,7 @@ Fires whenever a location is added to a public event objective.
 ### Params
 
 -   **peoUpdated**
-    **([PublicEventObjective](../Classes/PublicEventObjective.html))** -
+    **([PublicEventObjective](../Classes/PublicEventObjective.md))** -
     The objective that the location was added to.
 
 ------------------------------------------------------------------------
@@ -7819,7 +7819,7 @@ Fires whenever a location is removed from an objective.
 ### Params
 
 -   **peoUpdated**
-    **([PublicEventObjective](../Classes/PublicEventObjective.html))** -
+    **([PublicEventObjective](../Classes/PublicEventObjective.md))** -
     The public event objective that the location was removed from.
 
 ### Usage/Example
@@ -7842,7 +7842,7 @@ Fires whenever a player progresses a public event objective.
 ### Params
 
 -   **peoUpdated**
-    **([PublicEventObjective](../Classes/PublicEventObjective.html))** -
+    **([PublicEventObjective](../Classes/PublicEventObjective.md))** -
     The public event objective that was updated.
 
 ------------------------------------------------------------------------
@@ -7858,7 +7858,7 @@ Fires whenever a public event begins.
 
 ### Params
 
--   **peStarting** **([PublicEvent](../Classes/PublicEvent.html))** - The
+-   **peStarting** **([PublicEvent](../Classes/PublicEvent.md))** - The
     public event that just started.
 
 ------------------------------------------------------------------------
@@ -7874,7 +7874,7 @@ Fires whenever players' public event stats update.
 
 ### Params
 
--   **peUpdated** **([PublicEvent](../Classes/PublicEvent.html))** - The
+-   **peUpdated** **([PublicEvent](../Classes/PublicEvent.md))** - The
     public event whose stats were updated.
 
 ### Remarks
@@ -7903,7 +7903,7 @@ Fires whenever a public event updates.
 
 ### Params
 
--   **peUpdated** **([PublicEvent](../Classes/PublicEvent.html))** - The
+-   **peUpdated** **([PublicEvent](../Classes/PublicEvent.md))** - The
     public event that was updated.
 
 ------------------------------------------------------------------------
@@ -8081,11 +8081,11 @@ floating text related to the quest's state change.
 
 ### Params
 
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit who the
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit who the
     quest belonged to.
 -   **strMessage** **(String)** - The message that should be shown in
     the floating text.
--   **queUpdated** **([Quest](../Classes/Quest.html))** - The quest that
+-   **queUpdated** **([Quest](../Classes/Quest.md))** - The quest that
     was updated.
 
 ------------------------------------------------------------------------
@@ -8119,7 +8119,7 @@ Fires whenever the player makes progress on a quest objective.
 
 ### Params
 
--   **queUpdated** **([Quest](../Classes/Quest.html))** - The quest that
+-   **queUpdated** **([Quest](../Classes/Quest.md))** - The quest that
     the objective belongs to.
 -   **idObjective** **(Integer)** - The id of the quest objective that
     was updated.
@@ -8146,7 +8146,7 @@ Fires whenever the quest's state is updated.
 
 ### Params
 
--   **queUpdated** **([Quest](../Classes/Quest.html))** - The quest whose
+-   **queUpdated** **([Quest](../Classes/Quest.md))** - The quest whose
     state was changed.
 -   **eState** **(Integer)** - The quest's new state. This value lines
     up with the Quest.QuestState set of int constants.
@@ -8164,7 +8164,7 @@ Fires whenever a quest becomes tracked or untracked.
 
 ### Params
 
--   **queUpdated** **([Quest](../Classes/Quest.html))** - The quest that
+-   **queUpdated** **([Quest](../Classes/Quest.md))** - The quest that
     was updated.
 -   **bTracked** **(Boolean)** - Whether the quest is now tracked or
     not.
@@ -8359,7 +8359,7 @@ Fires whenever a CC state is removed from a unit.
 
 -   **eState** **(Unit.CodeEnumCCState)** - The CC state that was
     removed from the unit.
--   **unitSource** **([Unit](../Classes/Unit.html))** - The unit that the
+-   **unitSource** **([Unit](../Classes/Unit.md))** - The unit that the
     CC state was removed from.
 
 ------------------------------------------------------------------------
@@ -8393,7 +8393,7 @@ or path mission is removed from the character.
 
 ### Params
 
--   **spellData** **([Spell](../Classes/Spell.html))** - The spell that
+-   **spellData** **([Spell](../Classes/Spell.md))** - The spell that
     was removed from the character.
 -   **eReason** **(Integer)** - The reason the player had the spell.
 -   **idSource** **(Integer)** - The id number of the quest, quest
@@ -8508,7 +8508,7 @@ Fires whenever the player interacts with a Resource Conversion NPC.
 
 ### Params
 
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The resource
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The resource
     conversion NPC that the player interacted with.
 
 ------------------------------------------------------------------------
@@ -8647,7 +8647,7 @@ Fires whenever the player builds or adds time to a settler improvement.
 
 -   **idHub** **(Integer)** - The id number of the hub that the player
     built the improvement at.
--   **unitHub** **([Unit](../Classes/Unit.html))** - The settler hub that
+-   **unitHub** **([Unit](../Classes/Unit.md))** - The settler hub that
     the improvement was buit at.
 
 ------------------------------------------------------------------------
@@ -8760,7 +8760,7 @@ ends.
 
 ### Params
 
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit whose
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit whose
     shields are overloaded or lost the overloaded state.
 -   **bOverloaded** **(Boolean)** - Whether the shields entered or left
     the overloaded state.
@@ -8904,7 +8904,7 @@ equipment in a bag window.
 
 ### Params
 
--   **itemPreview** **([Item](../Classes/Item.html))** - The item that
+-   **itemPreview** **([Item](../Classes/Item.md))** - The item that
     the player wants to preview.
 
 ------------------------------------------------------------------------
@@ -9022,7 +9022,7 @@ where to display it.
 -   **strText** **(String)** - The text for the tutorial.
 -   **eAnchor** **(GameLib.CodeEnumTutorialAnchor)** - The anchor that
     the tutorial should be attached to.
--   **wndContainer** **([Window](../WindowControls/Window.html))** - The
+-   **wndContainer** **([Window](../WindowControls/Window.md))** - The
     window where the tutorial is displayed.
 -   **nOffsetX** **(Integer)** - The amount the window is offset from
     the anchor along the X axis.
@@ -9055,7 +9055,7 @@ Holdout NPCs dies.
 
 ### Params
 
--   **solHoldout** **([SoldierEvent](../Classes/SoldierEvent.html))** -
+-   **solHoldout** **([SoldierEvent](../Classes/SoldierEvent.md))** -
     The holdout that the player was participating in.
 
 ------------------------------------------------------------------------
@@ -9073,7 +9073,7 @@ holdout.
 
 ### Params
 
--   **solHoldout** **([SoldierEvent](../Classes/SoldierEvent.html))** -
+-   **solHoldout** **([SoldierEvent](../Classes/SoldierEvent.md))** -
     The holdout that ended.
 -   **eReason** **(Integer)** - The reason the holdout ended. This value
     lines up with the PathMission.PlayerPathSoldierResult set of int
@@ -9093,7 +9093,7 @@ fires for everyone participating in the holdout.
 
 ### Params
 
--   **solHoldout** **([SoldierEvent](../Classes/SoldierEvent.html))** -
+-   **solHoldout** **([SoldierEvent](../Classes/SoldierEvent.md))** -
     The holdout that triggered the event.
 
 ------------------------------------------------------------------------
@@ -9110,7 +9110,7 @@ involved in the holdout.
 
 ### Params
 
--   **solUpdated** **([SoldierEvent](../Classes/SoldierEvent.html))** -
+-   **solUpdated** **([SoldierEvent](../Classes/SoldierEvent.md))** -
     The soldier event whose state was updated.
 
 ------------------------------------------------------------------------
@@ -9163,7 +9163,7 @@ stack.
 
 ### Params
 
--   **itemSplitting** **([Item](../Classes/Item.html))** - The item stack
+-   **itemSplitting** **([Item](../Classes/Item.md))** - The item stack
     that the player is trying to split.
 
 ------------------------------------------------------------------------
@@ -9428,23 +9428,23 @@ updated.
 
 ### Params
 
--   **unitTarget1** **([Unit](../Classes/Unit.html))** - The player at
+-   **unitTarget1** **([Unit](../Classes/Unit.md))** - The player at
     the top of the threat list.
 -   **nTarget1Threat** **(Integer)** - unitTarget1's threat vs. the
     target unit.
--   **unitTarget2** **([Unit](../Classes/Unit.html))** - The unit with
+-   **unitTarget2** **([Unit](../Classes/Unit.md))** - The unit with
     the second highest threat against the target unit.
 -   **nTarget2Threat** **(Integer)** - unitTarget2's threat vs. the
     target unit.
--   **unitTarget3** **([Unit](../Classes/Unit.html))** - The unit with
+-   **unitTarget3** **([Unit](../Classes/Unit.md))** - The unit with
     the third highest threat against the target unit.
 -   **nTarget3Threat** **(Integer)** - unitTarget3's threat vs. the
     target unit.
--   **unitTarget4** **([Unit](../Classes/Unit.html))** - The player with
+-   **unitTarget4** **([Unit](../Classes/Unit.md))** - The player with
     the fourth highest threat against the target unit.
 -   **nTarget4Threat** **(Integer)** - unitTarget4's threat vs. the
     target unit.
--   **unitTarget5** **([Unit](../Classes/Unit.html))** - The unit with
+-   **unitTarget5** **([Unit](../Classes/Unit.md))** - The unit with
     the fifth highest threat against the target unit.
 -   **nTarget5Threat** **(Integer)** - unitTarget5's threat vs. the
     target unit.
@@ -9880,7 +9880,7 @@ Fires whenever progress is made on an entry in the player's tech tree.
 
 ### Params
 
--   **achUpdated** **([Achievement](../Classes/Achievement.html))** - The
+-   **achUpdated** **([Achievement](../Classes/Achievement.md))** - The
     tech tree entry that was updated.
 -   **nCurrentProgress** **(Integer)** - The progress the player has
     made towards completing the achievement.
@@ -10161,9 +10161,9 @@ too long.
 
 ### Params
 
--   **unitEvading** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitEvading** **([Unit](../Classes/Unit.md))** - The unit that
     evaded.
--   **unitTarget** **([Unit](../Classes/Unit.html))** - The unit that the
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that the
     NPC was targeting before it evaded.
 -   **eReason** **(Integer)** - The reason that the NPC evaded. This
     should be either 2 (Timeout), 5 (FailedToPath) or 6
@@ -10196,7 +10196,7 @@ to every member of the group.
 
 ### Params
 
--   **unitUpdated** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitUpdated** **([Unit](../Classes/Unit.md))** - The unit that
     was added or removed from the group.
 
 ------------------------------------------------------------------------
@@ -10213,7 +10213,7 @@ nameplate.
 
 ### Params
 
--   **unitUpdated** **([Unit](../Classes/Unit.html))** - The unit whose
+-   **unitUpdated** **([Unit](../Classes/Unit.md))** - The unit whose
     guild tag was updated.
 
 ------------------------------------------------------------------------
@@ -10229,7 +10229,7 @@ Fires whenever a nearby player's level or effective level changes.
 
 ### Params
 
--   **unitUpdated** **([Unit](../Classes/Unit.html))** - The unit whose
+-   **unitUpdated** **([Unit](../Classes/Unit.md))** - The unit whose
     level or effective level changed.
 
 ------------------------------------------------------------------------
@@ -10245,7 +10245,7 @@ Fires whenever a nearby player is added or removed from a guild.
 
 ### Params
 
--   **unitUpdated** **([Unit](../Classes/Unit.html))** - The player that
+-   **unitUpdated** **([Unit](../Classes/Unit.md))** - The player that
     was added to or removed from a guild.
 
 ------------------------------------------------------------------------
@@ -10261,7 +10261,7 @@ Fires whenever a nearby player changes their PvP flag state.
 
 ### Params
 
--   **unitUpdated** **([Unit](../Classes/Unit.html))** - The unit who
+-   **unitUpdated** **([Unit](../Classes/Unit.md))** - The unit who
     toggled their PvP flag state.
 
 ------------------------------------------------------------------------
@@ -10277,7 +10277,7 @@ Fires whenever an unit should display a text bubble over their head.
 
 ### Params
 
--   **unitSpeaker** **([Unit](../Classes/Unit.html))** - The unit that
+-   **unitSpeaker** **([Unit](../Classes/Unit.md))** - The unit that
     the text bubble is attached to.
 -   **strText** **(String)** - The text in the text bubble.
 -   **bImmediate** **(Boolean)** - Whether the text bubble should be
@@ -10309,7 +10309,7 @@ Fires whenever a nearby unit changes their title.
 
 ### Params
 
--   **unitUpdated** **([Unit](../Classes/Unit.html))** - The unit who
+-   **unitUpdated** **([Unit](../Classes/Unit.md))** - The unit who
     changed their title.
 
 ------------------------------------------------------------------------
@@ -10332,7 +10332,7 @@ Fires whenever a unit stops targeting the current player.
 
 ### Params
 
--   **unitAttacking** **([Unit](../Classes/Unit.html))** - The unit who
+-   **unitAttacking** **([Unit](../Classes/Unit.md))** - The unit who
     changed their target.
 
 ------------------------------------------------------------------------
@@ -10527,7 +10527,7 @@ Warplot UI.
 
 ### Params
 
--   **guildWarparty** **([Guild](../Classes/Guild.html))** - The warparty
+-   **guildWarparty** **([Guild](../Classes/Guild.md))** - The warparty
     that the plot belongs to.
 
 ------------------------------------------------------------------------
@@ -10544,7 +10544,7 @@ player adds a boss token to the Warparty Bank.
 
 ### Params
 
--   **guildWarparty** **([Guild](../Classes/Guild.html))** - The warparty
+-   **guildWarparty** **([Guild](../Classes/Guild.md))** - The warparty
     whose boss tokens were updated.
 
 ------------------------------------------------------------------------
@@ -10670,7 +10670,7 @@ WrangleCreature (Deprecated)
 
 ### Params
 
--   **uTarget** **([Unit](../Classes/Unit.html))** - A UnitId of the
+-   **uTarget** **([Unit](../Classes/Unit.md))** - A UnitId of the
     targetted creature
 -   **fMeter** **(Float)** - The current progress of the action, the
     player wants this to remain within the success and failure
@@ -10715,7 +10715,7 @@ Fires whenever the player or a group member clicks the minimap.
 
 -   **idUnit** **(Integer)** - The id number of the unit that pinged the
     map.
--   **tPos** **([Vector3](../Classes/Vector3.html))** - The coordinates
+-   **tPos** **([Vector3](../Classes/Vector3.md))** - The coordinates
     that were pinged.
 
 ------------------------------------------------------------------------
@@ -10751,7 +10751,7 @@ Fires when a hex group is added or removed from the zone map.
 
 ### Params
 
--   **hexUpdated** **([HexGroups](../Classes/HexGroups.html))** - The hex
+-   **hexUpdated** **([HexGroups](../Classes/HexGroups.md))** - The hex
     group that was shown or hidden.
 
 ------------------------------------------------------------------------
@@ -11273,7 +11273,7 @@ Fires the ShowTutorial event.
     should be shown.
 -   **bInstant** **(Boolean)** - Determines whether the tutorial should
     appear instantly or fade in.
--   **wndAnchor** **([Window](../WindowControls/Window.html))** - The
+-   **wndAnchor** **([Window](../WindowControls/Window.md))** - The
     window that the tutorial is anchored to. This variable is optional.
 -   **nRelativePostion1** **(Integer)** - The tutorial's position in
     relation to the window it is attached to. This only needs to be
@@ -11635,7 +11635,7 @@ Returns the unit that the player's mouse is hovering over.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The unit that the player's mouse
+-   **[Unit](../Classes/Unit.md)** - The unit that the player's mouse
     is hovering over. If there is no unit there, this returns nil.
 
 ------------------------------------------------------------------------
@@ -11885,7 +11885,7 @@ Returns the unit with the specified unit id.
 
 ### Return Value
 
--   **[Unit](../Classes/Unit.html)** - The unit that the id belongs to.
+-   **[Unit](../Classes/Unit.md)** - The unit that the id belongs to.
 
 ------------------------------------------------------------------------
 
@@ -12099,7 +12099,7 @@ Checks if the vendor allows the player to repair.
 
 ### Params
 
--   **unitVendor** **([Unit](../Classes/Unit.html))** - The vendor that
+-   **unitVendor** **([Unit](../Classes/Unit.md))** - The vendor that
     the player is checking.
 
 ### Return Value

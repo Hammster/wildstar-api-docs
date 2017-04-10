@@ -1,7 +1,7 @@
 Button
 ======
 
-### Parent: [Window](../WindowControls/Window.html)
+### Parent: [Window](../WindowControls/Window.md)
 
 Table of Content
 ---------------- 
@@ -17,9 +17,9 @@ ButtonCheck
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **eMouseButton** **(EMouseButton)** - The mouse button being
     clicked.
@@ -33,9 +33,9 @@ ButtonDown
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **eMouseButton** **(EMouseButton)** - The mouse button being
     clicked.
@@ -49,9 +49,9 @@ ButtonHoldBegin
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **eMouseButton** **(EMouseButton)** - The mouse button being
     clicked.
@@ -65,9 +65,9 @@ ButtonSignal
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **eMouseButton** **(EMouseButton)** - The mouse button being
     clicked.
@@ -81,9 +81,9 @@ ButtonUncheck
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **eMouseButton** **(EMouseButton)** - The mouse button being
     clicked.
@@ -97,9 +97,9 @@ ButtonUp
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **eMouseButton** **(EMouseButton)** - The mouse button being
     clicked.
@@ -113,9 +113,9 @@ ButtonUpCancel
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **eMouseButton** **(EMouseButton)** - The mouse button being
     clicked.
@@ -129,9 +129,9 @@ QueryBeginDragDrop
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -248,7 +248,7 @@ Sets the caller's m\_crStateText in the BS\_Disabled state to clr.
 
 ### Params
 
--   **clr** **([CColor](../Classes/CColor.html))**
+-   **clr** **([CColor](../Classes/CColor.md))**
 
 ------------------------------------------------------------------------
 
@@ -263,7 +263,7 @@ Sets the caller's m\_crStateText in the BS\_Flyby state to clr.
 
 ### Params
 
--   **clr** **([CColor](../Classes/CColor.html))**
+-   **clr** **([CColor](../Classes/CColor.md))**
 
 ------------------------------------------------------------------------
 
@@ -285,7 +285,7 @@ Sets the caller's m\_crStateText in the BS\_Normal state to clr.
 
 ### Params
 
--   **clr** **([CColor](../Classes/CColor.html))**
+-   **clr** **([CColor](../Classes/CColor.md))**
 
 ------------------------------------------------------------------------
 
@@ -300,7 +300,7 @@ Sets the caller's m\_crStateText in the BS\_PressedFlyby state to clr.
 
 ### Params
 
--   **clr** **([CColor](../Classes/CColor.html))**
+-   **clr** **([CColor](../Classes/CColor.md))**
 
 ------------------------------------------------------------------------
 
@@ -315,4 +315,4 @@ Sets the caller's m\_crStateText in the BS\_Pressed state to clr.
 
 ### Params
 
--   **clr** **([CColor](../Classes/CColor.html))**
+-   **clr** **([CColor](../Classes/CColor.md))**

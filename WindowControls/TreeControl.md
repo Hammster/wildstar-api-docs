@@ -1,7 +1,7 @@
 TreeControl
 ===========
 
-### Parent: [Window](../WindowControls/Window.html)
+### Parent: [Window](../WindowControls/Window.md)
 
 Table of Content
 ---------------- 
@@ -17,9 +17,9 @@ QueryBeginClickStick
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -31,9 +31,9 @@ QueryBeginDragDrop
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 
 ------------------------------------------------------------------------
@@ -45,9 +45,9 @@ TreeDoubleClick
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **hNode** **(Handle)**
 
@@ -60,9 +60,9 @@ TreeNodeCollapse
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **hNode** **(Handle)**
 
@@ -75,9 +75,9 @@ TreeNodeExpand
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **hNode** **(Handle)**
 
@@ -90,9 +90,9 @@ TreeSelectionChanged
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **hSelected** **(Handle)**
 -   **hPrevSelected** **(Handle)**
@@ -106,9 +106,9 @@ TreeSelectionChanging
 
 ### Params
 
--   **wndHandler** **([Window](../WindowControls/Window.html))** - The
+-   **wndHandler** **([Window](../WindowControls/Window.md))** - The
     window that fires the event
--   **wndControl** **([Window](../WindowControls/Window.html))** - The
+-   **wndControl** **([Window](../WindowControls/Window.md))** - The
     window control with the event happened
 -   **hNode** **(Handle)**
 -   **hSelected** **(Handle)**
@@ -482,4 +482,4 @@ Sets the color to clr of the node corresponding to hNodeHandle.
 ### Params
 
 -   **hNodeHandle** **(Handle)**
--   **clr** **([CColor](../Classes/CColor.html))**
+-   **clr** **([CColor](../Classes/CColor.md))**
