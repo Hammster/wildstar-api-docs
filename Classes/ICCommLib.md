@@ -8,83 +8,69 @@ Table of Content
 
 ------------------------------------------------------------------------
 
+`Constant`
+knInvalidICCommMessageId
+
 `Enum`
 
-ICCommJoinResult (Deprecated)
+CodeEnumICCommChannelType
 -----------------------------
 
+-   **Global**
+-   **Group**
+-   **Guild**
+
+CodeEnumICCommJoinResult
+-----------------------------
+
+-   **TooManyChannels**
 -   **NoGuild**
+-   **NoGroup**
 -   **BadName**
 -   **Join**
--   **TooManyChannels**
 -   **Left**
--   **NoGroup**
+-   **MissingEntitlement**
+
+CodeEnumICCommMessageResult
+-----------------------------
+
+-   **Sent**
+-   **Throttled**
+-   **NotInChannel**
+-   **InvalidText**
 -   **MissingEntitlement**
 
 ------------------------------------------------------------------------
 
 `Function`
 
-Is(userData) (Deprecated)
--------------------------
+JoinChannel(strChannel, eChannelType, guildContext)
+-------------------------------------------------------------------
 
 ### Description
 
-Does a lua\_pushboolean if the same metatable is on the stack.
+Attempts to join a channel with then given name of the provided type. If the type is Guild then the guild userdata must also be passed in for context.
 
 ### Params
 
--   **userData** **(UserData)**
+-   **strChannel** **(String)** - name of requested channel.
+-   **eChannelType** **(Integer)** - Type of channel to create, CodeEnumICCommChannelType
+-   **guildContext** **([Guild](../Classes/Guild.html))** - guild context to be passed in when the channel type is Guild
+    
+### Return Value
+
+-   **[ICComm](../Classes/ICComm.html)** - An instance of the ICComm channel
 
 ------------------------------------------------------------------------
 
 `Function`
 
-JoinChannel(strChannel, strFunction, nLuaEventHandler) (Deprecated)
+GetUploadCapacityByType(eChannelType)
+
 -------------------------------------------------------------------
 
-### Description
+`Function`
 
-Runs JoinChannel with strChannel, strFunction, and nLuaEventHandler.
+GetDownloadCapacityByType(eChannelType)
 
-### Params
-
--   **strChannel** **(String)** - that gets prefixed with ICC.
--   **strFunction** **(String)**
--   **nLuaEventHandler** **(LuaTable)** - but the Id is immediately
-    converted to an Integer
-
-------------------------------------------------------------------------
-
-`Method`
-
-\_\_eq() (Deprecated)
----------------------
-
-------------------------------------------------------------------------
-
-`Method`
-
-\_\_gc() (Deprecated)
----------------------
-
-------------------------------------------------------------------------
-
-`Method`
-
-SendMessage() (Deprecated)
---------------------------
-
-------------------------------------------------------------------------
-
-`Method`
-
-SendPrivateMessage() (Deprecated)
----------------------------------
-
-------------------------------------------------------------------------
-
-`Method`
-
-SetControlFunction() (Deprecated)
----------------------------------
+-------------------------------------------------------------------
