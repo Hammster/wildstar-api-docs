@@ -642,12 +642,60 @@ Fires whenever the player's breath meter should change value.
 BuffAdded
 ---------
 
+### Description
+
+Fires whenever a buff or debuff is added to a unit. 
+
+### Params
+
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit received the buff/debuff.
+-   **tBuff** **(Table)** - Information about the added buff.
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the caster unit got destroyed.
+  
+### Remarks
+
+This event is only fired for units that have been activated by targetting them or setting them to focus target. The player and group members are always activated.
+
 ------------------------------------------------------------------------
 
 `Event`
 
 BuffUpdated
 -----------
+
+### Description
+
+Fires whenever a buff or debuff is updated on a unit e.g. stacks added or removed. Before a buff is removed the stacks will count down one by one in this event.
+
+### Params
+
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit received the buff/debuff.
+-   **tBuff** **(Table)** - Information about the updated buff.
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the caster unit got destroyed.
+
+### Remarks
+
+This event is only fired for units that have been activated by targetting them or setting them to focus target. The player and group members are always activated.
+
+------------------------------------------------------------------------
+`Event`
+
+BuffRemoved
+---------
+
+### Description
+
+Fires whenever a buff or debuff is removed on a unit.
+
+### Params
+
+-   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit received the buff/debuff.
+-   **tBuff** **(Table)** - Information about the removed buff.
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the caster unit got destroyed.
+
+### Remarks
+
+This event is only fired for units that have been activated by targetting them or setting them to focus target. The player and group members are always activated.
 
 ------------------------------------------------------------------------
 
