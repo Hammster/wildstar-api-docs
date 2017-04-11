@@ -20,7 +20,7 @@ Function to create a new instance for a timer that will call a function continuo
 -   **tLuaEventHandler** **(Table)** - The addons "self".
 
 ### Return Value
--  **timer** **([ApolloTimer](../Classes/ApolloTimer.md))** - The new instance of the timer
+-  **timer** **([ApolloTimer](../Classes/ApolloTimer.md))** - The new instance of the timer.
 
 ### Remarks
 
