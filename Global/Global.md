@@ -650,8 +650,8 @@ This event is only fired for units that have been activated by targetting them o
 ### Params
 
 -   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit received the buff/debuff.
--   **tBuff** **(Table)** - Information about the added buff
-    -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff.
+-   **tBuff** **(Table)** - Information about the added buff.
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the caster unit got destroyed.
     
 ------------------------------------------------------------------------
 
@@ -668,8 +668,8 @@ This event is only fired for units that have been activated by targetting them o
 ### Params
 
 -   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit received the buff/debuff.
--   **tBuff** **(Table)** - Information about the updated buff
-    -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the unit got destroyed.
+-   **tBuff** **(Table)** - Information about the updated buff.
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the caster unit got destroyed.
 
 ------------------------------------------------------------------------
 `Event`
@@ -685,8 +685,8 @@ This event is only fired for units that have been activated by targetting them o
 ### Params
 
 -   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit received the buff/debuff.
--   **tBuff** **(Table)** - Information about the removed buff
-    -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the unit got destroyed.
+-   **tBuff** **(Table)** - Information about the removed buff.
+    -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the caster unit got destroyed.
 
 ------------------------------------------------------------------------
 
