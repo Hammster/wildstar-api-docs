@@ -13,14 +13,14 @@ Create(fInterval, bRepeat, strFunctionName, tLuaEventHandler)
 Function to create a new instance for a timer that will call a function continuously or only once after a specified time.
 
 ### Params
--   **fInterval** **(Integer)** - The time in seconds between calling the callback function
--   **bRepeat** **(Boolean)** - Should the timer fire continuously or only once
--   **strFunctionName** **(String)** - The name of the function that
-    will be called when the specified time has passed
--   **tLuaEventHandler** **(Table)** - The addons "self"
+-   **fInterval** **(Integer)** - The time in seconds between calling the callback function.
+-   **bRepeat** **(Boolean)** - Should the timer fire continuously or only once.
+-   **strFunctionName** **(String)** - The name of the function that.
+    will be called when the specified time has passed.
+-   **tLuaEventHandler** **(Table)** - The addons "self".
 
 ### Return Value
--  **[ApolloTimer](../Classes/ApolloTimer.md)** - An instance of the new timer
+-  **[ApolloTimer](../Classes/ApolloTimer.md)** - An instance of the new timer.
 
 ### Remarks
 
@@ -80,8 +80,8 @@ Set(fInterval, bRepeat)
 Adjust the parameters of an existing instance of a timer.
 
 ### Params
--   **fInterval** **(Integer)** - The time in seconds between calling the callback function
--   **bRepeat** **(Boolean)** - Should the timer fire continuously or only once
+-   **fInterval** **(Integer)** - The time in seconds between calling the callback function.
+-   **bRepeat** **(Boolean)** - Should the timer fire continuously or only once.
 
 ### Usage/Example
 
