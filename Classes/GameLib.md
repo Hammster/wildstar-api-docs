@@ -488,6 +488,17 @@ CodeEnumHintType
 
 `Enum`
 
+CodeEnumHoloMark
+----------------
+
+-   **Back**
+-   **Left**
+-   **Right**
+
+------------------------------------------------------------------------
+
+`Enum`
+
 CodeEnumInputAction
 -------------------
 
@@ -819,10 +830,11 @@ CodeEnumItemSlots
 CodeEnumMapOverlayType
 ----------------------
 
--   **Unit**
 -   **Object**
 -   **PathObjective**
 -   **QuestObjective**
+-   **TrackedUnit**
+-   **Unit**
 
 ------------------------------------------------------------------------
 
@@ -881,9 +893,48 @@ CodeEnumRecallCommand
 
 -   **BindPoint**
 -   **House**
--   **Warplot**
 -   **Illium**
 -   **Thayd**
+-   **Warplot**
+
+------------------------------------------------------------------------
+
+`Enum`
+
+CodeEnumRewardRotationContentType
+---------------------------------
+
+-   **Dungeon**
+-   **DungeonNormal**
+-   **Expedition**
+-   **None**
+-   **PeriodicQuest**
+-   **PvP**
+-   **WorldBoss**
+
+------------------------------------------------------------------------
+
+`Enum`
+
+CodeEnumRewardRotationItemType
+------------------------------
+
+-   **AccountCurrency**
+-   **Currency**
+-   **Item**
+-   **None**
+
+------------------------------------------------------------------------
+
+`Enum`
+
+CodeEnumRewardRotationRewardType
+--------------------------------
+
+-   **Essence**
+-   **Item**
+-   **Modifier**
+-   **None**
 
 ------------------------------------------------------------------------
 
@@ -1268,13 +1319,12 @@ CodeEnumWhoResult
 CodeEnumZoneCompletionType
 --------------------------
 
--   **EpisodeQuest**
--   **TaskQuest**
 -   **Challenge**
--   **TaxiNode**
 -   **Datacube**
--   **Tale**
+-   **EpisodeQuest**
 -   **Journal**
+-   **Tale**
+-   **TaskQuest**
 
 ------------------------------------------------------------------------
 
@@ -1301,6 +1351,9 @@ DisabledGameplaySystem
 -   **Mail**
 -   **Store**
 -   **Omnibits**
+-   **FreeLevel50Promotion**
+-   **GachaProbability**
+-   **PremiumLockboxKeys**
 
 ------------------------------------------------------------------------
 
