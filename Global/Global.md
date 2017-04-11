@@ -645,6 +645,7 @@ BuffAdded
 ### Description
 
 Fires whenever a buff or debuff is added to a unit. 
+
 This event is only fired for units that have been activated by targetting them or setting them to focus target. The player and group members are always activated.
 
 ### Params
@@ -663,6 +664,7 @@ BuffUpdated
 ### Description
 
 Fires whenever a buff or debuff is updated on a unit e.g. stacks added or removed. Before a buff is removed the stacks will count down one by one in this event.
+
 This event is only fired for units that have been activated by targetting them or setting them to focus target. The player and group members are always activated.
 
 ### Params
@@ -680,6 +682,7 @@ BuffRemoved
 ### Description
 
 Fires whenever a buff or debuff is removed on a unit.
+
 This event is only fired for units that have been activated by targetting them or setting them to focus target. The player and group members are always activated.
 
 ### Params
