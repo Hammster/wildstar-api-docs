@@ -50,12 +50,12 @@ Attempts to join a channel with then given name of the provided type. If the typ
 ### Params
 
 -   **strChannel** **(String)** - name of requested channel.
--   **eChannelType** **(Integer)** - Type of channel to create, CodeEnumICCommChannelType
--   **guildContext** **([Guild](../Classes/Guild.md))** - guild context to be passed in when the channel type is Guild
+-   **eChannelType** **(Integer)** - Type of channel to create, CodeEnumICCommChannelType.
+-   **guildContext** **([Guild](../Classes/Guild.md))** - guild context to be passed in when the channel type is Guild.
 
 ### Return Value
 
--   **[ICComm](../Classes/ICComm.md)** - An instance of the ICComm channel
+-   **[ICComm](../Classes/ICComm.md)** - An instance of the ICComm channel.
 
 ------------------------------------------------------------------------
 
@@ -70,11 +70,11 @@ Gets the bits/second upload capacity for given eChannelType or self context. A l
 
 ### Params
 
--   **eChannelType** **(Integer)** - Type of channel to create, CodeEnumICCommChannelType
+-   **eChannelType** **(Integer)** - Type of channel to create, CodeEnumICCommChannelType.
 
 ### Return Value
 
--   **Integer** - Bits per second
+-   **Integer** - Bits per second.
 
 -------------------------------------------------------------------
 
@@ -89,10 +89,10 @@ Gets the bits/second download capacity for given eChannelType or self context.
 
 ### Params
 
--   **eChannelType** **(Integer)** - Type of channel to create, CodeEnumICCommChannelType
+-   **eChannelType** **(Integer)** - Type of channel to create, CodeEnumICCommChannelType.
 
 ### Return Value
 
--   **Integer** - Bits per second
+-   **Integer** - Bits per second.
 
 -------------------------------------------------------------------
