@@ -100,7 +100,7 @@ Start()
 
 ### Description
 
-Start the instace of a timer. After the time set in the creation the specified function will be called continously or only once.
+Start the instace of a timer. After the set time the specified function will be called continously or only once.
 
 ### Usage/Example
 
