@@ -1367,27 +1367,23 @@ unit
     -   **arHarmful** **(Array of Table)** - An array containing info on
         all of the debuffs on the unit
         -   **Table**
-            -   **idBuff** **(Integer)** - The id number for the buff
-                itself. This is not to be confused with the id number of
-                the spell containing the buff's effect
-            -   **splEffect** **([Spell](../Classes/Spell.md))** - The
-                spell containing the buff's effect.
-            -   **fTimeRemaining** **(Float)** - The amount of time (in
-                milliseconds) left before the buff ends
-            -   **nCount** **(Integer)** - The number of stacks of the
-                buff on the player
+            -   **fTimeRemaining** **(Float)** - The amount of time (in seconds) left before the buff ends.
+             -   **idBuff** **(Integer)** - The id number for the buff itself. This is not to be confused with the id number of the spell containing the buff's effect.
+            -   **nCount** **(Integer)** - The number of stacks of a buff that are on the unit.
+            -   **splEffect** **([Spell](../Classes/Spell.md))** - The spell containing the buff's effect.
+            -   **strTooltip** **(String)** - Description of the buff or debuff.
+            -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the caster unit got destroyed.
+            -   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that received the buff/debuff.
     -   **arBeneficial** **(Array of Table)** - An array containing info
         on all of the beneficial buffs on the unit
         -   **Table**
-            -   **idBuff** **(Integer)** - The id number for the buff.
-                This is not to be confused with the id number for the
-                spell containing the buff's effect
-            -   **splEffect** **([Spell](../Classes/Spell.md))** - The
-                spell containing the buff's effect
-            -   **fTimeRemaining** **(Float)** - The time remaining
-                before the buff ends in milliseconds
-            -   **nCount** **(Integer)** - The number of stacks of a
-                buff that are on the unit
+            -   **fTimeRemaining** **(Float)** - The amount of time (in seconds) left before the buff ends.
+             -   **idBuff** **(Integer)** - The id number for the buff itself. This is not to be confused with the id number of the spell containing the buff's effect.
+            -   **nCount** **(Integer)** - The number of stacks of a buff that are on the unit.
+            -   **splEffect** **([Spell](../Classes/Spell.md))** - The spell containing the buff's effect.
+            -   **strTooltip** **(String)** - Description of the buff or debuff.
+            -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the caster unit got destroyed.
+            -   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that received the buff/debuff.
 
 ------------------------------------------------------------------------
 
