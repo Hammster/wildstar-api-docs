@@ -488,6 +488,17 @@ CodeEnumHintType
 
 `Enum`
 
+CodeEnumHoloMark
+----------------
+
+-   **Back**
+-   **Left**
+-   **Right**
+
+------------------------------------------------------------------------
+
+`Enum`
+
 CodeEnumInputAction
 -------------------
 
@@ -819,10 +830,11 @@ CodeEnumItemSlots
 CodeEnumMapOverlayType
 ----------------------
 
--   **Unit**
 -   **Object**
 -   **PathObjective**
 -   **QuestObjective**
+-   **TrackedUnit**
+-   **Unit**
 
 ------------------------------------------------------------------------
 
@@ -881,9 +893,48 @@ CodeEnumRecallCommand
 
 -   **BindPoint**
 -   **House**
--   **Warplot**
 -   **Illium**
 -   **Thayd**
+-   **Warplot**
+
+------------------------------------------------------------------------
+
+`Enum`
+
+CodeEnumRewardRotationContentType
+---------------------------------
+
+-   **Dungeon**
+-   **DungeonNormal**
+-   **Expedition**
+-   **None**
+-   **PeriodicQuest**
+-   **PvP**
+-   **WorldBoss**
+
+------------------------------------------------------------------------
+
+`Enum`
+
+CodeEnumRewardRotationItemType
+------------------------------
+
+-   **AccountCurrency**
+-   **Currency**
+-   **Item**
+-   **None**
+
+------------------------------------------------------------------------
+
+`Enum`
+
+CodeEnumRewardRotationRewardType
+--------------------------------
+
+-   **Essence**
+-   **Item**
+-   **Modifier**
+-   **None**
 
 ------------------------------------------------------------------------
 
@@ -1268,13 +1319,12 @@ CodeEnumWhoResult
 CodeEnumZoneCompletionType
 --------------------------
 
--   **EpisodeQuest**
--   **TaskQuest**
 -   **Challenge**
--   **TaxiNode**
 -   **Datacube**
--   **Tale**
+-   **EpisodeQuest**
 -   **Journal**
+-   **Tale**
+-   **TaskQuest**
 
 ------------------------------------------------------------------------
 
@@ -1301,6 +1351,9 @@ DisabledGameplaySystem
 -   **Mail**
 -   **Store**
 -   **Omnibits**
+-   **FreeLevel50Promotion**
+-   **GachaProbability**
+-   **PremiumLockboxKeys**
 
 ------------------------------------------------------------------------
 
@@ -1738,6 +1791,13 @@ CanSetNavPoint()
 
 `Function`
 
+CanShowGuildHolomark()
+----------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
 CanVacuum()
 -----------
 
@@ -1779,6 +1839,13 @@ ClearNavPoint()
 
 CodeEnumSetNavPointFailed() (Deprecated)
 ----------------------------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
+ConfirmPartialUnlock()
+----------------------
 
 ------------------------------------------------------------------------
 
@@ -2386,6 +2453,13 @@ GetMasterLoot()
 
 `Function`
 
+GetMoneyTradeLimit()
+--------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
 GetMountList() (Deprecated)
 ---------------------------
 
@@ -2407,6 +2481,13 @@ GetNavPointChatLinkString()
 
 `Function`
 
+GetNearestRapidTransportNodeForWorldLocation()
+----------------------------------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
 GetNextBankBagCost() (Deprecated)
 ---------------------------------
 
@@ -2423,6 +2504,13 @@ GetNumBankBagSlots()
 
 GetNumClassInnateAbilitySpells()
 --------------------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
+GetNumInventoryBagSlots()
+-------------------------
 
 ------------------------------------------------------------------------
 
@@ -2470,8 +2558,22 @@ GetPingTime()
 
 `Function`
 
+GetPlayerBaseFaction()
+----------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
 GetPlayerBuffWindowProperties()
 -------------------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
+GetPlayerCharacterName()
+------------------------
 
 ------------------------------------------------------------------------
 
@@ -2536,15 +2638,15 @@ GetPlayerPets()
 
 `Function`
 
-GetPlayerRewardProperties()
----------------------------
+GetPlayerRewardProperties() (Deprecated)
+----------------------------------------
 
 ------------------------------------------------------------------------
 
 `Function`
 
-GetPlayerRewardProperty()
--------------------------
+GetPlayerRewardProperty() (Deprecated)
+--------------------------------------
 
 ------------------------------------------------------------------------
 
@@ -2603,6 +2705,20 @@ null.
 
 `Function`
 
+GetPrimeLevelAchieved()
+-----------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
+GetPrimeLevelsAchieved()
+------------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
 GetPvpFlagInfo()
 ----------------
 
@@ -2656,8 +2772,92 @@ GetReputationLevels()
 
 `Function`
 
-GetRewardPropertyName()
------------------------
+GetRewardPropertyName() (Deprecated)
+------------------------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
+GetRewardRotation(nContentId, bIsVeteran)
+-----------------------------------------
+
+### Description
+
+Returns the arRewards from **GameLib.GetRewardRotations()** for a 
+specified **nContentId**.
+
+### Params
+
+-   **nContentId** **(Integer)**
+-	**bIsVeteran** **(Boolean)** - This is required for those ContentId's,
+	that contain a bIsVeteran variable in **GameLib.GetRewardRotations()**.
+	**false** or **nil** for those, without the variable.
+
+### Return Value
+
+-	**arRewards** **(Table/Array)** - Array of all rewards granted
+	for this **nContentId**. This array can contain more rewards
+	than expected and could be outdated.
+	-	**monReward** **([Money](../Classes/Money.md))** - The money
+		object for this reward. This is a AccountCurrency.
+	-	**nRewardType** **(CodeEnumRewardRotationRewardType)** - The type
+		of this reward. Usually Modifier or Essence.
+	-	**nRewardItemType** **(CodeEnumRewardRotationItemType)** - Usually
+		AccountCurrency.
+	-	**bGranted** **(Boolean)** - Whether or not this reward has
+		been granted already.
+	-	**nSecondsRemaining** **(Integer)** - The seconds till this
+		reward will run out.
+	-	**strIcon** **(String)** - The sprite name for the rewards icon
+
+------------------------------------------------------------------------
+
+`Function`
+
+GetRewardRotations()
+--------------------
+
+### Description
+
+Returns a array of all reward rotations categorized by 
+**nContentId** 
+
+### Return Value
+
+-   **tRewardRotations** **(Table/Array)** - Array of informations about 
+	their specific **nContentId**.
+	-	**nContentId** **(Integer)**
+	-	**nContentType** **(CodeEnumRewardRotationContentType)**
+	-	**arRewards** **(Table/Array)** - Array of all rewards granted
+		for this **nContentId**. This array can contain more rewards
+		than expected and could be outdated.
+		-	**monReward** **([Money](../Classes/Money.md))** - The money
+			object for this reward. This is a AccountCurrency.
+		-	**nRewardType** **(CodeEnumRewardRotationRewardType)** - The type
+			of this reward. Usually Modifier or Essence.
+		-	**nRewardItemType** **(CodeEnumRewardRotationItemType)** - Usually
+			AccountCurrency.
+		-	**bGranted** **(Boolean)** - Whether or not this reward has
+			been granted already.
+		-	**nSecondsRemaining** **(Integer)** - The seconds till this
+			reward will run out.
+		-	**strIcon** **(String)** - The sprite name for the rewards icon
+	-	**bIsVeteran** **(Boolean)** - Whether or not these Rewards
+		apply to the veteran version of the instance. This variable does 
+		only exist for **nContentType** Dungeon, DungeonNormal and 
+		Expedition.
+	-	**strWorld** **(String)** - The localized instance name. This
+		variable does only exist for **nContentType** Dungeon, Expedition
+		and PvP.
+	-	**strZoneName** **(String)** - The localized zone name. This
+		variable does only exist for **nContentType** PeriodicQuest
+	-	**peWorldBoss** **([PublicEvent](../Classes/PublicEvent.md))** - The Event
+		of the Worldboss. This variable does only exist for
+		**nContentType** WorldBoss.
+	-	**eMatchType** **([MatchMakingLib.MatchType](../Classes/MatchingGame.md))** - The Type
+		of Match. Usually **MatchType.Dungeon**. This variable does only
+		exist for **nContentType** DungeonNormal.
 
 ------------------------------------------------------------------------
 
@@ -2857,6 +3057,13 @@ GetUnlocksForLevel()
 
 `Function`
 
+GetUnlocksForType()
+-------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
 GetVanityPetList() (Deprecated)
 -------------------------------
 
@@ -2879,6 +3086,27 @@ GetWorldCompletionPercent()
 `Function`
 
 GetWorldDifficulty()
+--------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
+GetWorldHeroismMenaceLevel()
+----------------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
+GetWorldMaxPrimeLevel()
+-----------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
+GetWorldPrimeLevel()
 --------------------
 
 ------------------------------------------------------------------------
@@ -3220,6 +3448,13 @@ OnClosedInstanceSettings()
 
 `Function`
 
+OpenAccountInventory()
+----------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
 OpenFortunes()
 --------------
 
@@ -3291,6 +3526,13 @@ ReportBug()
 
 `Function`
 
+RequestRewardUpdate()
+---------------------
+
+------------------------------------------------------------------------
+
+`Function`
+
 ResetAttributePoints()
 ----------------------
 
@@ -3321,6 +3563,13 @@ ResetTutorials()
 
 RollOnLoot()
 ------------
+
+------------------------------------------------------------------------
+
+`Function`
+
+SalvageKeyCount()
+-----------------
 
 ------------------------------------------------------------------------
 
@@ -3406,8 +3655,8 @@ SetInteractHintArrowObject()
 
 `Function`
 
-SetKeyBindings(tInputTable)
----------------------------
+SetKeyBindings(tInputTable) (Deprecated)
+----------------------------------------
 
 ### Description
 

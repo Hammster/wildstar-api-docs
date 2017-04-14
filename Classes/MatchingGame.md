@@ -18,8 +18,8 @@ MatchEndReason
 
 `Enum`
 
-MatchType
----------
+MatchType (MatchMakingLib.MatchType)
+------------------------------------
 
 -   **Battleground**
 -   **Dungeon**
@@ -30,6 +30,13 @@ MatchType
 -   **OpenArena**
 -   **Event**
 -   **Shiphand**
+-	**WorldStory**
+-	**PrimeLevelAdventure**
+-	**PrimeLevelDungeon**
+-	**PrimeLevelExpedition**
+-	**ScaledPrimeLevelAdventure**
+-	**ScaledPrimeLevelDungeon**
+-	**ScaledPrimeLevelExpedition**
 
 ------------------------------------------------------------------------
 
