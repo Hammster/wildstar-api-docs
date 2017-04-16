@@ -644,7 +644,7 @@ BuffAdded
 
 ### Description
 
-Fires whenever a buff or debuff is added to a unit. 
+Fires whenever a buff or debuff is added to a unit.
 
 ### Params
 
@@ -657,7 +657,7 @@ Fires whenever a buff or debuff is added to a unit.
     -   **strTooltip** **(String)** - Description of the buff or debuff.
     -   **unitCaster** **([Unit](../Classes/Unit.md))** - Source of the buff. Can be nil if the caster unit got destroyed.
     -   **unitTarget** **([Unit](../Classes/Unit.md))** - The unit that received the buff/debuff.
-  
+
 ### Remarks
 
 This event is only fired for units that have been activated by targetting them or setting them to focus target. The player and group members are always activated.
@@ -747,31 +747,31 @@ loot dropping, being vacuumed, or being removed from the world.
 
 ```lua
     function HUDAlerts:OnCanVacuumChanged(bCanVacuum)
-        
+
     local strKeybind = GameLib.GetKeyBinding("VacuumLoot")
-        
+
     self.wndLootAlert:FindChild("AlertItemKeybindText"):SetText(strKeybind)
-        
+
     self.wndLootAlert:FindChild("AlertItemKeybind"):Show(strKeybind ~= Apollo.GetString("HUDAlert_Unbound"))
 
-        
+
     if not self.wndLootAlert:IsShown() and bCanVacuum then
-            
+
     self.wndLootAlert:Show(bCanVacuum, true)
-            
+
     self.wndLootAlert:FindChild("AlertItemTransition"):SetSprite("sprAlert_SectionGlowRingFlash")
-        
+
     else
-            
+
     self.wndLootAlert:Show(bCanVacuum)
 
-        
+
     end
 
-        
+
     self:OnUpdateInventory() -- Check Full Bag Indicator
 
-        
+
     self.wndAlertContainer:ArrangeChildrenHorz(0)
 
     end
@@ -12529,28 +12529,28 @@ parameters.
 
      EnumName: CRB_Knife
      string: knife{p:knives}
-     
-    EnumName: CRB_Stab_Em_With_Your 
-    string: Stab ‘em with your $#(1) 
-     
+
+    EnumName: CRB_Stab_Em_With_Your
+    string: Stab ‘em with your $#(1)
+
     EnumName: CRB_Stab_Em_With_Your_Count
     string: Stab ‘em with your $+(1)
-     
-    Lua: 
-    local nNumberOfKnives = 1 
 
-    local tActor1 = 
+    Lua:
+    local nNumberOfKnives = 1
+
+    local tActor1 =
     {
-       ["count"] = nNumberOfKnives, 
-        ["name"] = Apollo.GetString("CRB_Knife") 
-    } 
+       ["count"] = nNumberOfKnives,
+        ["name"] = Apollo.GetString("CRB_Knife")
+    }
 
     Print(String_GetWeaselString(Apollo.GetString("CRB_Stab_Em_With_Your"), tActor1))
     tActor1[“count”] = 2
-     
-    Print(String_GetWeaselString(Apollo.GetString("CRB_Stab_Em_With_Your"), tActor1)) 
+
+    Print(String_GetWeaselString(Apollo.GetString("CRB_Stab_Em_With_Your"), tActor1))
     Print(String_GetWeaselString(Apollo.GetString(“CRB_Stab_Em_With_Your_Count”), tActor1))
-     
+
     Output:
     Stab ‘em with your knife
     Stab ‘em with your knives

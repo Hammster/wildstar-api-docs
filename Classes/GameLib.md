@@ -2784,7 +2784,7 @@ GetRewardRotation(nContentId, bIsVeteran)
 
 ### Description
 
-Returns the arRewards from **GameLib.GetRewardRotations()** for a 
+Returns the arRewards from **GameLib.GetRewardRotations()** for a
 specified **nContentId**.
 
 ### Params
@@ -2820,12 +2820,12 @@ GetRewardRotations()
 
 ### Description
 
-Returns a array of all reward rotations categorized by 
-**nContentId** 
+Returns a array of all reward rotations categorized by
+**nContentId**
 
 ### Return Value
 
--   **tRewardRotations** **(Table/Array)** - Array of informations about 
+-   **tRewardRotations** **(Table/Array)** - Array of informations about
 	their specific **nContentId**.
 	-	**nContentId** **(Integer)**
 	-	**nContentType** **(CodeEnumRewardRotationContentType)**
@@ -2844,8 +2844,8 @@ Returns a array of all reward rotations categorized by
 			reward will run out.
 		-	**strIcon** **(String)** - The sprite name for the rewards icon
 	-	**bIsVeteran** **(Boolean)** - Whether or not these Rewards
-		apply to the veteran version of the instance. This variable does 
-		only exist for **nContentType** Dungeon, DungeonNormal and 
+		apply to the veteran version of the instance. This variable does
+		only exist for **nContentType** Dungeon, DungeonNormal and
 		Expedition.
 	-	**strWorld** **(String)** - The localized instance name. This
 		variable does only exist for **nContentType** Dungeon, Expedition

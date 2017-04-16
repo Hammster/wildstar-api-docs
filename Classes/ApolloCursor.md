@@ -46,7 +46,7 @@ Returns the ApolloCursor with the specified name.
                 acForcedCursor = ApolloCursor.GetCursor(Attack)
             end
         end
-        
+
         if acForcedCursor then
             Apollo.SetCursor(acForcedCursor)
         end

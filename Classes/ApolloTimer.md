@@ -31,17 +31,17 @@ The created timer instance is active by default after creation so it's advised t
     function Addon:CreateAutostartTimer()
         self.timerAutostart = ApolloTimer.Create(2.0, true, "OnAutoStartTimerUpdate", self)
     end
-    
+
     function Addon:OnAutoStartTimerUpdate()
         -- Execute code continuously every 2 seconds
     end
-    
-    
+
+
     function Addon:CreateDelayedTimer()
         self.timerDelayed = ApolloTimer.Create(2.0, true, "OnDelayedTimerUpdate", self)
         self.timerDelayed:Stop()
     end
-    
+
     function Addon:OnDelayedTimerUpdate()
         -- Execute code continuously every 2 seconds
     end

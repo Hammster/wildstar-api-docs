@@ -43,11 +43,11 @@ types of Client Side Interactions behave differently
 
 ```lua
     Functionality per CSI type:
-    Precision: 
+    Precision:
     Button Down: Informs the CSI of a button click.
     Button Up: Nothing
 
-    Metronome: 
+    Metronome:
     Button Down: Informs the CSI of a button click
     ButtonUp: Nothing
 
@@ -55,11 +55,11 @@ types of Client Side Interactions behave differently
     Button Down: Starts the CSI if it wasn't already running.  Informs the CSI of a button click.
     Button Up: Nothing
 
-    Press and Hold: 
+    Press and Hold:
     Button Down: Starts the CSI if it wasn't already running.  Tells the CSI that the button is being held.
     Button Up: Tells the CSI that the button isn't being held.
 
-    Yes/No: 
+    Yes/No:
     ButtonDown: Treats the CSI as if the player clicked "Yes"
     ButtonUp: Treats the CSI as if the player clicked "No"
 ```
