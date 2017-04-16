@@ -2907,7 +2907,7 @@ Returns the cooldowns of the different unstuck methods.
 
 ### Return Value
 
--  **arEnum** - The returned array has a table for each enum entry with the cooldown.
+-  **arSupportStuckAction** - The returned array has a table for each [SupportStuckAction](#supportstuckaction) entry with their cooldown.
     - **Table**
         - **fCooldownPercent** **(Float)** - How much of the cooldown time has passed from 0.0 to 1.0.
         - **fCooldownTime** **(Float)** - Remaining cooldown time in seconds.
