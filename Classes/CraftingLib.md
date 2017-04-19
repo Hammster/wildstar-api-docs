@@ -1397,7 +1397,7 @@ Attempts to activate the specified talent.
 ```lua
     If the talent is successfully activated, the TalentsChanged event will fire.
 
-    Note: Only one talent can be selected per tier.  If one is already selected in this tier, 
+    Note: Only one talent can be selected per tier.  If one is already selected in this tier,
 ```
 
 ------------------------------------------------------------------------

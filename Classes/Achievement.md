@@ -66,17 +66,17 @@ Returns the name of the category that the achievement belongs to.
 
 ```lua
     function Example:IsTradeskillAchievement(achSource)
-        
+
         strCategoryName = achSource:GetCagetory() or ""
-        
+
         if strCategoryName == "Tradeskill" or strCategoryName == "Hobby" then
-           
+
             return true
-        
+
         else
-           
+
             return false
-        
+
         end
 
     end
@@ -215,15 +215,15 @@ returns the description text for the achievement before it is complete
 
 ```lua
     function Example:PrintAchievementText(achSource)
-        
+
         if achSource:IsComplete() then
-           
+
             Print(achSource:GetDescription())
-        
+
         else
-            
+
             Print(achSource:GetProgressText())
-        
+
         end
 
     end
