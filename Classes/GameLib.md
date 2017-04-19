@@ -1673,7 +1673,7 @@ SharedChallengePreference (Deprecated)
 
 `Enum`
 
-SupportStuckAction (Deprecated)
+SupportStuckAction
 -------------------------------
 
 -   **RecallBind**
@@ -2901,6 +2901,25 @@ GetSpellThresholdTimePrcntDone()
 GetStuckCooldowns()
 -------------------
 
+### Description
+
+Returns the cooldowns of the different unstuck methods.
+
+### Return Value
+
+-  **arSupportStuckAction** - The returned array has a table for each [SupportStuckAction](#supportstuckaction) entry with their cooldown.
+    - **Table**
+        - **fCooldownPercent** **(Float)** - How much of the cooldown time has passed from 0.0 to 1.0.
+        - **fCooldownTime** **(Float)** - Remaining cooldown time in seconds.
+
+
+### Usage/Example
+
+```lua
+local tCooldowns = GameLib.GetStuckCooldowns()
+local fDeathCooldownTime = tCooldowns[GameLib.SupportStuckAction.RecallDeath].fCooldownTime
+```
+
 ------------------------------------------------------------------------
 
 `Function`
@@ -3769,8 +3788,24 @@ SummonVanityPet()
 
 `Function`
 
-SupportStuck()
+SupportStuck(eSupportStuckAction)
 --------------
+### Description
+
+To free a player that got stuck in different ways there are 3 provided ways to make them unstuck:
+* Recall transmat cast to teleport you back to your saved location.
+* Recall housing cast to teleport you to your housing plot.
+* Kill the player so they can revive at the closest holocrypt.
+
+### Params
+
+-   **eSupportStuckAction** **([SupportStuckAction](#supportstuckaction))** - What method to unstuck the player should be used, represented in the enum.
+
+### Example
+
+```lua
+GameLib.SupportStuck(GameLib.SupportStuckAction.RecallDeath)
+```
 
 ------------------------------------------------------------------------
 
