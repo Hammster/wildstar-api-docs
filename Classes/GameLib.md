@@ -3855,5 +3855,17 @@ Runs g\_game's WhiteOutFadeOut method with 3000 as the parameter.
 
 `Function`
 
-WorldLocToScreenPoint()
+WorldLocToScreenPoint(vecWorldPosition)
 -----------------------
+
+### Description
+
+Calculates the screen pixel position from a world location.
+
+### Params
+
+-	**vecWorldPosition** **([Vector3](../Classes/Vector3.md))** - The world location.
+
+### Return Value
+
+-	**[Vector3](../Classes/Vector3.md)** - Screen pixel position of the world location.
