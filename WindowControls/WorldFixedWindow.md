@@ -44,6 +44,8 @@ GetUnit()
 
 IsOccluded()
 ------------
+Returns whether or not this window is occluded.
+N.b. Is always false unless the window is attached to a **([Unit](../Classes/Unit.md))**
 
 ------------------------------------------------------------------------
 
