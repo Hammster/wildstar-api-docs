@@ -1929,9 +1929,18 @@ GetAbilityPoints()
 
 `Function`
 
-GetAccountRealmCharacter()
+GetAccountRealmCharacter() (Deprecated)
 --------------------------
 
+### Description
+
+Returns a table of the players character name and the realm.
+
+### Return Value
+
+-   **tAccountRealm** **(Table)** - Table of character and realm information.
+	-	**strCharacter** **(String)** - The players character name.
+	-	**strRealm** **(String)** - The name of the realm.
 ------------------------------------------------------------------------
 
 `Function`
