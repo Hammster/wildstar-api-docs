@@ -1,4 +1,4 @@
-![alt text](https://i.imgsafe.org/391744afab.png "Logo")
+![alt text](https://raw.githubusercontent.com/Hammster/wildstar-api-docs/master/api-docs-logo.png "Logo")
 
 ![alt text](https://img.shields.io/badge/WildStar%20API-15-9975B9.svg "API Version of decompiled usermanual") ![alt text](https://img.shields.io/badge/Version-0.1.3-AAAAAA.svg "Version of the manual") [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/qd9fxMw)
 
