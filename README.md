@@ -5,6 +5,10 @@
 This repository contains the Houston user manual converted to markdown. For now, it
 will only contain the raw files. A static page generator will be added ASAP.
 
+## Useful Hints
+
+You can start WildStar with the `-console` parameter, to show the console press `alt + ^`. The `help` command gives you a further explaination on which commands are aviable inside the console.
+
 ## Contribute
 
 Big thanks to:
