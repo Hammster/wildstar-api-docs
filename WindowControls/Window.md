@@ -939,7 +939,7 @@ Returns the child of this window that has the specified name.
 
 ```lua
     self.wndMain = Apollo.LoadForm("WindowForms.xml", "MainWindow", nil, self)
-    self.wndChild = self.wndAbilities:FindChild("ChildWindow")
+    self.wndChild = self.wndMain:FindChild("ChildWindow")
     self.wndChild:Show(false)
 ```
 
